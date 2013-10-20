@@ -1,0 +1,20 @@
+= partial "/templates/anchor"
+
+.cover
+  %section.page
+    %article
+      .index-article
+        = partial "/templates/photo", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
+        
+    %h1= album.name
+    .toc
+      - posts.reverse.each_with_index do | post, index |
+        %p
+          %span &rarr; &nbsp;
+          %a{:href => "#{post_url(album.name, post.title)}"}
+            %span>= post.title
+            %span.subtle.copy= " #{post.type}"
+
+%a#next.hide{:href => "#{post_url(album.name, posts.first.title)}"}
+
+= partial "/templates/footer"

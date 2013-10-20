@@ -1,0 +1,527 @@
+.container {
+	@extend .pie-clearfix;
+	margin: 0 auto;
+	width: 95%;
+}
+.wide-container {
+	margin: 0 auto;
+	width: 100%;
+
+	header {
+		text-align: right;
+	}
+
+	img {
+		max-height: 80%;
+		width: auto;
+	}
+
+	padding: 0 5px;
+}
+
+.index {
+	@extend .clearfix;
+	margin: 0 auto;
+	width: 100%;
+
+	h1 {
+		text-align: right;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+
+	img {
+		max-height: 80%;
+		width: auto;
+		height: auto;
+	}
+
+	padding: 0 5px;
+}
+
+.index-article {
+	p {
+		margin-bottom: 0;
+	}
+}
+img {
+	max-width: 100%;
+}
+.copy {
+	font-variant: small-caps;
+}
+
+footer {
+	border-top: 1px lighten($primary, 50%) solid;
+	margin: 0 5px;
+	p {
+		text-align: right;
+	}
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.anchor {
+	margin-left: 5px;
+	font-size: 1.5em;
+	font-variant: small-caps;
+}
+
+.container {
+	margin-bottom: 1em;
+}
+
+.posted-under {
+	float: left;
+}
+
+.publication-date {
+	float: right;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+.more-from {
+	border-top: 1px lighten($primary, 50%) solid;
+
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+
+	-webkit-column-gap: 5px; 
+	-moz-column-gap: 5px;  
+	column-gap: 5px; 
+
+	-webkit-column-rule: 0px dotted black;
+	-moz-column-rule: 0px dotted black;
+	column-rule: 0px dotted black;
+
+	p {
+		margin: 0;
+	}
+	a {
+		font-variant: small-caps;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.leader {
+	column-span: all;
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	font-size: 2em;
+	font-variant: small-caps;
+}
+
+.thumb {
+	margin-top: -22px;
+	width: 100%;
+
+	p {
+		margin-top: -28px;
+
+		@include adjust-font-size-to(22px); 
+	}
+}
+section 				{ @extend .pie-clearfix; }
+ol 						{ @include ordered-inside }
+ul 						{ @include unordered-inside }
+h1,h2,h3{
+	font-family: $heading-font;
+	font-weight: 700;
+	color: #000;
+}
+
+body{
+	font-family: $body-font;
+	margin: 0;
+	font-weight: 300;
+
+	b, strong{
+		font-weight: 700;
+	}
+}
+header {
+	width: 100%;
+
+	h1 {
+		margin: 0 0 0 0;
+	}
+}
+
+
+
+#lightbox {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.hide {
+	display: none;
+}
+
+img {
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	opacity: 1;
+	-webkit-transition: all .5s ease-in-out;
+	position: relative;
+	z-index: 1000;
+	cursor: -webkit-zoom-in;
+}
+
+.portrait-photo {
+	img {
+		height: auto;
+		width: auto;
+	}
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.cover {
+	margin: 5px;
+
+	h1 {
+		margin: 0 0 0 -5px;
+		font-size: 4em;
+		text-transform: capitalize;
+	}
+}
+
+.subtle {
+	color: lightgrey;
+	font-size: 0.8em;
+}
+.cover-title {
+	text-transform: uppercase;
+}
+.toc {
+	column-gap: 5px;
+	-webkit-column-gap: 5px;
+	-moz-column-gap: 5px;
+
+	font-size: 1em;
+	font-variant: small-caps;
+
+	padding-top: 0.6em;
+
+	p {
+		margin: 0;
+	}
+}
+
+article img {
+    width: 100%;
+}
+
+.paginate{
+	opacity: 1;
+	@include animation(all, 500ms, ease);
+
+	a{
+		background-color: rgba(0,0,0,0.15);
+		color: #fff;
+		font-size: 32px;
+		width: 72px;
+		line-height: 72px;
+		text-align: center;
+		text-decoration: none;
+		position: fixed;
+		top: 50%;
+		margin-top: -32px;
+		@include border-radius(64px, 64px, 64px, 64px);
+		@include animation(all, 500ms, ease);
+
+		&.prev{
+			z-index: 1001;
+			left: 0;
+			margin-left: 30px;
+			padding-right: 4px;
+		}
+		&.next{
+			z-index: 1001;
+			right: 0;
+			margin-right: 30px;
+			padding-left: 4px;
+		}
+		&:hover{
+
+			background-color: $highlight;
+
+			&.prev{
+				left: 10px;
+			}
+			&.next{
+				right: 10px;
+			}
+		}
+	}
+}
+
+
+
+
+
+/* ::Media queries */
+/* ------------------------------------------------------------ */
+
+// If using gridset or another pre-defined grid, these should match up to the same breakpoints
+
+// Below examples use a mobile-first approach
+
+
+// Eg for 480px
+@media screen and (max-width: em-font(767px)) {
+  
+  	h1 { 
+		@include adjust-font-size-to(22px); 
+		margin: rhythm(2, 24px) 0 0 0;  						// 3 lines below, based on font size
+	}
+
+	h2 { 
+		@include adjust-font-size-to(20px); 
+		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;  			// 4 lines above / 2 lines below, based on font size 
+	}
+
+	h3 { 
+		@include adjust-font-size-to(18px); 
+		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;  			// 2 lines above / 2 lines below, based on font size 
+	} 
+
+	h4 { 
+		@include adjust-font-size-to(16px); 
+		margin: 0 0 rhythm(1, 20px) 0;  						// 1 lines below, based on font size 
+	} 
+
+	h5 { 
+		@include adjust-font-size-to(14px); 
+		margin: 0 0 rhythm(1, 18px) 0;  						// 1 lines below, based on font size 
+	} 
+
+	h6 { 
+		@include adjust-font-size-to(12px); 
+		margin: 0 0 rhythm(1, 16px) 0;  						// 1 lines below, based on font size 
+	} 	
+
+	.anchor {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: em-font(480px)) {
+	.container {
+		width: 80%;
+	}
+	.wide-container {
+		width: 95%;
+	}
+	
+	.index {
+		width: 100%;
+	}
+
+	.toc {
+		clear: left;
+
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+	}
+}
+
+
+// Eg for 800px
+@media screen and (min-width: em-font(767px)) {
+	.toc {
+		clear: left;
+
+		column-count: 2;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+	}
+
+  #bottom-pages {
+    display: block;
+  }
+  
+	body {
+		margin: 0;
+	}
+	.container {
+		min-width: em-font(586px);
+	}
+	.wide-container {
+		min-width: em-font(700px);
+		width: 100%;
+	}
+	
+	.index {
+		min-width: em-font(700px);
+	}
+
+	h1 { 
+		@include adjust-font-size-to(38px); 
+		margin: rhythm(2, 38px) 0 0 0;  						// 3 lines below, based on font size
+	} 
+				
+	h2 { 
+		@include adjust-font-size-to(30px); 
+		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;  			// 4 lines above / 2 lines below, based on font size 
+	}
+
+	h3 { 
+		@include adjust-font-size-to(22px); 
+		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;  			// 2 lines above / 2 lines below, based on font size 
+	} 
+
+	h4 { 
+		@include adjust-font-size-to(20px); 
+		margin: 0 0 rhythm(1, 20px) 0;  						// 1 lines below, based on font size 
+	} 
+
+	h5 { 
+		@include adjust-font-size-to(18px); 
+		margin: 0 0 rhythm(1, 18px) 0;  						// 1 lines below, based on font size 
+	} 
+
+	h6 { 
+		@include adjust-font-size-to(16px); 
+		margin: 0 0 rhythm(1, 16px) 0;  						// 1 lines below, based on font size 
+	} 	
+}
+
+// Eg for 1024px
+@media screen and (min-width: em-font(1024px)) {
+	.toc {
+		clear: left;
+
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+	}
+	.more-from {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+	.container {
+		width: em-font(768px);
+	}
+	.paginate{
+		opacity: 1;
+    	a {
+      	position: fixed;
+    	}
+	}
+
+
+	.cover {
+		
+
+		h1 {
+			text-align: left;
+		}
+	}
+}
+#bottom-pages {
+  display: none;
+}
+
+@media screen and (max-width: em-font(1024px)) {
+
+	.cover {
+		h1 {
+			text-align: right;
+		}
+	}
+
+
+
+
+  .paginate {
+    a { 
+      position: absolute;
+      top: 40px;
+      line-height: 36px;
+      width: 36px;
+      font-size: 18px;
+      &.prev{
+        left: 0;
+        margin-left: 5px;
+        padding-right: 4px;
+      }
+      &.next{
+        right: 0;
+        margin-right: 5px;
+        padding-left: 4px;
+      }
+      &:hover{
+        background-color: $highlight;
+
+        &.prev{
+          left: 0;
+        }
+        &.next{
+          right: 0;
+        }
+      }
+    }
+  }
+  footer {
+  	margin-bottom: 35px;
+  }
+  #bottom-pages {
+    display: block;
+
+    .paginate {
+      text-align: center;
+      a {
+        position: inherit;
+        font-size: 18px;
+        line-height: 36px;
+        width: 36px;
+        &.prev {
+          float: left;
+        }
+        &.next {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+// IOS specifics 
+@media screen and (max-width: 769px) {  // Absolute measure here, as we're talking about devices, not screen size
+	-webkit-text-size-adjust:none; 		// Stop iPhone/iPad from scaling text
+}
+
+
+/* ::State styles */
+/* ------------------------------------------------------------ */
+
+.is-centered {
+	text-align: center;
+}
+

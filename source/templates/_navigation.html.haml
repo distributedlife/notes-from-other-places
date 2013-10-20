@@ -1,0 +1,14 @@
+%nav.paginate
+  - posts.each_with_index do |posts_in_album, index|
+    - next unless post.title == posts_in_album.title
+    - next_index = nil
+    - prev_index = nil
+    - next_index = index + 1 unless (index + 1) == posts.count
+    - prev_index = index - 1 unless index == 0
+    - unless next_index.nil?
+      %a#next.next{:href => post_url(album, posts[next_index].title)} &#9654;
+
+    - if prev_index.nil?
+      %a#prev.prev{:href => album_url(album)} &#9664;
+    - else
+      %a#prev.prev{:href => post_url(album, posts[prev_index].title)} &#9664;

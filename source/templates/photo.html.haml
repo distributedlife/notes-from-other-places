@@ -1,0 +1,16 @@
+= partial "/templates/anchor", :locals => {:sub => album, :suburl => album_url(album)}
+
+.wide-container
+  %section.page
+    %article
+      .portrait-photo
+        %header
+          %h1= post.title.titleize
+        = partial "/templates/image", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina, :date => post.date, :album => album}
+
+= partial "/templates/footer"
+= partial "/templates/navigation", :locals => {:posts => posts, :post => post, :album => album}
+#bottom-pages
+  = partial "/templates/navigation", :locals => {:posts => posts, :post => post, :album => album}
+
+%script{:src => "/javascripts/image-zoom.js"}

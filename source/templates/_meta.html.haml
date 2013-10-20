@@ -1,0 +1,8 @@
+.copy.publication-date
+  %span
+    %strong when:
+    %small= date.strftime("%A, %B %d, %Y")
+.copy.posted-under
+  %span
+    %strong where:
+    =link_to album, album_url(album)
