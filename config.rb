@@ -36,16 +36,19 @@ def album_url title
   "/#{make_url(title)}/index.html"
 end
 
+def posts_in_the_past album
+  album['posts'].select {|post| post['published'] < Time.now.to_date}
+end
+
 data.albums.each do |album|
   next if album['posts'].nil?
   
   name = album['name']
-  posts_in_the_past = album['posts'].select {|post| post['published'] < Time.now.to_date}
-  sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
+  sorted_posts_in_the_past = posts_in_the_past(album).sort {|a,b| a['published'] <=> b['published']}
   
   proxy album_url(name), "/templates/cover.html", :locals => {:title => album.name, :album => album, :posts => sorted_posts_in_the_past}
 
-  posts_in_the_past.each do |post|
+  posts_in_the_past(album).each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
     proxy post_url(name, post.title), "/templates/#{post.type}.html", :locals => {
@@ -70,6 +73,10 @@ ignore "/templates/photo.html"
 # Helpers
 ###
 helpers do
+  def site_url
+    "http://notes-from-other-places.com.s3-website-us-east-1.amazonaws.com"
+  end
+
   def make_url title
     title.gsub(" ", "-").gsub("'", "").downcase
   end
@@ -139,10 +146,10 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash

@@ -10,7 +10,7 @@
     .toc
       - posts.reverse.each_with_index do | post, index |
         %p
-          %span.copy= " #{self.distance_of_time_in_words(Time.now, post.published)} ago"
+          %span.copy= post.published.strftime("%B %d, %Y")
           %span &rarr; &nbsp;
           %a{:href => "#{post_url(album.name, post.title)}"}
             %span>= post.title

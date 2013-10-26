@@ -19,9 +19,9 @@ title: latest
       recently
       .toc
         - get_posts_by_publication_date(data.albums).each_with_index do | post, index |
-          - next if index > 20
+          - break if index >= 10
           %p
-            %span.copy= " #{self.distance_of_time_in_words(Time.now, post.published)} ago"
+            %span.copy= post.published.strftime("%B %d, %Y")
             %span &rarr; &nbsp;
             %a{:href => "#{post_url(post.album, post.title)}"}
               %span>= post.title
