@@ -33,7 +33,7 @@ def post_url album, title
 end
 
 def album_url title
-  "/#{make_url(title)}.html"
+  "/#{make_url(title)}/index.html"
 end
 
 data.albums.each do |album|
@@ -43,12 +43,13 @@ data.albums.each do |album|
   posts_in_the_past = album['posts'].select {|post| post['published'] < Time.now.to_date}
   sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
   
-  proxy album_url(name), "/templates/cover.html", :locals => {:album => album, :posts => sorted_posts_in_the_past}
+  proxy album_url(name), "/templates/cover.html", :locals => {:title => album.name, :album => album, :posts => sorted_posts_in_the_past}
 
   posts_in_the_past.each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
     proxy post_url(name, post.title), "/templates/#{post.type}.html", :locals => {
+      :title => post.title,
       :post => post,
       :album => name,
       :posts => sorted_posts_in_the_past,
@@ -56,6 +57,10 @@ data.albums.each do |album|
     }
   end
 end
+
+ignore "/templates/cover.html"
+ignore "/templates/article.html"
+ignore "/templates/photo.html"
 
 # Proxy pages (http://middlemanapp.com/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -74,7 +79,7 @@ helpers do
   end
 
   def album_url title
-    "/#{make_url(title)}.html"
+    "/#{make_url(title)}/index.html"
   end
 
   def get_latest_from albums
@@ -99,8 +104,11 @@ helpers do
     posts = []
 
     data.albums.each do |album|
+      next if album['posts'].nil?
+
       album['posts'].each do |post|
         next if post['published'] > Time.now.to_date
+        post['album'] = album.name
         posts << post
       end
     end
@@ -110,7 +118,7 @@ helpers do
 end
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 # activate :livereload

@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	$(window).scroll(function () {
-		$("img").each(function() {
+		$("img:not(.nozoom)").each(function() {
 			if ($("#lightbox").is(':visible')) {
 				$("#lightbox").hide();
 			}
@@ -9,22 +9,20 @@ $(document).ready(function (){
 		});
 	});
 
-	$("img").on('click', function(e) {
+	$("img:not(.nozoom)").on('click', function(e) {
 		var image = this;
 		var padding = 25;
 		var scale = 1;
-		
-		if ($(image).height() > $(image).width()) {
+
+		var height_difference = $(window).height() - $(image).height();
+		var width_difference = $(window).width() - $(image).width();
+
+		if (height_difference < width_difference) {
 			var new_height = $(window).height() - (padding * 2);
 			scale = new_height / $(image).height();	
 		} else {
 			var new_width = $(window).width() - (padding * 2);
 			scale = new_width / $(image).width();	
-		}
-
-		if (scale < 1.0) {
-			e.preventDefault();
-			return;
 		}
 		
 		var image_wrt_window_top = $(image).offset().top - $(window).scrollTop();
@@ -35,7 +33,7 @@ $(document).ready(function (){
 			$("#lightbox").hide();
 			$(image).css({transform: 'translate(0px, 0px) scale(1)', 'z-index': 1000});
 
-			$("img").each(function() {
+			$("img:not(.nozoom)").each(function() {
 				if (image !== this) {
 					$(this).css({transform: 'translate(0px, 0px) scale(1)', 'z-index': 998});
 				}
@@ -44,7 +42,7 @@ $(document).ready(function (){
 			$("#lightbox").show();
 			$(image).css({transform: 'translate(0px,' + new_top + 'px) scale(' + scale + ')', 'z-index': 1000});
 
-			$("img").each(function() {
+			$("img:not(.nozoom)").each(function() {
 				if (image !== this) {
 					$(this).css({transform: 'translate(0px, 0px) scale(1)', 'z-index': 998});
 				}

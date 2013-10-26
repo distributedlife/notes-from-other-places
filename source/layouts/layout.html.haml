@@ -3,9 +3,9 @@
   %head
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", 'http-equiv' => "X-UA-Compatible"}
-    %title= "notes from other places – #{current_page.data.title}"
+    %title= "notes from other places – #{current_page.data.title || title}"
     = stylesheet_link_tag "screen"
-    = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil"
+    = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min'
   %body
     #lightbox
     = yield

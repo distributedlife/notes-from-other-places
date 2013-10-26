@@ -4,17 +4,20 @@
   %section.page
     %article
       .index-article
-        = partial "/templates/photo", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
+        = partial "/templates/image_only_no_zoom", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
         
     %h1= album.name
     .toc
       - posts.reverse.each_with_index do | post, index |
         %p
+          %span.copy= " #{self.distance_of_time_in_words(Time.now, post.published)} ago"
           %span &rarr; &nbsp;
           %a{:href => "#{post_url(album.name, post.title)}"}
             %span>= post.title
             %span.subtle.copy= " #{post.type}"
 
-%a#next.hide{:href => "#{post_url(album.name, posts.first.title)}"}
+%a#prev.hide{:href => "/"}
+%a#next.hide{:href => "#{post_url(album.name, posts.last.title)}"}
 
 = partial "/templates/footer"
+%script{:src => "/javascripts/keyboard-navigation.js"}

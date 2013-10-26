@@ -6,22 +6,35 @@ title: latest
 = partial "/templates/anchor"
 
 .index
-  %section.page
+  %section.page.border
     %article
+      %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
       - if latest.type == "article"
       
       - else
-        %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
         .index-article
-          = partial "/templates/image", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
+          = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
   %article
+    %p.leader
+      recently
+      .toc
+        - get_posts_by_publication_date(data.albums).each_with_index do | post, index |
+          - next if index > 20
+          %p
+            %span.copy= " #{self.distance_of_time_in_words(Time.now, post.published)} ago"
+            %span &rarr; &nbsp;
+            %a{:href => "#{post_url(post.album, post.title)}"}
+              %span>= post.title
+              %span.subtle.copy= " #{post.type}"
+  %article
+    %p.leader
+      elsewhere
     .more-from
-      %p.leader
-        elsewhere
-        - data.albums.each do |album|
-          - next if album.name == latest.album
-          .thumb
-            %a{:href => "#{album_url(album.name)}"}
-              = partial "/templates/photo", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
-              %p.cover-title= album.name
+      - data.albums.each do |album|
+        - next if album.name == latest.album
+        .thumb
+          %a{:href => "#{album_url(album.name)}"}
+            = partial "/templates/image_only_no_zoom", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
+            %p.cover-title= album.name
 = partial "/templates/footer"
+%script{:src => "/javascripts/image-zoom.js"}
