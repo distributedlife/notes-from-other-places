@@ -3,6 +3,7 @@ layout: false
 ---
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
+  xml.id "#{URI.join(site_url)}/"
   xml.title "notes from other places"
   xml.subtitle "Blog subtitle"
   xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"
@@ -14,8 +15,8 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.title article.title
       xml.link "rel" => "alternate", "href" => URI.join(site_url, post_url(article.album, article.title))
       xml.id URI.join(site_url, post_url(article.album, article.title))
-      xml.published article.date.to_time.iso8601
-      xml.updated article.date.to_time.iso8601
+      xml.published article.published.to_time.iso8601
+      xml.updated article.published.to_time.iso8601
       xml.author { xml.name "Ryan Boucher" }
 
       if article.type == 'photo'
