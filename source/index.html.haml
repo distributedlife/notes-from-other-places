@@ -21,7 +21,7 @@ title: latest
         - get_posts_by_publication_date(data.albums).each_with_index do | post, index |
           - break if index >= 10
           %p
-            %span.copy= post.published.strftime("%B %d, %Y")
+            %span.copy= post.published.strftime("%B %d")
             %span &rarr; &nbsp;
             %a{:href => "#{post_url(post.album, post.title)}"}
               %span>= post.title
