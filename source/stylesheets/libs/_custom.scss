@@ -36,8 +36,6 @@
 	}
 
 	img {
-		// max-height: 80%;
-		// width: auto;
 		width: 100%;
 		height: auto;
 	}
@@ -87,7 +85,6 @@ footer {
 	position: relative;
 	bottom: -8px;
 }
-
 
 a {
 	text-decoration: none;
@@ -179,8 +176,6 @@ header {
 	}
 }
 
-
-
 #lightbox {
     display: none;
     position: fixed;
@@ -247,7 +242,6 @@ img {
 	-webkit-column-gap: 5px;
 	-moz-column-gap: 5px;
 
-	font-size: 1em;
 	font-variant: small-caps;
 
 	padding-top: 0.6em;
@@ -305,69 +299,48 @@ article img {
 	}
 }
 
-
-
-
-
 /* ::Media queries */
 /* ------------------------------------------------------------ */
-
-// If using gridset or another pre-defined grid, these should match up to the same breakpoints
-
-// Below examples use a mobile-first approach
-
-
 // Eg for 480px
+
 @media screen and (max-width: em-font(767px)) {
-  
   	h1 { 
 		@include adjust-font-size-to(22px); 
-		margin: rhythm(2, 24px) 0 0 0;  						// 3 lines below, based on font size
+		margin: rhythm(2, 24px) 0 0 0;
 	}
-
 	h2 { 
 		@include adjust-font-size-to(20px); 
-		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;  			// 4 lines above / 2 lines below, based on font size 
+		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;
 	}
-
 	h3 { 
 		@include adjust-font-size-to(18px); 
-		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;  			// 2 lines above / 2 lines below, based on font size 
+		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;
 	} 
-
 	h4 { 
 		@include adjust-font-size-to(16px); 
-		margin: 0 0 rhythm(1, 20px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 20px) 0;
 	} 
-
 	h5 { 
 		@include adjust-font-size-to(14px); 
-		margin: 0 0 rhythm(1, 18px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 18px) 0;
 	} 
-
 	h6 { 
 		@include adjust-font-size-to(12px); 
-		margin: 0 0 rhythm(1, 16px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 16px) 0;
 	} 	
-
-	.anchor {
-		margin-bottom: 10px;
-		text-align: center;
-	}
 }
 
-@media screen and (min-width: em-font(480px)) {
+@media screen and (min-width: em-font(400px)) {
 	.container {
-		width: 80%;
+		width: 100%;
+		padding: 0 5px;
 	}
 	.wide-container {
 		width: 95%;
 	}
-	
 	.index {
 		width: 100%;
 	}
-
 	.toc {
 		clear: left;
 
@@ -378,7 +351,6 @@ article img {
 }
 
 
-// Eg for 800px
 @media screen and (min-width: em-font(767px)) {
 	.toc {
 		clear: left;
@@ -387,7 +359,6 @@ article img {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 	}
-
 	.index {
 		.toc {
 			-webkit-column-count: 2;
@@ -403,58 +374,49 @@ article img {
 			column-rule: 0px dotted black;
 		}
 	}
-
-  #bottom-pages {
-    display: block;
-  }
-  
+	#bottom-pages {
+		display: block;
+	}
 	body {
 		margin: 0;
 	}
 	.container {
+		margin: 0 auto;
 		min-width: em-font(586px);
 	}
 	.wide-container {
 		min-width: em-font(700px);
 		width: 100%;
 	}
-	
 	.index {
 		min-width: em-font(700px);
 	}
-
 	h1 { 
 		@include adjust-font-size-to(38px); 
-		margin: rhythm(2, 38px) 0 0 0;  						// 3 lines below, based on font size
-	} 
-				
+		margin: rhythm(2, 38px) 0 0 0;
+	} 			
 	h2 { 
 		@include adjust-font-size-to(30px); 
-		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;  			// 4 lines above / 2 lines below, based on font size 
+		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;
 	}
-
 	h3 { 
 		@include adjust-font-size-to(22px); 
-		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;  			// 2 lines above / 2 lines below, based on font size 
+		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;
 	} 
-
 	h4 { 
 		@include adjust-font-size-to(20px); 
-		margin: 0 0 rhythm(1, 20px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 20px) 0;
 	} 
-
 	h5 { 
 		@include adjust-font-size-to(18px); 
-		margin: 0 0 rhythm(1, 18px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 18px) 0;
 	} 
-
 	h6 { 
 		@include adjust-font-size-to(16px); 
-		margin: 0 0 rhythm(1, 16px) 0;  						// 1 lines below, based on font size 
+		margin: 0 0 rhythm(1, 16px) 0;
 	} 	
 }
 
-// Eg for 1024px
 @media screen and (min-width: em-font(1024px)) {
 	.toc {
 		clear: left;
@@ -463,8 +425,6 @@ article img {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
 	}
-	
-
 	.more-from {
 		-webkit-column-count: 4;
 		-moz-column-count: 4;
@@ -479,8 +439,6 @@ article img {
       	position: fixed;
     	}
 	}
-
-
 	.cover {
 		article {
 			margin: 0 0 0 30%;
@@ -509,72 +467,73 @@ article img {
 		}
 	}
 }
+
 #bottom-pages {
-  display: none;
+	display: none;
 }
 
 @media screen and (max-width: em-font(1024px)) {
-
+	.anchor {
+		margin-bottom: 10px;
+		text-align: center;
+	}
 	.cover {
 		h1 {
 			text-align: right;
 		}
 	}
+  	.paginate {
+	    a { 
+			position: absolute;
+			top: 40px;
+			line-height: 36px;
+			width: 36px;
+			font-size: 1em;
+			&.prev {
+				left: 0;
+				margin-left: 5px;
+				padding-right: 4px;
+			}
+			&.next {
+				right: 0;
+				margin-right: 5px;
+				padding-left: 4px;
+			}
+			&:hover {
+				background-color: $highlight;
 
+				&.prev {
+					left: 0;
+				}
+				&.next {
+					right: 0;
+				}
+			}
+	    }
+  	}
+	footer {
+		margin-bottom: 35px;
+	}
+  	#bottom-pages {
+	    display: block;
 
-
-
-  .paginate {
-    a { 
-      position: absolute;
-      top: 40px;
-      line-height: 36px;
-      width: 36px;
-      font-size: 18px;
-      &.prev{
-        left: 0;
-        margin-left: 5px;
-        padding-right: 4px;
-      }
-      &.next{
-        right: 0;
-        margin-right: 5px;
-        padding-left: 4px;
-      }
-      &:hover{
-        background-color: $highlight;
-
-        &.prev{
-          left: 0;
-        }
-        &.next{
-          right: 0;
-        }
-      }
-    }
-  }
-  footer {
-  	margin-bottom: 35px;
-  }
-  #bottom-pages {
-    display: block;
-
-    .paginate {
-      text-align: center;
-      a {
-        position: inherit;
-        font-size: 18px;
-        line-height: 36px;
-        width: 36px;
-        &.prev {
-          float: left;
-        }
-        &.next {
-          float: right;
-        }
-      }
-    }
-  }
+	    .paginate {
+			text-align: center;
+			a {
+				position: inherit;
+				font-size: 18px;
+				line-height: 36px;
+				width: 36px;
+				
+				&.prev {
+					float: left;
+				}
+				&.next {
+					float: right;
+				}
+			}
+		}
+  	}
 }
 
 // IOS specifics 
@@ -582,11 +541,6 @@ article img {
 	-webkit-text-size-adjust:none; 		// Stop iPhone/iPad from scaling text
 }
 
-
-/* ::State styles */
-/* ------------------------------------------------------------ */
-
 .is-centered {
 	text-align: center;
 }
-
