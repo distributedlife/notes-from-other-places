@@ -102,6 +102,7 @@ helpers do
       latest = candidate if latest.nil?
       latest = candidate if latest['published'] < candidate['published']
       latest['album'] = album.name unless latest.nil?
+      latest['markdown'] = File.open("data/articles/#{latest.content}").read unless latest.content.nil?
     end
 
     latest

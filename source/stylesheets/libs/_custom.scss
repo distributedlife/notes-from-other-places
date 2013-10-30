@@ -20,6 +20,11 @@
 	padding: 0 5px;
 }
 
+.constrain-width {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .index {
 	@extend .clearfix;
 	margin: 0 auto;
@@ -94,9 +99,10 @@ a:hover {
 }
 
 .anchor {
-	margin-left: 5px;
+	margin: 0 5px;
 	font-size: 1.5em;
 	font-variant: small-caps;
+	border-bottom: 1px lighten($primary, 50%) solid;
 }
 
 .container {
@@ -140,8 +146,8 @@ a:hover {
 }
 
 .leader {
-	margin-top: 10px;
 	font-size: 2em;
+	font-weight: 700;
 	font-variant: small-caps;
 	margin-bottom: 0;
 }
@@ -349,6 +355,10 @@ article img {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
 	}
+	.constrain-width {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 
@@ -359,6 +369,10 @@ article img {
 		column-count: 2;
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
+	}
+	.constrain-width {
+		width: 80%;
+		margin: 0 auto;
 	}
 	.index {
 		.toc {
@@ -425,6 +439,10 @@ article img {
 		column-count: 1;
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
+	}
+	.constrain-width {
+		width: 50%;
+		margin: 0 auto;
 	}
 	.more-from {
 		-webkit-column-count: 4;

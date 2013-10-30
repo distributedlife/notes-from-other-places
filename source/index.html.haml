@@ -8,11 +8,15 @@ title: latest
 .index
   %section.page.border
     %article
-      %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
-      - if latest.type == "article"
       
+      - if latest.type == "article"
+        .constrain-width
+          %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
+          = Tilt['markdown'].new { latest.markdown }.render(scope=self) 
+        = partial "/templates/meta", :locals => {:date => latest.date, :album => latest.album}
       - else
         .index-article
+          %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
           = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
   %article
     %p.leader

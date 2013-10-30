@@ -1,19 +1,19 @@
 - name: peru
-  thumb: http://farm8.staticflickr.com/7297/10374871503_42cee0b115_m.jpg
+  thumb: http://farm8.staticflickr.com/7297/10374871503_42cee0b115_n.jpg
   large: http://farm8.staticflickr.com/7297/10374871503_42cee0b115_b.jpg
   retina: http://farm8.staticflickr.com/7297/10374871503_eb6d7f64fc_k.jpg
   posts:
     - title: First Thoughts
       type: article
       date: 2011-11-14
-      published: 2013-10-10
+      published: 2013-10-15
       content: first-thoughts.md
     - title: Future Post
       type: article
       date: 2011-11-14
-      published: 2014-10-19
+      published: 2014-10-10
 - name: melbourne
-  thumb: http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_m.jpg
+  thumb: http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_n.jpg
   large: http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_b.jpg
   retina: http://farm3.staticflickr.com/2881/10374994855_c0442aa376_k.jpg
   posts:
@@ -21,30 +21,30 @@
       type: photo
       date: 2013-09-01
       published: 2013-10-11
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_m.jpg
+      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
       large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
       retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
     - title: before by published
       type: photo
       date: 2013-09-01
       published: 2013-10-09
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_m.jpg
+      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
       large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
       retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
     - title: after by published
       type: photo
       date: 2013-09-01
       published: 2013-10-12
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_m.jpg
+      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
       large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
       retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
 - name: hawaii
-  thumb: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_m.jpg
+  thumb: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_n.jpg
   large: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_b.jpg
   retina: http://farm8.staticflickr.com/7386/10375186443_bc4497098c_k.jpg
   posts:
 - name: los angeles
-  thumb: http://farm6.staticflickr.com/5544/10375181843_1cebc2efa2_m.jpg
+  thumb: http://farm6.staticflickr.com/5544/10375181843_1cebc2efa2_n.jpg
   large: http://farm6.staticflickr.com/5544/10375181843_1cebc2efa2_b.jpg
   retina: http://farm6.staticflickr.com/5544/10375181843_fe8f81131d_k.jpg
   posts:
