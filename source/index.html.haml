@@ -4,7 +4,6 @@ title: latest
 - latest = get_latest_from data.albums
 
 = partial "/templates/anchor"
-
 .index
   %section.page.border
     %article
@@ -20,10 +19,9 @@ title: latest
           = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
   %article
     %p.leader
-      recently
+      %a{:href => "/recent.html"}recently
       .toc
-        - get_posts_by_publication_date(data.albums).each_with_index do | post, index |
-          - break if index >= 10
+        - get_posts_by_publication_date(data.albums)[0...10].each do | post |
           %p
             %span.copy= post.published.strftime("%B %d")
             %span &rarr; &nbsp;

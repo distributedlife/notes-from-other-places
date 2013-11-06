@@ -1,7 +1,27 @@
 ---
-title: recently on...
+title: recently
 ---
-- posts = get_posts_by_publication_date data.albums
+= partial "/templates/anchor"
+.index
+  %article
+    %p.leader
+      recently
+      - get_posts_by_publication_date(data.albums).each do | post |
+        %p
+          %span.copy= post.published.strftime("%B %d")
+          %span &rarr; &nbsp;
+          %a{:href => "#{post_url(post.album, post.title)}"}
+            %span>= post.title
+            %span.subtle.copy= " #{post.type}"
+          %span.subtle.copy &rarr; &nbsp;
+          - if post.type == "photo"  
+            %span.subtle.copy= "#{post.thumb.count} photos"
+            .recent
+              - post.thumb.each do |thumb|
+                %img.nozoom{:src => thumb}
+          - if post.type == "article"
+            %span.subtle.copy= "approximately #{get_content_for(post.content).split(" ").count.round(-2)} words"
 
-- posts.each do |post|
-  %p= post.title
+
+= partial "/templates/footer"
+%script{:src => "/javascripts/image-zoom.js"}

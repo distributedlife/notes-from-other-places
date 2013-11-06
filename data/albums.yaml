@@ -21,23 +21,15 @@
       type: photo
       date: 2013-09-01
       published: 2013-10-11
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
-      large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-      retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-    - title: before by published
-      type: photo
-      date: 2013-09-01
-      published: 2013-10-09
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
-      large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-      retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-    - title: after by published
-      type: photo
-      date: 2013-09-01
-      published: 2013-10-12
-      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
-      large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-      retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
+      thumb:
+        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
+        - http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_n.jpg
+      large:
+        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
+        - http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_b.jpg
+      retina:
+        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
+        - http://farm3.staticflickr.com/2881/10374994855_c0442aa376_k.jpg
 - name: hawaii
   thumb: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_n.jpg
   large: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_b.jpg

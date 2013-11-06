@@ -89,6 +89,10 @@ helpers do
     "/#{make_url(title)}/index.html"
   end
 
+  def get_content_for file
+    File.open("data/articles/#{file}").read 
+  end
+
   def get_latest_from albums
     latest = nil
 
@@ -102,7 +106,7 @@ helpers do
       latest = candidate if latest.nil?
       latest = candidate if latest['published'] < candidate['published']
       latest['album'] = album.name unless latest.nil?
-      latest['markdown'] = File.open("data/articles/#{latest.content}").read unless latest.content.nil?
+      latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
     end
 
     latest
