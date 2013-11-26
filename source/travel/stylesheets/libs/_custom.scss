@@ -177,7 +177,7 @@ a:hover {
 
 .thumb {
 	width: 100%;
-
+	display:inline-block;
 	page-break-inside: avoid;
 }
 section 				{ @extend .pie-clearfix; }
