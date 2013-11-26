@@ -3,7 +3,7 @@ layout: false
 ---
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.id "#{URI.join(site_url)}/"
+  xml.id "#{URI.join(site_url, '/travel')}"
   xml.title "notes from other places"
   xml.subtitle "Blog subtitle"
   xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"

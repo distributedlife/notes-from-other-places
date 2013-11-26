@@ -1,6 +1,7 @@
 .anchor
+  .pin= link_to "distributedlife", "/"
   - unless defined? sub
-    %span= link_to "notes from other places", "/"
+    %span= link_to "travel", "/travel"
   - if defined? sub
-    %span= link_to "notes from: ", "/"
-    %span= link_to sub, suburl
+    %span= link_to "travel - #{sub}", "#{suburl}"
+  %span.subscribe= link_to "subscribe", "http://eepurl.com/HYHpX"

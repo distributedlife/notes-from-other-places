@@ -16,8 +16,8 @@
             %span>= post.title
             %span.subtle.copy= " #{post.type}"
 
-%a#prev.hide{:href => "/"}
+%a#prev.hide{:href => "/travel"}
 %a#next.hide{:href => "#{post_url(album.name, posts.last.title)}"}
 
 = partial "/templates/footer"
-%script{:src => "/javascripts/keyboard-navigation.js"}
+%script{:src => "/travel/javascripts/keyboard-navigation.js"}

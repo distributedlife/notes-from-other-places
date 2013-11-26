@@ -1,4 +1,4 @@
-= partial "/templates/anchor", :locals => {:sub => album, :suburl => album_url(album)}
+= partial "/templates/anchor", :locals => {:sub => album, :suburl => "#{album_url(album)}"}
 
 .container
   %section.page
@@ -14,5 +14,5 @@
 #bottom-pages
   = partial "/templates/navigation", :locals => {:posts => posts, :post => post, :album => album}
 
-%script{:src => "/javascripts/image-zoom.js"}
-%script{:src => "/javascripts/keyboard-navigation.js"}
+%script{:src => "/travel/javascripts/image-zoom.js"}
+%script{:src => "/travel/javascripts/keyboard-navigation.js"}

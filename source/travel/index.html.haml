@@ -7,7 +7,6 @@ title: latest
 .index
   %section.page.border
     %article
-      
       - if latest.type == "article"
         .constrain-width
           %h1= link_to latest.title, "#{post_url(latest.album, latest.title)}"
@@ -19,7 +18,7 @@ title: latest
           = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
   %article
     %p.leader
-      %a{:href => "/recent.html"}recently
+      %a{:href => "/travel/recent.html"}recently
       .toc
         - get_posts_by_publication_date(data.albums)[0...10].each do | post |
           %p
@@ -39,4 +38,4 @@ title: latest
             = partial "/templates/image_only_no_zoom", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
             %p.cover-title= album.name
 = partial "/templates/footer"
-%script{:src => "/javascripts/image-zoom.js"}
+%script{:src => "/travel/javascripts/image-zoom.js"}

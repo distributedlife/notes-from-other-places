@@ -23,17 +23,16 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
-
 def make_url title
   title.gsub(" ", "-").gsub("'", "").downcase
 end
 
 def post_url album, title
-  "/#{make_url(album)}/#{make_url(title)}.html"
+  "/travel/#{make_url(album)}/#{make_url(title)}.html"
 end
 
 def album_url title
-  "/#{make_url(title)}/index.html"
+  "/travel/#{make_url(title)}/index.html"
 end
 
 def posts_in_the_past album
@@ -74,7 +73,7 @@ ignore "/templates/photo.html"
 ###
 helpers do
   def site_url
-    "http://notes-from-other-places.com.s3-website-us-east-1.amazonaws.com"
+    "http://distributedlife.com/"
   end
 
   def make_url title
@@ -82,11 +81,11 @@ helpers do
   end
 
   def post_url album, title
-    "/#{make_url(album)}/#{make_url(title)}.html"
+    "/travel/#{make_url(album)}/#{make_url(title)}.html"
   end
 
   def album_url title
-    "/#{make_url(title)}/index.html"
+    "/travel/#{make_url(title)}/index.html"
   end
 
   def get_content_for file
@@ -103,10 +102,16 @@ helpers do
       sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
 
       candidate = sorted_posts_in_the_past.reverse.first
-      latest = candidate if latest.nil?
-      latest = candidate if latest['published'] < candidate['published']
-      latest['album'] = album.name unless latest.nil?
-      latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
+      if latest.nil?
+        latest = candidate 
+        latest['album'] = album.name unless latest.nil?
+        latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
+      end
+      if latest['published'] < candidate['published']
+        latest = candidate 
+        latest['album'] = album.name unless latest.nil?
+        latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
+      end
     end
 
     latest
@@ -142,11 +147,11 @@ activate :automatic_image_sizes
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'travel/stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'travel/javascripts'
 
-set :images_dir, 'images'
+set :images_dir, 'travel/images'
 
 # Build-specific configuration
 configure :build do

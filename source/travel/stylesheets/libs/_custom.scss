@@ -1,3 +1,6 @@
+.pin {
+	position: absolute;
+}
 .container {
 	@extend .pie-clearfix;
 	margin: 0 auto;
@@ -23,6 +26,14 @@
 .constrain-width {
 	width: 50%;
 	margin: 0 auto;
+}
+
+.subscribe {
+	position: absolute;
+	right: 5px;
+	a {
+		color: darkorange;
+	}
 }
 
 .index {
@@ -114,6 +125,7 @@ a:hover {
 	font-size: 1.5em;
 	font-variant: small-caps;
 	border-bottom: 1px lighten($primary, 50%) solid;
+	text-align: center;
 }
 
 .container {
@@ -349,7 +361,7 @@ article img {
 	} 	
 }
 
-@media screen and (min-width: em-font(400px)) {
+@media screen and (min-width: em-font(0px)) {
 	.container {
 		width: 100%;
 		padding: 0 5px;
