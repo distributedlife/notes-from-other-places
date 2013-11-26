@@ -3,15 +3,30 @@
   large: http://farm8.staticflickr.com/7297/10374871503_42cee0b115_b.jpg
   retina: http://farm8.staticflickr.com/7297/10374871503_eb6d7f64fc_k.jpg
   posts:
-    - title: First Thoughts
+    - title: Lima
       type: article
       date: 2011-11-14
-      published: 2013-10-15
+      published: 2013-11-30
       content: first-thoughts.md
-    - title: Future Post
-      type: article
-      date: 2011-11-14
-      published: 2014-10-10
+    - title: Bored boy in boat
+      type: photo
+      date: 2011-12-08
+      published: 2013-12-01
+      thumb: http://farm3.staticflickr.com/2856/9782423795_505d3b28d5_n.jpg
+      large: http://farm3.staticflickr.com/2856/9782423795_505d3b28d5_b.jpg
+      retina: http://farm3.staticflickr.com/2856/9782423795_9089a9a32c_k.jpg
+- name: australia
+  thumb:
+  large:
+  retina:
+  posts:
+    - title: Lake Eyre
+      type: photo
+      date: 2010-07-01
+      published: 2013-11-29
+      thumb: http://farm3.staticflickr.com/2865/9812466945_3f564f7e58_n.jpg
+      large: http://farm3.staticflickr.com/2865/9812466945_3f564f7e58_b.jpg
+      retina: http://farm3.staticflickr.com/2865/9812466945_73dca66737_k.jpg
 - name: melbourne
   thumb: http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_n.jpg
   large: http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_b.jpg
@@ -21,22 +36,55 @@
       type: photo
       date: 2013-09-01
       published: 2013-10-11
-      thumb:
-        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
-        - http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_n.jpg
-      large:
-        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-        - http://farm3.staticflickr.com/2881/10374994855_93f76ab7f9_b.jpg
-      retina:
-        - http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
-        - http://farm3.staticflickr.com/2881/10374994855_c0442aa376_k.jpg
+      thumb: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_n.jpg
+      large: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
+      retina: http://farm6.staticflickr.com/5528/9847964895_ccee3b203e_b.jpg
 - name: hawaii
   thumb: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_n.jpg
   large: http://farm8.staticflickr.com/7386/10375186443_cd200a45ab_b.jpg
   retina: http://farm8.staticflickr.com/7386/10375186443_bc4497098c_k.jpg
   posts:
+    - title: Monk Seal on Waikiki
+      type: photo
+      date: 2013-01-18
+      published: 2013-11-28
+      thumb: http://farm8.staticflickr.com/7375/9811632995_7b0dbf7936_n.jpg
+      large: http://farm8.staticflickr.com/7375/9811632995_7b0dbf7936_b.jpg
+      retina: http://farm8.staticflickr.com/7375/9811632995_800be9c2a2_k.jpg
 - name: los angeles
   thumb: http://farm6.staticflickr.com/5544/10375181843_1cebc2efa2_n.jpg
   large: http://farm6.staticflickr.com/5544/10375181843_1cebc2efa2_b.jpg
   retina: http://farm6.staticflickr.com/5544/10375181843_fe8f81131d_k.jpg
   posts:
+    - title: The strange man at the airport
+      type: article
+      date: 2011-11-14
+      published: 2013-11-27
+      content: The-strange-man-at-the-airport.md
+- name: japan
+  thumb:
+  large:
+  retina:
+  posts:
+    - title: "Silly Hat Parada, Kyoto"
+      type: photo
+      date: 2012-10-21
+      published: 2013-12-02
+      thumb:
+        - http://farm3.staticflickr.com/2852/9811856144_f475180db0_n.jpg
+      large:
+        - http://farm3.staticflickr.com/2852/9811856144_f475180db0_b.jpg
+      retina:
+        - http://farm3.staticflickr.com/2852/9811856144_c43e620802_k.jpg
+- name: philippines
+  thumb:
+  large:
+  retina:
+  posts:
+    - title: Tarsier in Bohol
+      type: photo
+      date: 2012-05-06
+      published: 2013-12-03
+      thumb: http://farm4.staticflickr.com/3827/9812191564_e4a8b91477_n.jpg
+      large: http://farm4.staticflickr.com/3827/9812191564_e4a8b91477_b.jpg
+      retina: http://farm4.staticflickr.com/3827/9812191564_e459f55244_k.jpg

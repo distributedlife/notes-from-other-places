@@ -36,7 +36,7 @@ def album_url title
 end
 
 def posts_in_the_past album
-  album['posts'].select {|post| post['published'] < Time.now.to_date}
+  album['posts'].select {|post| post['published'] <= Time.now.to_date}
 end
 
 data.albums.each do |album|
@@ -72,6 +72,10 @@ ignore "/templates/photo.html"
 # Helpers
 ###
 helpers do
+  def posts_in_the_past album
+    album['posts'].select {|post| post['published'] <= Time.now.to_date}
+  end
+
   def site_url
     "http://distributedlife.com/"
   end
@@ -102,15 +106,19 @@ helpers do
       sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
 
       candidate = sorted_posts_in_the_past.reverse.first
+      next if candidate.nil?
+
       if latest.nil?
         latest = candidate 
         latest['album'] = album.name unless latest.nil?
         latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
       end
-      if latest['published'] < candidate['published']
-        latest = candidate 
-        latest['album'] = album.name unless latest.nil?
-        latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
+      unless latest.nil?
+        if latest['published'] < candidate['published']
+          latest = candidate 
+          latest['album'] = album.name unless latest.nil?
+          latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
+        end
       end
     end
 
@@ -124,7 +132,7 @@ helpers do
       next if album['posts'].nil?
 
       album['posts'].each do |post|
-        next if post['published'] > Time.now.to_date
+        next unless post['published'] <= Time.now.to_date
         post['album'] = album.name
         posts << post
       end

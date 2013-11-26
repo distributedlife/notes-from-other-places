@@ -34,6 +34,7 @@ title: latest
       - data.albums.each do |album|
         - next if album.name == latest.album
         - next if album['posts'].nil?
+        - next if posts_in_the_past(album).empty?
         .thumb
           %a{:href => "#{album_url(album.name)}"}
             = partial "/templates/image_only_no_zoom", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}

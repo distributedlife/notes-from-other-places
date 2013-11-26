@@ -1,5 +1,3 @@
-After barely pausing for customs I was promptly asked if I wanted to buy a CD of *The Rolling Stones* latest album. It's still in it's plastic wrapper he assured me. I let him know that I didn't have anything to play it. He seemed to remember that iPods existed and wandered off.
-
 ![Graphitti in Lima](http://farm6.staticflickr.com/5474/10376875985_dc7d17e128_b.jpg)
 
 I met up with Sarah and Dan, Scotty's friends who were happy to guide me around. I wasn't sure what I would make of LA. Venice beach reminds me Bondi Beach with just a bit more tacky stuff. The rest of it doesn't feel distinct in anyway. I did stay away from the hollywood sections apart from a quick drive through it. I did manage to experience what I come to do, and that was to eat tacos worth eating. They were delicious. I also learnt that in LA ordering from road side food vans is not necessarily a bad thing, and probably wont kill you, a stark contrast from home.
