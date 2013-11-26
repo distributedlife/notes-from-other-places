@@ -6,9 +6,13 @@
       .portrait-photo
         %header
           %h1= post.title.titleize
-        - post.thumb.each_with_index do |thumb, index|
+        - if post.thumb.kind_of?(Array)
+          - post.thumb.each_with_index do |thumb, index|
+            %p.is-centered
+              = partial "/templates/image_only", :locals => {:thumb => thumb, :large => post.large[index], :retina => post.retina[index]}
+        - else
           %p.is-centered
-            = partial "/templates/image_only", :locals => {:thumb => thumb, :large => post.large[index], :retina => post.retina[index]}
+            = partial "/templates/image_only", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina}
         = partial "/templates/meta", :locals => {:date => post.date, :album => album}
 
 = partial "/templates/footer"

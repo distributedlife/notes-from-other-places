@@ -17,11 +17,14 @@ title: recently
           - if post.type == "photo"  
             %span.subtle.copy= "#{post.thumb.count} photos"
             .recent
-              - post.thumb.each do |thumb|
-                %img.nozoom{:src => thumb}
+              - if post.thumb.kind_of?(Array)
+                - post.thumb.each do |thumb|
+                  %img.nozoom{:src => thumb}
+              - else
+                %img.nozoom{:src => post.thumb}
           - if post.type == "article"
             %span.subtle.copy= "approximately #{get_content_for(post.content).split(" ").count.round(-2)} words"
 
 
 = partial "/templates/footer"
-%script{:src => "/javascripts/image-zoom.js"}
+%script{:src => "/travel/javascripts/image-zoom.js"}
