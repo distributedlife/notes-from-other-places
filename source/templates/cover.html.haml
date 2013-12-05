@@ -4,7 +4,7 @@
   %section.page
     %article
       .index-article
-        = partial "/templates/image_only_no_zoom", :locals => {:thumb => album.thumb, :large => album.large, :retina => album.retina}
+        = partial "/templates/image_only_no_zoom", :locals => {:image => album.image}
         
     %h1= album.name
     .toc
@@ -12,13 +12,17 @@
         %p
           %span.copy= post.published.strftime("%B %d, %Y")
           %span &rarr; &nbsp;
-          %a{:href => "#{post_url(album.name, post.title)}"}
-            %span>= post.title
-            %span.subtle.copy= " #{post.type}"
+          - title = post.title unless post.title.nil?
+          - title ||= get_title(post.image)
+          %a{:href => "#{post_url(album.name, title)}"}
+            %span>= title
+            %span.subtle.copy= " #{get_type(post)}"
 
 %a#prev.hide{:href => "/travel"}
 - unless posts.empty?
-  %a#next.hide{:href => "#{post_url(album.name, posts.last.title)}"}
+  - title = posts.last.title unless posts.last.title.nil?
+  - title ||= get_title(posts.last.image)
+  %a#next.hide{:href => "#{post_url(album.name, title)}"}
 
 = partial "/templates/footer"
 %script{:src => "/travel/javascripts/keyboard-navigation.js"}

@@ -1,3 +1,8 @@
+require 'rubygems'
+require 'net/http'
+require 'uri'
+require 'json'
+
 ###
 # Compass
 ###
@@ -23,6 +28,31 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
+def api_key
+  File.open('api_key', 'r') { |f| f.read }
+end
+
+def make_actual_request request
+  JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+end
+
+def flickr request
+  @flickr_call ||= {}
+  @flickr_call[request] ||= make_actual_request(request)
+
+  @flickr_call[request]    
+end
+
+def get_info photo
+  json = flickr "/services/rest/?method=flickr.photos.getInfo&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"
+  
+  json['photo']
+end
+
+def get_title photo
+  get_info(photo)['title']['_content']
+end
+
 def make_url title
   title.gsub(" ", "-").gsub("'", "").downcase
 end
@@ -39,10 +69,19 @@ def posts_in_the_past album
   album['posts'].select {|post| post['published'] <= Time.now.to_date}
 end
 
+def get_type post
+  post.image.nil? ? "article" : "photo"
+end
+
 data.albums.each do |album|
-  next if album['posts'].nil?
-  
+  next if album['posts'].nil?  
   name = album['name']
+
+  album['posts'].map do |post|
+    post['album'] = album.name
+    post['title'] ||= get_title(post.image)
+  end
+
   sorted_posts_in_the_past = posts_in_the_past(album).sort {|a,b| a['published'] <=> b['published']}
   
   proxy album_url(name), "/templates/cover.html", :locals => {:title => album.name, :album => album, :posts => sorted_posts_in_the_past}
@@ -50,8 +89,11 @@ data.albums.each do |album|
   posts_in_the_past(album).each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
-    proxy post_url(name, post.title), "/templates/#{post.type}.html", :locals => {
-      :title => post.title,
+    title = post.title unless post.title.nil?
+    title ||= get_title(post.image)
+
+    proxy post_url(name, title), "/templates/#{get_type(post)}.html", :locals => {
+      :title => title,
       :post => post,
       :album => name,
       :posts => sorted_posts_in_the_past,
@@ -92,6 +134,66 @@ helpers do
     "/travel/#{make_url(title)}/index.html"
   end
 
+  def api_key
+    File.open('api_key', 'r') { |f| f.read }
+  end
+
+  def make_actual_request request
+    JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+  end
+
+  def flickr request
+    @flickr_call ||= {}
+    @flickr_call[request] ||= make_actual_request(request)
+
+    @flickr_call[request]    
+  end
+
+  def get_size_info name, photo
+    json = flickr "/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"    
+    
+    json['sizes']['size'].select {|size| size['label'] == name}
+  end
+
+  def get_info photo
+    json = flickr "/services/rest/?method=flickr.photos.getInfo&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"
+    
+    json['photo']
+  end
+
+  def get_title photo
+    get_info(photo)['title']['_content']
+  end
+
+  def get_date_taken photo
+    Date.parse(get_info(photo)['dates']['taken'])
+  end
+
+  def get_thumb photo
+    return "" if photo.nil?
+    get_size_info("Small 320", photo).first['source']
+  end
+
+  def get_large photo
+    return "" if photo.nil?
+    get_size_info("Large", photo).first['source']
+  end
+
+  def get_retina photo
+    return "" if photo.nil?
+
+    retina = get_size_info("Large 2048", photo)
+    if retina.empty?
+      return get_large(photo)
+    end
+
+    retina.first['source']
+  end
+
+  def get_type post
+    post.image.nil? ? "article" : "photo"
+  end
+
   def get_content_for file
     File.open("data/articles/#{file}").read 
   end
@@ -122,6 +224,9 @@ helpers do
       end
     end
 
+    latest['date'] ||= get_date_taken(latest.image)
+    latest['title'] ||= get_title(latest.image)
+
     latest
   end
 
@@ -134,6 +239,10 @@ helpers do
       album['posts'].each do |post|
         next unless post['published'] <= Time.now.to_date
         post['album'] = album.name
+
+        post['title'] ||= get_title(post.image)
+        post['date'] ||= get_date_taken(post.image)
+
         posts << post
       end
     end
