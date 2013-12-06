@@ -20,7 +20,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.author { xml.name "Ryan Boucher" }
 
       if article.type == 'photo'
-        xml.content Tilt['markdown'].new { "![#{article.title}](#{article.large})" }.render(scope=self) , "type" => "html"
+        xml.content Tilt['markdown'].new { "![#{article.title}](#{get_thumb(article.image)}" }.render(scope=self) , "type" => "html"
       else
         xml.content Tilt['markdown'].new { File.open("data/articles/#{article.content}").read }.render(scope=self) , "type" => "html"
       end
