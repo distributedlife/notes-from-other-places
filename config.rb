@@ -29,12 +29,10 @@ require 'json'
 #   page "/admin/*"
 # end
 def api_key
-  File.open('api_key', 'r') { |f| f.read }
+  File.open('api_key', 'r') { |f| f.read }.chomp
 end
 
 def make_actual_request request
-  puts request
-  
   JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
 end
 
