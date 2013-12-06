@@ -135,7 +135,7 @@ helpers do
   end
 
   def api_key
-    File.open('api_key', 'r') { |f| f.read }
+    File.open('api_key', 'r') { |f| f.read }.chomp
   end
 
   def make_actual_request request
