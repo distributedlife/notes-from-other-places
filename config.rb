@@ -33,6 +33,8 @@ def api_key
 end
 
 def make_actual_request request
+  puts request
+  
   JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
 end
 
