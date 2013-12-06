@@ -1,6 +1,6 @@
 date
 echo `git rev-parse HEAD` > source/version.html
-gem install bundler
+gem install bundler --no-rdoc --no-ri
 bundle install
 bundle exec middleman build
 cd build
