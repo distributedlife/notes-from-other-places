@@ -20,10 +20,12 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.author { xml.name "Ryan Boucher" }
 
       if get_type(article) == 'photo'
-        xml.content Tilt['markdown'].new { "![#{article.title}](#{get_thumb(article.image)}" }.render(scope=self) , "type" => "html"
+        content = "<a href='#{URI.join(site_url, post_url(article.album, article.title))}'><img src='#{get_thumb(article.image)}' alt='#{get_title(article.image)}'/></a>"
       else
-        xml.content Tilt['markdown'].new { File.open("data/articles/#{article.content}").read }.render(scope=self) , "type" => "html"
+        content = Tilt['markdown'].new { File.open("data/articles/#{article.content}").read }.render(scope=self)
       end
+
+      xml.content content, "type" => "html"
     end
   end
 end
