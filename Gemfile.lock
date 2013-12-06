@@ -27,6 +27,7 @@ GEM
     hike (1.2.3)
     http_parser.rb (0.5.3)
     i18n (0.6.5)
+    json (1.5.5)
     kramdown (1.1.0)
     listen (1.2.3)
       rb-fsevent (>= 0.9.3)
@@ -98,6 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder
+  json
   middleman (~> 3.1.4)
   middleman-livereload (~> 3.1.0)
   ruby18_source_location
