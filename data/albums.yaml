@@ -4,9 +4,9 @@
     - {published: 2013-12-06, image: 9847964895}
     - {published: 2013-12-11, image: 9812466945}
 - name: china
-  image:
+  image: 11251464234
   posts:
-    - {published: 2013-12-10, image: }
+    - {published: 2013-12-10, image: 11251465756}
 - name: france
   image:
   posts:
@@ -14,6 +14,7 @@
   image: 10375186443
   posts:
     - {published: 2013-12-07, image: 9811632995}
+    - {published: 2013-12-15, image: 11251763733}
 - name: japan
   image: 11250037814
   posts:
