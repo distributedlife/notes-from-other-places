@@ -1,0 +1,47 @@
+---
+title: latest
+---
+= partial "/templates/anchor"
+.index
+
+  %section.page.border
+    %article
+      - if latest.type == "article"
+        .constrain-width
+          %h1= link_to latest.title, "#{latest.url}"
+          = latest.words
+        = partial "/templates/meta", :locals => {:date => latest.date, :album => latest.album}
+      - if latest.type == "photos"
+        .index-article
+          %h1= link_to latest.title, "#{latest.url}"
+          - latest.image.each_with_index do |image, index|
+            = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumbs[index], :large => latest.large_images[index], :retina => latest.retina_images[index], :date => latest.date, :album => latest.album}
+      - if latest.type == "photo"
+        .index-article
+          %h1= link_to latest.title, "#{latest.url}"
+          = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
+
+  %article
+    %p.leader
+      %a{:href => "/travel/recent.html"}recently
+      .toc
+        - recent[0...10].each do | post |
+          %p
+            %span.copy= post.published.strftime("%B %d")
+            %span &rarr; &nbsp;
+            %a{:href => "#{post.url}"}
+              %span>= post.title
+              %span.subtle.copy= " #{post.type}"
+
+  %article
+    %p.leader
+      elsewhere
+    .more-from
+      - albums.select{|album| album.name != latest.album}.select{|album| !album.posts.nil? }.select{|album| !album.posts_in_the_past.empty? }.each do |album|
+        .thumb
+          %a{:href => "#{album.url}"}
+            = partial "/templates/image_only_no_zoom", :locals => {:image => album.image}
+            %p.cover-title= album.name
+
+= partial "/templates/footer"
+%script{:src => "/travel/javascripts/image-zoom.js"}

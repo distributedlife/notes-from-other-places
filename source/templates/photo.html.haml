@@ -1,4 +1,4 @@
-= partial "/templates/anchor", :locals => {:sub => album, :suburl => album_url(album)}
+= partial "/templates/anchor", :locals => {:sub => album.name, :suburl => album.url}
 
 .wide-container
   %section.page
@@ -6,14 +6,14 @@
       .portrait-photo
         %header
           %h1= title.titleize
-        - if post.image.kind_of?(Array)
+        - if post.type == "photos"
           - post.image.each_with_index do |image, index|
             %p.is-centered
-              = partial "/templates/image_only", :locals => {:image => post.image}
+              = partial "/templates/image_only", :locals => {:thumb => post.thumbs[index], :large => post.large_images[index], :retina => post.retina_images[index]}
         - else
           %p.is-centered
-            = partial "/templates/image_only", :locals => {:image => post.image}
-        = partial "/templates/meta", :locals => {:image => post.image, :date => get_date_taken(post.image), :album => album}
+            = partial "/templates/image_only", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina}
+        = partial "/templates/meta", :locals => {:image => post.image, :date => post.date, :album => album}
 
 = partial "/templates/footer"
 = partial "/templates/navigation", :locals => {:posts => posts, :post => post, :album => album}

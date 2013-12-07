@@ -6,8 +6,8 @@
     - next_index = index + 1 unless (index + 1) == posts.count
     - prev_index = index - 1 unless index == 0
     - unless next_index.nil?
-      %a#next.next{:href => "#{post_url(album, posts.reverse[next_index].title)}"} &#9654;
+      %a#next.next{:href => "#{posts.reverse[next_index].url}"} &#9654;
     - if prev_index.nil?
-      %a#prev.prev{:href => "#{album_url(album)}"} &#9664;
+      %a#prev.prev{:href => "#{album.url}"} &#9664;
     - else
-      %a#prev.prev{:href => "#{post_url(album, posts.reverse[prev_index].title)}"} &#9664;
+      %a#prev.prev{:href => "#{posts.reverse[prev_index].url}"} &#9664;

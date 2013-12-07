@@ -12,17 +12,13 @@
         %p
           %span.copy= post.published.strftime("%B %d, %Y")
           %span &rarr; &nbsp;
-          - title = post.title unless post.title.nil?
-          - title ||= get_title(post.image)
-          %a{:href => "#{post_url(album.name, title)}"}
-            %span>= title
-            %span.subtle.copy= " #{get_type(post)}"
+          %a{:href => "#{post.url}"}
+            %span>= post.title
+            %span.subtle.copy= " #{post.type}"
 
 %a#prev.hide{:href => "/travel"}
 - unless posts.empty?
-  - title = posts.last.title unless posts.last.title.nil?
-  - title ||= get_title(posts.last.image)
-  %a#next.hide{:href => "#{post_url(album.name, title)}"}
+  %a#next.hide{:href => "#{posts.last.url}"}
 
 = partial "/templates/footer"
 %script{:src => "/travel/javascripts/keyboard-navigation.js"}

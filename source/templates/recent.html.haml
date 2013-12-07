@@ -1,0 +1,24 @@
+= partial "/templates/anchor"
+.index
+  %article
+    %p.leader
+      recently
+      - posts.each do | post |
+        %p
+          %span.copy= post.published.strftime("%B %d")
+          %span &rarr; &nbsp;
+          %span= link_to post.title, post.url
+          - if post.type == "photo"  
+            %span.subtle.copy= " 1 photo"
+            %span.copy= link_to "#{post.album.name} ", post.album.url
+            .future
+              %img.nozoom{:src => post.thumb}
+          - if post.type == "photos"
+            %span.subtle.copy= " #{post.thumbs.count} photos"
+            %span.copy= link_to "#{post.album.name} ", post.album.url
+            .future
+              - post.thumbs.each do |thumb|
+                %img.nozoom{:src => thumb}
+          - if post.type == "article"
+            %span.subtle.copy= "approximately #{post.word_count} words"
+            %span.copy= link_to "#{post.album.name} ", post.album.url

@@ -7,7 +7,7 @@
     %title= "notes from other places – #{current_page.data.title || title}"
     = stylesheet_link_tag "screen"
     = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min'
-    %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/travel/rss"}
+    %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}travel/rss.xml"}
   %body
     #lightbox
     = yield

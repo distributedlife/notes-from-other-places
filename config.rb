@@ -2,56 +2,73 @@ require 'rubygems'
 require 'net/http'
 require 'uri'
 require 'json'
+require 'flickr'
+require 'article'
 
-###
-# Compass
-###
+def get_future_posts_by_publication_date albums
+  posts = []
 
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+  data.albums.each do |album|
+    next if album['posts'].nil?
 
-###
-# Page options, layouts, aliases and proxies
-###
+    album['posts'].each do |post|
+      next unless post['published'] > Time.now.to_date
 
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-def api_key
-  File.open('api_key', 'r') { |f| f.read }.chomp
+      posts << post
+    end
+  end
+
+  posts.sort {|a,b| a['published'] <=> b['published']}.reverse
 end
 
-def make_actual_request request
-  JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+def posts_in_the_past album
+  album['posts'].select {|post| post['published'] <= Time.now.to_date}
 end
 
-def flickr request
-  @flickr_call ||= {}
-  @flickr_call[request] ||= make_actual_request(request)
+def get_latest_from albums
+  latest = nil
 
-  @flickr_call[request]    
+  data.albums.each do |album|
+    next if album.posts.nil?
+
+    posts_in_the_past = album['posts'].select {|post| post['published'] <= Time.now.to_date}
+    sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
+
+    candidate = sorted_posts_in_the_past.reverse.first
+    next if candidate.nil?
+
+    if latest.nil?
+      latest = candidate 
+    end
+    unless latest.nil?
+      if latest['published'] < candidate['published']
+        latest = candidate 
+      end
+    end
+  end
+
+  latest
 end
 
-def get_info photo
-  json = flickr "/services/rest/?method=flickr.photos.getInfo&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"
-  
-  json['photo']
+def get_posts_by_publication_date albums
+  posts = []
+
+  data.albums.each do |album|
+    next if album['posts'].nil?
+
+    album['posts'].each do |post|
+      next unless post['published'] <= Time.now.to_date
+
+      posts << post
+    end
+  end
+
+  posts.sort {|a,b| a['published'] <=> b['published']}.reverse
 end
 
-def get_title photo
-  get_info(photo)['title']['_content']
-end
+
+
+
 
 def make_url title
   title.gsub(" ", "-").gsub("'", "").downcase
@@ -65,37 +82,85 @@ def album_url title
   "/travel/#{make_url(title)}/index.html"
 end
 
-def posts_in_the_past album
-  album['posts'].select {|post| post['published'] <= Time.now.to_date}
+def get_type post
+  if post.set.nil?
+    if post.image.nil?
+      "article"
+    else
+      if post.image.kind_of?(Array)
+        "photos"
+      else
+        "photo"
+      end
+    end
+  else
+    "set"
+  end
 end
 
-def get_type post
-  post.image.nil? ? "article" : "photo"
+def prepare_albums albums
+  albums.select {|album| !album.posts.nil?}.each do |album|
+    album['url'] = album_url(album.name)
+    album['posts_in_the_past'] = posts_in_the_past(album)
+
+    album['posts'].map do |post|
+      post['album'] = album
+      post['type'] = get_type(post)
+
+      if post['type'] == "article"
+        post['markdown'] = get_content_for(post.content)
+        post['words'] = markdown_for post
+        post['word_count'] = post['markdown'].split(" ").count.round(-2)
+        post['template'] = 'article'
+      end
+      if post['type'] == "set"
+        post['title'] ||= get_set_title(post.set)
+        post['image'] = get_set_images(post.set)
+        post['type'] = "photos"
+        post['template'] = 'photo'
+      end
+      if post['type'] == "photos"
+        post['title'] ||= get_title(post.image.first)
+        post['date'] ||= get_date_taken(post.image.first)
+        post['thumbs'] = post.image.map { |image| get_thumb(image) }
+        post['large_images'] = post.image.map { |image| get_large(image) }
+        post['retina_images'] = post.image.map { |image| get_retina(image) }
+        post['template'] = 'photo'
+      end
+      if post['type'] == "photo"
+        post['title'] ||= get_title(post.image)
+        post['date'] ||= get_date_taken(post.image)
+        post['thumb'] = get_thumb(post.image)
+        post['large'] = get_large(post.image)
+        post['retina'] = get_retina(post.image)
+        post['template'] = 'photo'
+      end
+
+      post['url'] = post_url(album.name, post.title)
+    end
+  end
 end
+
+albums = prepare_albums(data.albums)
 
 data.albums.each do |album|
-  next if album['posts'].nil?  
-  name = album['name']
-
-  album['posts'].map do |post|
-    post['album'] = album.name
-    post['title'] ||= get_title(post.image)
-  end
+  next if album['posts'].nil?
 
   sorted_posts_in_the_past = posts_in_the_past(album).sort {|a,b| a['published'] <=> b['published']}
   
-  proxy album_url(name), "/templates/cover.html", :locals => {:title => album.name, :album => album, :posts => sorted_posts_in_the_past}
+  proxy album_url(album.name), "/templates/cover.html", :locals => {
+    :title => album.name,
+    :album => album, 
+    :posts => sorted_posts_in_the_past
+  }
 
   posts_in_the_past(album).each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
-    title = post.title unless post.title.nil?
-    title ||= get_title(post.image)
-
-    proxy post_url(name, title), "/templates/#{get_type(post)}.html", :locals => {
-      :title => title,
+    proxy post.url, "/templates/#{post.template}.html", :locals => {
+      :title => post.title,
       :post => post,
-      :album => name,
+      :album => album,
       :posts => sorted_posts_in_the_past,
       :content => content
     }
@@ -106,204 +171,41 @@ ignore "/templates/cover.html"
 ignore "/templates/article.html"
 ignore "/templates/photo.html"
 
-# Proxy pages (http://middlemanapp.com/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
+proxy "/travel/future.html", "/templates/future.html", :locals => {
+  :posts => get_future_posts_by_publication_date(data.albums),
+  :title => "future posts",
+  :albums => data.albums
+}
 
-###
-# Helpers
-###
+proxy "/travel/recent.html", "/templates/recent.html", :locals => {
+  :posts => get_posts_by_publication_date(data.albums),
+  :title => "recently",
+  :albums => data.albums
+}
+
+proxy "/travel/index.html", "/templates/index.html", :locals => {
+  :title => "latest",
+  :latest => get_latest_from(data.albums),
+  :recent => get_posts_by_publication_date(data.albums),
+  :albums => data.albums
+}
+
 helpers do
-  def posts_in_the_past album
-    album['posts'].select {|post| post['published'] <= Time.now.to_date}
-  end
-
   def site_url
     "http://distributedlife.com/"
   end
-
-  def make_url title
-    title.gsub(" ", "-").gsub("'", "").downcase
-  end
-
-  def post_url album, title
-    "/travel/#{make_url(album)}/#{make_url(title)}.html"
-  end
-
-  def album_url title
-    "/travel/#{make_url(title)}/index.html"
-  end
-
-  def api_key
-    File.open('api_key', 'r') { |f| f.read }.chomp
-  end
-
-  def make_actual_request request
-    JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
-  end
-
-  def flickr request
-    @flickr_call ||= {}
-    @flickr_call[request] ||= make_actual_request(request)
-
-    @flickr_call[request]    
-  end
-
-  def get_size_info name, photo
-    json = flickr "/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"    
-    
-    json['sizes']['size'].select {|size| size['label'] == name}
-  end
-
-  def get_info photo
-    json = flickr "/services/rest/?method=flickr.photos.getInfo&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"
-    
-    json['photo']
-  end
-
-  def get_title photo
-    get_info(photo)['title']['_content']
-  end
-
-  def get_date_taken photo
-    Date.parse(get_info(photo)['dates']['taken'])
-  end
-
-  def get_thumb photo
-    return "" if photo.nil?
-    get_size_info("Small 320", photo).first['source']
-  end
-
-  def get_large photo
-    return "" if photo.nil?
-    get_size_info("Large", photo).first['source']
-  end
-
-  def get_retina photo
-    return "" if photo.nil?
-
-    retina = get_size_info("Large 2048", photo)
-    if retina.empty?
-      return get_large(photo)
-    end
-
-    retina.first['source']
-  end
-
-  def get_type post
-    post.image.nil? ? "article" : "photo"
-  end
-
-  def get_content_for file
-    File.open("data/articles/#{file}").read 
-  end
-
-  def get_latest_from albums
-    latest = nil
-
-    data.albums.each do |album|
-      next if album['posts'].nil?
-
-      posts_in_the_past = album['posts'].select {|post| post['published'] < Time.now.to_date}
-      sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
-
-      candidate = sorted_posts_in_the_past.reverse.first
-      next if candidate.nil?
-
-      if latest.nil?
-        latest = candidate 
-        latest['album'] = album.name unless latest.nil?
-        latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
-      end
-      unless latest.nil?
-        if latest['published'] < candidate['published']
-          latest = candidate 
-          latest['album'] = album.name unless latest.nil?
-          latest['markdown'] = get_content_for(latest.content) unless latest.content.nil?
-        end
-      end
-    end
-
-    latest['date'] ||= get_date_taken(latest.image)
-    latest['title'] ||= get_title(latest.image)
-
-    latest
-  end
-
-  def get_posts_by_publication_date albums
-    posts = []
-
-    data.albums.each do |album|
-      next if album['posts'].nil?
-
-      album['posts'].each do |post|
-        next unless post['published'] <= Time.now.to_date
-        post['album'] = album.name
-
-        post['title'] ||= get_title(post.image)
-        post['date'] ||= get_date_taken(post.image)
-
-        posts << post
-      end
-    end
-
-    posts.sort {|a,b| a['published'] <=> b['published']}.reverse
-  end
-
-  def get_future_posts_by_publication_date albums
-    posts = []
-
-    data.albums.each do |album|
-      next if album['posts'].nil?
-
-      album['posts'].each do |post|
-        next unless post['published'] > Time.now.to_date
-        post['album'] = album.name
-
-        post['title'] ||= get_title(post.image)
-        post['date'] ||= get_date_taken(post.image)
-
-        posts << post
-      end
-    end
-
-    posts.sort {|a,b| a['published'] <=> b['published']}.reverse
-  end
 end
 
-# Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 # activate :livereload
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 set :css_dir, 'travel/stylesheets'
-
 set :js_dir, 'travel/javascripts'
-
 set :images_dir, 'travel/images'
 
-# Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
   activate :minify_css
-
-  # Minify Javascript on build
   activate :minify_javascript
-
-  # Enable cache buster
-  # activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
 end

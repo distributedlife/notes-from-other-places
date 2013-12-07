@@ -1,8 +1,8 @@
 - name: australia
-  image: 11244322003
+  image: 11249971885
   posts:
     - {published: 2013-12-06, image: 9847964895}
-    - {published: 2013-12-09, image: 9812466945}
+    - {published: 2013-12-02, image: 9812466945}
 - name: china
   image:
   posts:
@@ -14,9 +14,10 @@
   posts:
     - {published: 2013-12-07, image: 9811632995}
 - name: japan
-  image:
+  image: 11250037814
   posts:
-    - {published: 2013-12-10, image: 9811856144}
+    - {published: 2013-12-07, set: 72157638429962683}
+    - {published: 2013-12-04, image: [11246914866, 11246873235, 11246875245]}
 - name: los angeles
   image: 10375181843
   posts:
@@ -27,12 +28,12 @@
 - name: peru
   image: 10374871503
   posts:
-    - {published: 2013-12-12, content: first-thoughts.md, date: 2011-11-14, title: Lima}
+    - {published: 2013-12-03, content: first-thoughts.md, date: 2011-11-14, title: Lima}
     - {published: 2013-12-05, image: 9782423795}
 - name: philippines
-  image:
+  image: 11249733344
   posts:
-    - {published: 2013-12-11, image: 9812191564}
+    - {published: 2013-12-01, image: 9812191564}
 - name: scotland
   image:
   posts:

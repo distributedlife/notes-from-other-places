@@ -109,6 +109,15 @@ a:hover {
 	text-decoration: underline;
 }
 
+.future {
+	width: 100%;
+
+	img {
+		height: 150px;
+		width: auto;
+	}
+}
+
 .recent {
 	width: 100%;
 	max-height: 150px;
@@ -258,7 +267,7 @@ img {
 }
 
 .subtle {
-	color: lightgrey;
+	color: grey;
 	font-size: 0.8em;
 }
 
