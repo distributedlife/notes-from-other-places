@@ -249,6 +249,26 @@ helpers do
 
     posts.sort {|a,b| a['published'] <=> b['published']}.reverse
   end
+
+  def get_future_posts_by_publication_date albums
+    posts = []
+
+    data.albums.each do |album|
+      next if album['posts'].nil?
+
+      album['posts'].each do |post|
+        next unless post['published'] > Time.now.to_date
+        post['album'] = album.name
+
+        post['title'] ||= get_title(post.image)
+        post['date'] ||= get_date_taken(post.image)
+
+        posts << post
+      end
+    end
+
+    posts.sort {|a,b| a['published'] <=> b['published']}.reverse
+  end
 end
 
 # Automatic image dimensions on image_tag helper
