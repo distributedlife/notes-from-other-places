@@ -5,7 +5,7 @@
       future posts
       - posts.each do | post |
         %p
-          %span.copy= post.published.strftime("%B %d")
+          %span.copy= post.published.strftime("%A, %B %d")
           %span &rarr; &nbsp;
           %span.copy= "#{post.album.name} "
           - if post.album.image.nil?

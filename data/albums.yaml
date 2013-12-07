@@ -2,10 +2,11 @@
   image: 11249971885
   posts:
     - {published: 2013-12-06, image: 9847964895}
-    - {published: 2013-12-02, image: 9812466945}
+    - {published: 2013-12-11, image: 9812466945}
 - name: china
   image:
   posts:
+    - {published: 2013-12-10, image: }
 - name: france
   image:
   posts:
@@ -16,24 +17,29 @@
 - name: japan
   image: 11250037814
   posts:
-    - {published: 2013-12-07, set: 72157638429962683}
-    - {published: 2013-12-04, image: [11246914866, 11246873235, 11246875245]}
+    - {published: 2013-12-12, set: 72157638429962683}
 - name: los angeles
   image: 10375181843
   posts:
-    - {published: 2013-12-08, content: The-strange-man-at-the-airport.md, date: 2011-11-14, title: The strange man at the airport}
+    - {published: 2013-12-14, content: The-strange-man-at-the-airport.md, date: 2011-11-14, title: The strange man at the airport}
 - name: malaysia
-  image:
+  image: 11251233613
   posts:
+    - {published: 2013-12-09, image: 11251168786}
+    - {published: 2013-12-16, image: 11251172424}
 - name: peru
   image: 10374871503
   posts:
-    - {published: 2013-12-03, content: first-thoughts.md, date: 2011-11-14, title: Lima}
+    - {published: 2013-12-21, content: first-thoughts.md, date: 2011-11-14, title: Lima}
     - {published: 2013-12-05, image: 9782423795}
 - name: philippines
   image: 11249733344
   posts:
-    - {published: 2013-12-01, image: 9812191564}
+    - {published: 2013-12-08, image: 9812191564}
 - name: scotland
   image:
   posts:
+- name: new zealand
+  image: 11251180566
+  posts:
+    - {published: 2013-12-13, image: 11251242193}
