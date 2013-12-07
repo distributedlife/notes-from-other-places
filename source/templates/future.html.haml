@@ -10,7 +10,7 @@
           %span.copy= "#{post.album.name} "
           - if post.album.image.nil?
             %span.noisy this album has no cover
-          %span= post.title 
+          %span= link_to post.title, post.url
           - if post.type == "photo"  
             %span.subtle.copy= " 1 photo"
             .future

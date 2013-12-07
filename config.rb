@@ -143,9 +143,7 @@ end
 
 albums = prepare_albums(data.albums)
 
-data.albums.each do |album|
-  next if album['posts'].nil?
-
+albums.each do |album|
   sorted_posts_in_the_past = posts_in_the_past(album).sort {|a,b| a['published'] <=> b['published']}
   
   proxy album_url(album.name), "/templates/cover.html", :locals => {
@@ -154,7 +152,7 @@ data.albums.each do |album|
     :posts => sorted_posts_in_the_past
   }
 
-  posts_in_the_past(album).each do |post|
+  album.posts.each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
     proxy post.url, "/templates/#{post.template}.html", :locals => {
