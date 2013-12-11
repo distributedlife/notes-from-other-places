@@ -6,7 +6,7 @@ require 'flickr'
 require 'article'
 require 'preparation'
 require 'urls'
-require 'collections'
+require 'post_collections'
 
 albums = prepare_albums(data.albums)
 
@@ -32,9 +32,7 @@ albums.each do |album|
   end
 end
 
-ignore "/templates/cover.html"
-ignore "/templates/article.html"
-ignore "/templates/photo.html"
+ignore "/templates/*"
 
 proxy "/travel/future.html", "/templates/future.html", :locals => {
   :posts => get_future_posts_by_publication_date(albums),
@@ -53,6 +51,10 @@ proxy "/travel/index.html", "/templates/index.html", :locals => {
   :latest => get_latest_from(albums),
   :recent => get_posts_by_publication_date(albums),
   :albums => albums
+}
+
+proxy "/travel/rss.xml", "/templates/rss.xml", :locals => {
+  :posts => get_posts_by_publication_date(albums)
 }
 
 helpers do
