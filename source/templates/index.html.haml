@@ -15,7 +15,9 @@ title: latest
         .index-article
           %h1= link_to latest.title, "#{latest.url}"
           - latest.image.each_with_index do |image, index|
-            = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumbs[index], :large => latest.large_images[index], :retina => latest.retina_images[index], :date => latest.date, :album => latest.album}
+            %p.is-centered
+              = partial "/templates/image_only", :locals => {:thumb => latest.thumbs[index], :large => latest.large_images[index], :retina => latest.retina_images[index]}
+          = partial "/templates/meta", :locals => {:date => latest.date, :album => latest.album}
       - if latest.type == "photo"
         .index-article
           %h1= link_to latest.title, "#{latest.url}"
