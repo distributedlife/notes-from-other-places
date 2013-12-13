@@ -1,47 +1,47 @@
 - name: australia
   image: 11249971885
   posts:
-    - {published: 2013-12-06, image: 9847964895}
-    - {published: 2013-12-11, image: 9812466945}
-    - {published: 2013-12-19, set: 72157638571882543}
+    - {published: 2013-12-13, image: 9847964895}
+    - {published: 2013-12-18, image: 9812466945}
+    - {published: 2013-12-26, set: 72157638571882543}
 - name: china
   image: 11251464234
   posts:
-    - {published: 2013-12-10, image: 11251465756}
+    - {published: 2013-12-17, image: 11251465756}
 - name: france
   image:
   posts:
 - name: hawaii
   image: 10375186443
   posts:
-    - {published: 2013-12-07, image: 9811632995}
-    - {published: 2013-12-15, image: 11251763733}
+    - {published: 2013-12-14, image: 9811632995}
+    - {published: 2013-12-22, image: 11251763733}
 - name: japan
   image: 11250037814
   posts:
-    - {published: 2013-12-12, set: 72157638429962683}
+    - {published: 2013-12-19, set: 72157638429962683}
 - name: los angeles
   image: 10375181843
   posts:
-    - {published: 2013-12-14, content: The-strange-man-at-the-airport.md, date: 2011-11-14, title: The strange man at the airport}
+    - {published: 2013-12-21, content: The-strange-man-at-the-airport.md, date: 2011-11-14, title: The strange man at the airport}
 - name: malaysia
   image: 11251233613
   posts:
-    - {published: 2013-12-09, image: 11251168786}
-    - {published: 2013-12-16, image: 11251172424}
+    - {published: 2013-12-15, image: 11251168786}
+    - {published: 2013-12-23, image: 11251172424}
 - name: peru
   image: 10374871503
   posts:
-    - {published: 2013-12-21, content: first-thoughts.md, date: 2011-11-14, title: Lima}
-    - {published: 2013-12-05, image: 9782423795}
+    - {published: 2013-12-28, content: first-thoughts.md, date: 2011-11-14, title: Lima}
+    - {published: 2013-12-12, image: 9782423795}
 - name: philippines
   image: 11249733344
   posts:
-    - {published: 2013-12-08, image: 9812191564}
+    - {published: 2013-12-15, image: 9812191564}
 - name: scotland
   image:
   posts:
 - name: new zealand
   image: 11251180566
   posts:
-    - {published: 2013-12-13, image: 11251242193}
+    - {published: 2013-12-19, image: 11251242193}
