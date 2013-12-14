@@ -7,6 +7,8 @@ require 'article'
 require 'preparation'
 require 'urls'
 require 'post_collections'
+require 'active_support/time'
+require 'tzinfo'
 
 albums = prepare_albums(data.albums)
 

@@ -5,7 +5,7 @@ def get_future_posts_by_publication_date albums
     next if album['posts'].nil?
 
     album['posts'].each do |post|
-      next unless post['published'] > Time.now.to_date
+      next unless post['published'] > DateTime.now.in_time_zone("Melbourne").to_date
 
       posts << post
     end
@@ -15,7 +15,7 @@ def get_future_posts_by_publication_date albums
 end
 
 def posts_in_the_past album
-  album['posts'].select {|post| post['published'] <= Time.now.to_date}
+  album['posts'].select {|post| post['published'] <= DateTime.now.in_time_zone("Melbourne").to_date}
 end
 
 def get_latest_from albums
@@ -24,7 +24,7 @@ def get_latest_from albums
   data.albums.each do |album|
     next if album.posts.nil?
 
-    posts_in_the_past = album['posts'].select {|post| post['published'] <= Time.now.to_date}
+    posts_in_the_past = album['posts'].select {|post| post['published'] <= DateTime.now.in_time_zone("Melbourne").to_date}
     sorted_posts_in_the_past = posts_in_the_past.sort {|a,b| a['published'] <=> b['published']}
 
     candidate = sorted_posts_in_the_past.reverse.first
@@ -50,7 +50,7 @@ def get_posts_by_publication_date albums
     next if album['posts'].nil?
 
     album['posts'].each do |post|
-      next unless post['published'] <= Time.now.to_date
+      next unless post['published'] <= DateTime.now.in_time_zone("Melbourne").to_date
 
       posts << post
     end

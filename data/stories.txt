@@ -7,7 +7,6 @@ France:
  - Wandering around - helped by Algerian man
 
 Peru:
- - first arrival
  - The protest
  - Rimac tour
  - Statue of Neptune/Posoedon
@@ -46,7 +45,6 @@ Japan:
 
 China:
 	Beijing:
-		- The post card to family
 
 United States:
 	Los Angeles:
