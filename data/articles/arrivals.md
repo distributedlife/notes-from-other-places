@@ -1,6 +1,9 @@
-I love my first arrival to a city. Fresh sights, sounds and smells adjust my preconceptions. Prospects for exploration itch my feet. Although frequently exhausted I always spend the first day on foot, covering as much of the city as a I can. I don't plan much but rather find my way to the city centre and then I spiral out from there.
+I love my first arrival to a city even though it brings me mixed feelings. Fresh sights, sounds and smells challenge my preconceptions. What I dislike is getting from the airport to into the city
 
 One thing I dislike is being forced to use taxis at the airport. The journey is often spent explaining why you don't want to go to their hotel, wondering if your being taken the long route or if you've been charged foreigner tax. 
+
+Prospects for exploration itch my feet. Although frequently exhausted I always spend the first day on foot, covering as much of the city as a I can. I don't plan much but rather find my way to the city centre and then I spiral out from there.
+
 
 My arrival into Lima was and did just that. I brush off every taxi driver before discovering that the bus doesn't run to the airport any more. I trudged back to the taxi touts, exhausted.
 
