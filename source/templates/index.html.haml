@@ -43,7 +43,7 @@ title: latest
         .thumb
           %a{:href => "#{album.url}"}
             = partial "/templates/image_only_no_zoom", :locals => {:image => album.image}
-            %p.cover-title= album.name
+            %p.cover-title= "#{album.name} (#{album.posts_in_the_past.count} item#{album.posts_in_the_past.count != 1 ? "s" : ""})"
 
 = partial "/templates/footer"
 %script{:src => "/travel/javascripts/image-zoom.js"}
