@@ -3,5 +3,7 @@
   - unless defined? sub
     %span= link_to "travel", "/travel"
   - if defined? sub
-    %span= link_to "travel - #{sub}", "#{suburl}"
+    %span= link_to "travel", "/travel"
+    %span -
+    %span= link_to "#{sub}", "#{suburl}"
   %span.subscribe= link_to "subscribe", "http://eepurl.com/HYHpX"
