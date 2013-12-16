@@ -39,6 +39,7 @@ Malaysia:
  - The indian cricket fan in Kotu Bharu
  - Malaysia and the Rubber industry
  - Malacca - The contrast between the painted houses on one side of the river and the floating slum on the otherside.
+ - Having a stroke reading the language
 
 Japan:
  - The Billikan
@@ -52,7 +53,7 @@ United States:
  	Hawaii:
  		- Manta Rays
  		- Turtles
- 		- 
+ 		- Roach Den
 
 Australia:
 	Kadina:
