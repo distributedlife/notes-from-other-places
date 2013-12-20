@@ -8,5 +8,6 @@ I was packing up my house and found a postcard I wrote in Beijing.
 
 I never posted that card. Hi Mum!
 
+It really did feel like that. I'm heading to Beijing in March of 2014; I would like to feel this again.
+
 ![Pretty!](http://farm3.staticflickr.com/2846/11463682523_730bcafbc3_b.jpg)
-![That still lake](http://farm6.staticflickr.com/5488/11463572464_a221171151_b.jpg)
