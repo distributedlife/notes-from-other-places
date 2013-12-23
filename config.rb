@@ -55,6 +55,10 @@ proxy "/travel/index.html", "/templates/index.html", :locals => {
   :albums => albums
 }
 
+proxy "/travel/subscribe.html", "/templates/subscribe.html", :locals => {
+  :title => "subscribe"
+}
+
 proxy "/travel/rss.xml", "/templates/rss.xml", :locals => {
   :posts => get_posts_by_publication_date(albums)
 }
