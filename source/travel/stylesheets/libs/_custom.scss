@@ -158,7 +158,6 @@ a:hover {
 	font-size: 1.5em;
 	font-variant: small-caps;
 	border-bottom: 1px lighten($primary, 50%) solid;
-	text-align: center;
 }
 
 .container {
@@ -551,7 +550,6 @@ article img {
 @media screen and (max-width: em-font(1024px)) {
 	.anchor {
 		margin-bottom: 10px;
-		text-align: center;
 	}
 	.cover {
 		h1 {
