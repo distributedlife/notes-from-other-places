@@ -35,7 +35,7 @@
 - name: peru
   image: 10374871503
   posts:
-    - {published: 2013-12-28, content: arrivals.md, date: 2011-11-14, title: Arrivals}
+    - {published: 2013-12-28, content: arriving-in-lima.md, date: 2011-11-14, title: Arriving in Lima}
     - {published: 2013-12-12, image: 9782423795}
 - name: philippines
   image: 11249733344
