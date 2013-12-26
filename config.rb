@@ -29,6 +29,7 @@ albums.each do |album|
       :post => post,
       :album => album,
       :posts => sorted_posts_in_the_past,
+      :all => get_posts_by_publication_date(albums),
       :content => content
     }
   end

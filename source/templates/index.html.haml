@@ -22,7 +22,6 @@ title: latest
         .index-article
           %h1= link_to latest.title, "#{latest.url}"
           = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
-
   %article
     %p.leader
       %a{:href => "/travel/recent.html"}recently

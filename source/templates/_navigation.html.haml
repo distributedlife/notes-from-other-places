@@ -8,6 +8,6 @@
     - unless next_index.nil?
       %a#next.next{:href => "#{posts.reverse[next_index].url}"} &#9654;
     - if prev_index.nil?
-      %a#prev.prev{:href => "#{album.url}"} &#9664;
+      %a#prev.prev{:href => "/travel"} &#9664;
     - else
       %a#prev.prev{:href => "#{posts.reverse[prev_index].url}"} &#9664;
