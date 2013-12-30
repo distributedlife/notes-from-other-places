@@ -12,8 +12,19 @@
       - else
         %p.is-centered
           = partial "/templates/image_only", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina}
-      = partial "/templates/meta", :locals => {:image => post.image, :date => post.date, :album => album}
-
+      = partial "/templates/meta_no_where", :locals => {:image => post.image, :date => post.date, :album => album}
+%article
+  %p.leader
+    = link_to " also from #{album.name}", album.url
+    .toc
+      - posts.reverse.each do | recent_post |
+        - next if post.title == recent_post.title
+        %p
+          %span.copy= recent_post.published.strftime("%B %d")
+          %span &rarr; &nbsp;
+          %a{:href => "#{recent_post.url}"}
+            %span>= recent_post.title
+            %span.subtle.copy= " #{recent_post.type}"
 = partial "/templates/footer"
 = partial "/templates/navigation", :locals => {:posts => all, :post => post, :album => album}
 #bottom-pages
