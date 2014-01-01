@@ -53,3 +53,7 @@
   posts:
     - {published: 2013-12-20, image: 11251242193}
     - {published: 2013-12-29, set: 72157638652741396}
+- name: singapore
+  image: 11686567154
+  posts:
+    - {published: 2014-01-02, image: 11686985416}
