@@ -1,5 +1,5 @@
 def make_url title
-  title.gsub(" ", "-").gsub("'", "").downcase
+  title.gsub(" ", "-").gsub("'", "").gsub('"', "").downcase
 end
 
 def post_url album, title
