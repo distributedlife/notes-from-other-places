@@ -4,13 +4,15 @@
     - {published: 2013-12-13, image: 9847964895}
     - {published: 2013-12-19, image: 9812466945}
     - {published: 2013-12-25, image: 11478550575}
-    - {published: 2015-01-12, set: 72157638571882543}
+    - {published: 2014-01-11, set: 72157638571882543}
+    - {published: 2014-01-07, image: 11776216453}
 - name: china
   image: 11251464234
   posts:
     - {published: 2013-12-18, image: 11251465756}
     - {published: 2013-12-21, content: post-card-to-family.md, date: 2010-11-17, title: A Postcard to Family}
     - {published: 2014-01-01, image: 11639826565}
+    - {published: 2014-01-08, image: 11776134563}
 - name: france
   image:
   posts:
@@ -25,6 +27,7 @@
   posts:
     - {published: 2013-12-22, set: 72157638429962683}
     - {published: 2013-12-30, image: 11363106956}
+    - {published: 2014-01-09, image: 11776341323}
 - name: los angeles
   image: 10375181843
   posts:
@@ -60,3 +63,4 @@
     - {published: 2014-01-02, image: 11686985416}
     - {published: 2014-01-04, content: singapore-sling.md, date: 2014-01-03, title: The Singapore Sling}
     - {published: 2014-01-05, set: 72157639388077703}
+    - {published: 2014-01-06, image: 11776589056}
