@@ -1,0 +1,5 @@
+Malay buses may not be the most luxurious. Peru's take the prize here with their food service and 160º reclining seats. But, it was travelling across Malaysian Borneo that I first witnessed an on-board bus attendant. She was cleaning up someone’s water. It had leaked in their bag and slowly spread out over the floor of the bus. She even had a mop and bucket that were kept out back where the toilet ought to be. Her actions answered my previously unasked question, why was there an attendant on this bus? 
+
+The buses in Malaysia also have seat arrangements of which, I have seen nowhere else. There are the usual two rows either side of the isle. There is the single seat, isle and then two seats setup. Those travelling alone get single seats lest we destroy the peace by striking up conversation. Finally, there was a bus that had: single seat, isle, single seat, isle, single seat. That extra isle is costing a seat per row. I wonder if the arrangement is to help more conservative muslims practice gender segregation. Or maybe, it’s a library bus and this helps everyone be quiet.
+
+It sure is quiet on here.

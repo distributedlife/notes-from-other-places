@@ -6,6 +6,8 @@
     - {published: 2013-12-25, image: 11478550575}
     - {published: 2014-01-07, image: 11776216453}
     - {published: 2014-01-12, set: 72157638571882543}
+    - {published: 2014-01-28, image: 12068778035}
+    - {published: 2014-02-18, image: 12070082536}
 - name: china
   image: 11251464234
   posts:
@@ -13,6 +15,8 @@
     - {published: 2013-12-21, content: post-card-to-family.md, date: 2010-11-17, title: A Postcard to Family}
     - {published: 2014-01-01, image: 11639826565}
     - {published: 2014-01-08, image: 11776134563}
+    - {published: 2014-01-31, image: 12069783306}
+    - {published: 2014-02-14, image: 12069806034}
 - name: france
   image:
   posts:
@@ -29,6 +33,7 @@
     - {published: 2013-12-22, set: 72157638429962683}
     - {published: 2013-12-30, image: 11363106956}
     - {published: 2014-01-09, image: 11776341323}
+    - {published: 2014-02-04, image: 12069630264}
 - name: los angeles
   image: 10375181843
   posts:
@@ -40,16 +45,28 @@
     - {published: 2013-12-24, image: 11251172424}
     - {published: 2014-01-11, set: 72157639514640133}
     - {published: 2014-01-14, image: 11902165113}
-    # - {published: 2014-01-18, content: having-a-stroke-in-malaysia, date: 2014-01-18, title: Having a stroke in Malaysia}
     - {published: 2014-01-19, image: 11902449384}
     - {published: 2014-01-20, image: 11902999096}
     - {published: 2014-01-21, image: 11902137303}
+    - {published: 2014-01-22, content: buses.md, date: 2014-01-25, title: Buses}
+    - {published: 2014-01-25, content: the-jungle-line.md, date: 2012-12-01, title: The Jungle Line}
+    - {published: 2014-01-26, set: 72157639964946296}
+    - {published: 2014-01-30, image: 12069358083}
+    # - {published: 2014-02-01, content: notes-on-malaysia.md, date: 2014-01-23, title: Notes on Malaysia}
+    - {published: 2014-02-05, content: getting-wet.md, date: 2014-02-01, title: Getting Wet}
+    - {published: 2014-02-07, image: 12069428664}
+    # - {published: 2014-02-09, set: cat-musuem}
+    - {published: 2014-02-12, content: kopi-oh.md, date: 2014-02-05, title: Kopi-Oh!}
+    # - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-01-23, title: Having a stroke}
+    - {published: 2014-02-17, image: 12069722036}
 - name: peru
   image: 10374871503
   posts:
     - {published: 2013-12-28, content: arriving-in-lima.md, date: 2011-11-14, title: Arriving in Lima}
     - {published: 2013-12-12, image: 9782423795}
     - {published: 2014-01-15, image: 11902658354}
+    - {published: 2014-01-29, content: rubber.md, date: 2011-12-11, title: Rubber}
+    - {published: 2014-02-13, image: 12069610403}
 - name: philippines
   image: 11249733344
   posts:
@@ -57,6 +74,7 @@
     - {published: 2013-12-26, image: 11362032426}
     - {published: 2013-12-27, image: 11362688785}
     - {published: 2014-01-16, image: 11902684494}
+    - {published: 2014-02-06, image: 12069546323}
 - name: scotland
   image: 11365198526
   posts:
@@ -74,5 +92,19 @@
     - {published: 2014-01-04, content: singapore-sling.md, date: 2014-01-03, title: The Singapore Sling}
     - {published: 2014-01-05, set: 72157639388077703}
     - {published: 2014-01-06, image: 11776589056}
-    # - {published: 2014-01-19, set: }
     - {published: 2014-01-13, content: notes-on-singapore.md, date: 2014-01-13, title: Notes on Singapore}
+    - {published: 2014-01-23, image: 12061994165}
+    - {published: 2014-01-27, image: 12062800986}
+    - {published: 2014-02-02, set: 72157639685667035}
+    - {published: 2014-02-10, image: 12061864335}
+- name: brunei
+  image: 12063003896
+  posts:
+    - {published: 2014-01-24, image: 12062460833}
+    - {published: 2014-02-03, image: 12070105383}
+    - {published: 2014-02-11, image: 12062933296}
+    # - {published: 2014-02-08, content: notes-on-brunei.md, date: 2014-02-08, title: Notes on Brunei}
+- name: cambodia
+  image: 
+  posts:
+    # - {published: 2014-02-16, set: angkor-wat}
