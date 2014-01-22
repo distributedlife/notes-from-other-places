@@ -48,16 +48,16 @@
     - {published: 2014-01-19, image: 11902449384}
     - {published: 2014-01-20, image: 11902999096}
     - {published: 2014-01-21, image: 11902137303}
-    - {published: 2014-01-22, content: buses.md, date: 2014-01-25, title: Buses}
+    - {published: 2014-01-22, content: buses.md, date: 2014-01-22, title: Buses}
     - {published: 2014-01-25, content: the-jungle-line.md, date: 2012-12-01, title: The Jungle Line}
     - {published: 2014-01-26, set: 72157639964946296}
     - {published: 2014-01-30, image: 12069358083}
-    # - {published: 2014-02-01, content: notes-on-malaysia.md, date: 2014-01-23, title: Notes on Malaysia}
-    - {published: 2014-02-05, content: getting-wet.md, date: 2014-02-01, title: Getting Wet}
+    # - {published: 2014-02-01, content: notes-on-malaysia.md, date: 2014-02-01, title: Notes on Malaysia}
+    - {published: 2014-02-05, content: getting-wet.md, date: 2014-02-05, title: Getting Wet}
     - {published: 2014-02-07, image: 12069428664}
     # - {published: 2014-02-09, set: cat-musuem}
-    - {published: 2014-02-12, content: kopi-oh.md, date: 2014-02-05, title: Kopi-Oh!}
-    # - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-01-23, title: Having a stroke}
+    - {published: 2014-02-12, content: kopi-oh.md, date: 2014-02-12, title: Kopi-Oh!}
+    # - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-02-15, title: Having a stroke}
     - {published: 2014-02-17, image: 12069722036}
 - name: peru
   image: 10374871503
