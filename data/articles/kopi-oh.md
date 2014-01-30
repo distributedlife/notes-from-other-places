@@ -4,6 +4,8 @@ Ipoh White Coffee is where the bean has been roasted in palm-oil margarine first
 
 ![Image of Kopi](http://farm3.staticflickr.com/2858/12067346486_dc00ba5545_b.jpg)
 
+> If you want your coffee cold it costs extra. Ice is an expensive commodity in the tropics.
+
 Like a cocktail it’s layered and presented well. But it’s very sweet. You can ask for it without sweetened condensed milk. This is Kopi-O. The O means without and it just means no white stuff, as you’ll still get a tablespoon of sugar in your coffee. Yes, a tablespoon. So, it still tastes like an incredibly sweet drink. If you ask for no sugar then you’ll get an argument about how it won’t taste very sweet. This isn’t a cake. It’s ok to skip the sugar. Eventually I get my Kopi without anything sweet it.
 
 Oh! That’s terrible.

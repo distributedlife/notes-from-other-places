@@ -52,13 +52,17 @@
     - {published: 2014-01-25, content: the-jungle-line.md, date: 2012-12-01, title: The Jungle Line}
     - {published: 2014-01-26, set: 72157639964946296}
     - {published: 2014-01-30, image: 12069358083}
-    # - {published: 2014-02-01, content: notes-on-malaysia.md, date: 2014-02-01, title: Notes on Malaysia}
+    - {published: 2014-02-01, content: notes-on-malaysia.md, date: 2014-02-01, title: Notes on Malaysia}
     - {published: 2014-02-05, content: getting-wet.md, date: 2014-02-05, title: Getting Wet}
     - {published: 2014-02-07, image: 12069428664}
-    # - {published: 2014-02-09, set: cat-musuem}
+    - {published: 2014-02-09, set: 72157640320718055}
     - {published: 2014-02-12, content: kopi-oh.md, date: 2014-02-12, title: Kopi-Oh!}
-    # - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-02-15, title: Having a stroke}
+    - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-02-15, title: Having a stroke}
     - {published: 2014-02-17, image: 12069722036}
+    # - {published: 2014-march, set: this used to be a good photo spot}
+    # - {published: 2014-april, set: ipoh-graffiti}
+    # - {published: 2014-may, set: boh-tea-plantation-b&w}
+    # - {published: 2014-june, set: kuching legistlative assembly}
 - name: peru
   image: 10374871503
   posts:
@@ -103,8 +107,12 @@
     - {published: 2014-01-24, image: 12062460833}
     - {published: 2014-02-03, image: 12070105383}
     - {published: 2014-02-11, image: 12062933296}
-    # - {published: 2014-02-08, content: notes-on-brunei.md, date: 2014-02-08, title: Notes on Brunei}
+    - {published: 2014-02-08, content: notes-on-brunei.md, date: 2014-02-08, title: Notes on Brunei}
+    # - {published: 2014-late-feb, content: currency-challenges.md, date: 2014-02-08, title: Currency Challenges}
 - name: cambodia
   image: 
   posts:
     # - {published: 2014-02-16, set: angkor-wat}
+    # - {published: 2014-02-19, content: on-ruins.md, date: 2014-02-19, title: On Ruins}
+    # - {published: 2014-02-22, content: notes-on-cambodia.md, date: 2014-02-22, title: Notes on Cambodia}
+    # - {published: 2014-02-23, set: cambodia-at-war}
