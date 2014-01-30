@@ -8,6 +8,7 @@
     = stylesheet_link_tag "screen"
     = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min'
     %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}travel/rss.xml"}
+    %script{:type => "text/javascript", :async => true, 'data-pin-color' => "white", 'data-pin-hover' => "true", :src => "//assets.pinterest.com/js/pinit.js"}
   %body
     #lightbox
     = yield
