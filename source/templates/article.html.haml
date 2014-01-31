@@ -8,6 +8,7 @@
           %h1= post.title.titleize
         = Tilt['markdown'].new { content }.render(scope=self) 
         = partial "/templates/meta_no_where", :locals => {:date => post.date, :album => album}
+      #disqus_thread
       %p.leader
         = link_to " also from #{album.name}", album.url
         .toc
@@ -26,3 +27,4 @@
 
 %script{:src => "/travel/javascripts/image-zoom.js"}
 %script{:src => "/travel/javascripts/keyboard-navigation.js"}
+%script{:src => "/travel/javascripts/disqus.js"}

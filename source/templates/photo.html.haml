@@ -13,6 +13,7 @@
         %p.is-centered
           = partial "/templates/image_only", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina}
       = partial "/templates/meta_no_where", :locals => {:image => post.image, :date => post.date, :album => album}
+  #disqus_thread
   %article
     %p.leader
       = link_to " also from #{album.name}", album.url
@@ -32,3 +33,4 @@
 
 %script{:src => "/travel/javascripts/image-zoom.js"}
 %script{:src => "/travel/javascripts/keyboard-navigation.js"}
+%script{:src => "/travel/javascripts/disqus.js"}
