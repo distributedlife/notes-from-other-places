@@ -74,6 +74,11 @@
     - {published: 2014-01-15, image: 11902658354}
     - {published: 2014-01-29, content: rubber.md, date: 2011-12-11, title: Rubber}
     - {published: 2014-02-13, image: 12069610403}
+    - {published: 2014-02-27, image: 12377745584}
+    # - {published: 2014-02-13, set: red and blue monestary}
+    # - {published: 2014-02-13, article: the man and his back}
+    # - {published: 2014-02-13, article: pepi}
+    # - {published: 2014-02-13, article: why the statue of poseidon/neptune}
 - name: philippines
   image: 11249733344
   posts:
@@ -113,7 +118,7 @@
     - {published: 2014-02-08, content: notes-on-brunei.md, date: 2014-02-08, title: Notes on Brunei}
     # - {published: 2014-02-26, content: currency-challenges.md, date: 2014-02-26, title: Currency Challenges}
 - name: cambodia
-  image: 
+  image: 12377360343
   posts:
     - {published: 2014-02-16, set: 72157640502401574}
     # - {published: 2014-02-19, content: on-ruins.md, date: 2014-02-19, title: On Ruins}
