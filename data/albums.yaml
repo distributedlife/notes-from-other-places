@@ -27,6 +27,7 @@
     - {published: 2013-12-23, image: 11251763733}
     - {published: 2014-01-03, image: 11710117576}
     - {published: 2014-01-17, image: 11903156456}
+    - {published: 2014-02-20, image: 12302261074}
 - name: japan
   image: 11250037814
   posts:
@@ -112,7 +113,7 @@
 - name: cambodia
   image: 
   posts:
-    # - {published: 2014-02-16, set: angkor}
+    - {published: 2014-02-16, set: 72157640502401574}
     # - {published: 2014-02-19, content: on-ruins.md, date: 2014-02-19, title: On Ruins}
     # - {published: 2014-02-22, content: notes-on-cambodia.md, date: 2014-02-22, title: Notes on Cambodia}
     # - {published: 2014-02-23, set: cambodia-at-war}
