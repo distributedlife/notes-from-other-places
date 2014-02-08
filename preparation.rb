@@ -33,6 +33,11 @@ def prepare_albums albums
         post['thumb'] = get_thumb(post.image)
         post['large'] = get_large(post.image)
         post['retina'] = get_retina(post.image)
+        if post.hover?
+          post['hover_thumb'] = get_thumb(post.hover)
+          post['hover_large'] = get_large(post.hover)
+          post['hover_retina'] = get_retina(post.hover)
+        end
         post['template'] = 'photo'
       end
 

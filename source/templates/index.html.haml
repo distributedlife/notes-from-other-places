@@ -41,7 +41,7 @@ title: latest
       - albums.select{|album| album.name != latest.album}.select{|album| !album.posts.nil? }.select{|album| !album.posts_in_the_past.empty? }.each do |album|
         .thumb
           %a{:href => "#{album.url}"}
-            = partial "/templates/image_only_no_zoom", :locals => {:image => album.image}
+            %img.nozoom{:src => "#{get_large(album.image)}"}
             %p.cover-title= "#{album.name} (#{album.posts_in_the_past.count} item#{album.posts_in_the_past.count != 1 ? "s" : ""})"
 
 = partial "/templates/footer"

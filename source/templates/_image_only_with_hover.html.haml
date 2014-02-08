@@ -1,0 +1,7 @@
+%img#hover.nozoom{:src => "#{large}", :alt => "click on image to resize to screen"}
+:javascript
+  $('#hover').hover(function() {
+    $(this).attr('src', '#{hover_large}');
+  }, function() {
+    $(this).attr('src', '#{large}');
+  });
