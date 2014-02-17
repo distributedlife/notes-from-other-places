@@ -4,7 +4,7 @@
   %section.page
     %article
       .index-article
-        = partial "/templates/image_only_no_zoom", :locals => {:image => album.image}
+        = partial "/templates/image_only_no_zoom", :locals => {:image => album.image, :title => album.name}
         
     %h1= album.name
     .toc

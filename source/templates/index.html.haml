@@ -16,12 +16,12 @@ title: latest
           %h1= link_to latest.title, "#{latest.url}"
           - latest.image.each_with_index do |image, index|
             %p.is-centered
-              = partial "/templates/image_only", :locals => {:thumb => latest.thumbs[index], :large => latest.large_images[index], :retina => latest.retina_images[index]}
+              = partial "/templates/image_only", :locals => {:thumb => latest.thumbs[index], :large => latest.large_images[index], :retina => latest.retina_images[index], :title => latest.title}
           = partial "/templates/meta", :locals => {:date => latest.date, :album => latest.album}
       - if latest.type == "photo"
         .index-article
           %h1= link_to latest.title, "#{latest.url}"
-          = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album}
+          = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album, :title => latest.title}
   %article
     %p.leader
       %a{:href => "/travel/recent.html"}recently
