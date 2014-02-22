@@ -1,0 +1,9 @@
+Currency, me and Brunei don’t really mix well. When I arrived at immigration for Brunei I was told I needed to buy a visa. I knew this but didn’t know that they expected exact change, would not have any card facilities and would only accept Brunei Dollars. I did have Malaysian Ringgit but not enough. The immigration officials, experienced at this, told me to borrow $20 BSD off the bus driver. I assured the bus driver that I only wanted to borrow the money and would give it back. He had a $50. This is where I found out about the exact change. So I head back out to find another person who has two $20 notes and a $10.
+
+One my third visit I was told that because I was leaving the country via the airport I could have a transit visa. This would only be $5. Great news, except now I needed to break a $10 note! Eventually, I did this. My passport stamped, I boarded the bus where everyone else had been waiting.
+
+Once we reached the city of Bander Seri Bagawan I needed to get money for the bus driver. The only ATM in sight was out of order. So the bus driver and I walked around the city looking for one that would accept my card. I withdrew $100 and it came out as a single $100 bill. The bus driver didn’t have change for this. So I withdrew another $50 and received five $10 notes. Given the price of a meal is just over a $1. I find a $100 note to be on the excessive side. The bus driver was grateful for his money and I was grateful for this ordeal to be complete.
+
+When it came time to leave Brunei I was slugged $54 BSD for baggage. Once again, the airport had no card facilities, no ATM and expected exact change. The stuff were shocked when I said I had no BSD. I replied that I was leaving the country, probably forever, so I had purposefully used all my money during the day.
+
+With no bus drivers about to help me they ran around for a while. The returned with one of those old machines to do a paper scan of my credit card. The future is here.
