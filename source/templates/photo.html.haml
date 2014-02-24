@@ -11,6 +11,8 @@
             = partial "/templates/image_only", :locals => {:thumb => post.thumbs[index], :large => post.large_images[index], :retina => post.retina_images[index], :title => post.title}
       - else
         %p.is-centered
+          %p
+            %i.pull-right You may need to wait a few moments for everything to load and the mouse over effect to work.
           - if post.hover_thumb
             = partial "/templates/image_only_with_hover", :locals => {:thumb => post.thumb, :large => post.large, :retina => post.retina, :hover_thumb => post.hover_thumb, :hover_large => post.hover_large, :hover_retina => post.hover_retina, :title => post.title}
           - else

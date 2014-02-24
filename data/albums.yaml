@@ -8,6 +8,7 @@
     - {published: 2014-01-12, set: 72157638571882543}
     - {published: 2014-01-28, image: 12068778035}
     - {published: 2014-02-18, image: 12070082536}
+    - {published: 2014-03-13, image: 12709403905}
 - name: china
   image: 11251464234
   posts:
@@ -61,7 +62,8 @@
     - {published: 2014-02-12, content: kopi-oh.md, date: 2014-02-12, title: Kopi-Oh!}
     - {published: 2014-02-15, content: having-a-stroke.md, date: 2014-02-15, title: Having a stroke}
     - {published: 2014-02-17, image: 12069722036}
-    # - {published: 2014-march, article: on tea plantations and strawberry fields}
+    # - {published: 2014-03-05, article: on tea plantations and strawberry fields}
+    - {published: 2014-02-11, image: 12698003845}
     # - {published: 2014-march, set: this used to be a good photo spot}
     # - {published: 2014-april, set: ipoh-graffiti}
     # - {published: 2014-may, set: boh-tea-plantation-b&w}
@@ -140,7 +142,7 @@
   image: 12675409973
   posts:
     # - {published: 2014-03-08, content: notes-on-hong-kong.md, date: 2014-03-08, title: Notes on Hong Kong}
-    # - {published: 2014-03-09, set: hong-kong-10000-buddhas}
+    - {published: 2014-03-09, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
 - name: macao
   image:

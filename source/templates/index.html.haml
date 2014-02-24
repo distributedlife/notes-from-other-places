@@ -21,7 +21,12 @@ title: latest
       - if latest.type == "photo"
         .index-article
           %h1= link_to latest.title, "#{latest.url}"
-          = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album, :title => latest.title}
+          %p.is-centered
+            - if latest.hover_thumb
+              %i.pull-left You may need to wait a few moments for everything to load and the mouse over effect to work.
+              = partial "/templates/image_only_with_hover", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :hover_thumb => latest.hover_thumb, :hover_large => latest.hover_large, :hover_retina => latest.hover_retina, :title => latest.title}
+            - else
+              = partial "/templates/image_with_meta", :locals => {:thumb => latest.thumb, :large => latest.large, :retina => latest.retina, :date => latest.date, :album => latest.album, :title => latest.title}
   %article
     %p.leader
       %a{:href => "/travel/recent.html"}recently
