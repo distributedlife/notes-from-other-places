@@ -133,7 +133,7 @@
   image: 12279879354
   posts:
     - {published: 2014-02-21, image: 12320957225}   
-    # - {published: 2014-03-01, content: notes-on-vietnam.md, date: 2014-03-01, title: Notes on Vietnam}
+    - {published: 2014-03-01, content: notes-on-vietnam.md, date: 2014-03-01, title: Notes on Vietnam}
     - {published: 2014-03-02, set: 72157641590624714}
     - {published: 2014-03-03, image: 12405093744}   
     - {published: 2014-03-07, image: 12458788633}   
