@@ -64,6 +64,7 @@
     - {published: 2014-02-17, image: 12069722036}
     # - {published: 2014-03-05, article: on tea plantations and strawberry fields}
     - {published: 2014-03-11, image: 12698003845}
+    - {published: 2014-03-20, image: 12828126643}
     # - {published: 2014-march, set: this used to be a good photo spot}
     # - {published: 2014-april, set: ipoh-graffiti}
     # - {published: 2014-may, set: boh-tea-plantation-b&w}
@@ -138,6 +139,8 @@
     - {published: 2014-03-03, image: 12405093744}   
     - {published: 2014-03-07, image: 12458788633}   
     - {published: 2014-03-10, image: 12490905303}   
+    - {published: 2014-03-21, image: 12846872693}   
+    - {published: 2014-03-25, image: 12896540464}   
 - name: hong kong
   image: 12675409973
   posts:
@@ -149,6 +152,7 @@
   posts:
     # - {published: 2014-03-15, content: notes-on-macao.md, date: 2014-03-15, title: Notes on Macao}
     - {published: 2014-03-17, image: 12790413124}
+    - {published: 2014-03-24, image: 12874935104}
 - name: taiwan
   image:
   posts: 

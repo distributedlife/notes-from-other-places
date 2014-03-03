@@ -64,6 +64,11 @@ proxy "/travel/rss.xml", "/templates/rss.xml", :locals => {
   :posts => get_posts_by_publication_date(albums)
 }
 
+proxy "/travel/sitemap.xml", "/templates/sitemap.xml", :locals => {
+  :posts => get_posts_by_publication_date(albums),
+  :albums => albums
+}
+
 helpers do
   def site_url
     "http://distributedlife.com/"
