@@ -139,9 +139,11 @@
     - {published: 2014-03-03, image: 12405093744}   
     - {published: 2014-03-07, image: 12458788633}   
     - {published: 2014-03-09, image: 12490905303}   
-    # - {published: 2014-03-16, set: reliefs of hue imperial citadel}
+    - {published: 2014-03-12, content: games-of-vietnam.md, date: 2014-03-12, title: Games of Vietnam}
+    - {published: 2014-03-16, set: 72157642052558843}
     - {published: 2014-03-21, image: 12846872693}   
     - {published: 2014-03-25, image: 12896540464}   
+    - {published: 2014-03-27, image: 13001291785}   
 - name: hong kong
   image: 12675409973
   posts:
