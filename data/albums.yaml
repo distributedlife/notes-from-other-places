@@ -138,14 +138,14 @@
     - {published: 2014-03-02, set: 72157641590624714}
     - {published: 2014-03-03, image: 12405093744}   
     - {published: 2014-03-07, image: 12458788633}   
-    - {published: 2014-03-10, image: 12490905303}   
+    - {published: 2014-03-09, image: 12490905303}   
     # - {published: 2014-03-16, set: reliefs of hue imperial citadel}
     - {published: 2014-03-21, image: 12846872693}   
     - {published: 2014-03-25, image: 12896540464}   
 - name: hong kong
   image: 12675409973
   posts:
-    # - {published: 2014-03-09, content: notes-on-hong-kong.md, date: 2014-03-09, title: Notes on Hong Kong}
+    # - {published: 2014-03-10, content: notes-on-hong-kong.md, date: 2014-03-10, title: Notes on Hong Kong}
     - {published: 2014-03-08, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
 - name: macao
