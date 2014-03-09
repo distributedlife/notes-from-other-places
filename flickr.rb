@@ -2,8 +2,35 @@ def api_key
   File.open('api_key', 'r') { |f| f.read }.chomp
 end
 
+def fake_reponse
+  {
+    "photo" => {
+      "title" => {
+        "_content" => "Fake Title"
+      },
+      "dates" => {
+        "taken" => Date.today.to_s
+      }
+    },
+    "sizes" => {
+      "size" => [
+        {"label" => "Small 320", "source" => "fake_thumb.jpg"},
+        {"label" => "Large", "source" => "fake_large.jpg"},
+        {"label" => "Large 2048", "source" => "fake_large2048.jpg"}
+      ]
+    },
+    "photoset" => {
+      "title" => "Fake Set Title",
+      "photo" => ["id" => "1"]
+    }
+  }
+end
 def make_actual_request request
-  JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+  # begin
+    JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+  # rescue
+  #   fake_reponse
+  # end
 end
 
 def flickr request

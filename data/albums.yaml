@@ -147,7 +147,7 @@
 - name: hong kong
   image: 12675409973
   posts:
-    # - {published: 2014-03-10, content: notes-on-hong-kong.md, date: 2014-03-10, title: Notes on Hong Kong}
+    - {published: 2014-03-10, content: notes-on-hong-kong.md, date: 2014-03-10, title: Notes on Hong Kong}
     - {published: 2014-03-08, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
 - name: macao

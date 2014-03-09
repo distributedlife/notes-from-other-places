@@ -1,14 +1,16 @@
+The follow is a collection of games that I saw or played while in Vietnam.
+
 ### Tứ sắc
 
-This game is somewhere between xiangqi and mahjong. The face value of the cards are the xiangqi symbols and the number of cards are four per value. Each of the four is a different colour. The idea is to collect a hand of 21 points. A hand is organised like mahjong (or rummy). The usual pickup, decide, discard process happens with players looking to get particular melds: three of a kind, four of a kind, flush of three, flush of four, or three specific cards in the same colour.
+This game is inspired by xiangqi and mahjong. The face value of the cards are the xiangqi symbols and the number of cards are four per value. Each of the four is of a different colour. The idea is to collect a hand of 21 points. A hand is organised like mahjong (or rummy). The usual pickup, decide, discard process happens with players looking to get particular melds: three of a kind, four of a kind, flush of three, flush of four, or three specific cards in the same colour.
 
-The cards are long thin strips of cards and the deck I bought is no bigger than a matchbox. Not any easy thing to shuffle and deal out.
+The cards are long thin strips of cards and the deck I bought is no bigger than a matchbox. Not any easy thing to shuffle and deal out. I also brought a variation of this game that is played in the north. I've not worked out how to play it yet though. Tứ sắc is mainly played in the south.
 
 ### Horse Racing Chess
 
-Horse racing chess is not really like chess even though it is branded as such. A chess board is used, although it's altered to include a track. Each player has to get their four horses from the stable to the finish line. To get out of the stable you have to roll a six. So a fair amount of luck is involved in this game. After this you can move a horse whatever you roll. So it's a little bit like backgammon. A key difference being if the distance between your horse and a horse behind you is the number on the dice, you can forgo movement to kick them back to their stable. To get your horse into the stable, you need to roll a six.
+Horse Racing Chess is not really like chess even though it is branded as such. A chess board is used, although it's altered to include a track. Each player has to get their four horses from the stable to the finish line. To get out of the stable you have to roll a six. So a fair amount of luck is involved in this game. After this you can move a horse whatever you roll. So it's a little bit like backgammon. A key difference being: if the distance between your horse and a horse behind you equals the number on the dice, you can forgo movement to kick them back to their stable. To get your horse across the finish line, you need to roll a six.
 
-So not at all like chess, a bit like backgammon and it seems as ruthless and chance based as monopoly.
+So not at all like chess, a bit like backgammon and it seems as ruthless and chance-based as monopoly.
 
 ### Ta La (aka Phom)
 
