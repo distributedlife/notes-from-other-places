@@ -151,9 +151,9 @@
     - {published: 2014-03-08, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
 - name: macao
-  image:
+  image: 13037655605
   posts:
-    # - {published: 2014-03-15, content: notes-on-macao.md, date: 2014-03-15, title: Notes on Macao}
+    - {published: 2014-03-15, content: notes-on-macau.md, date: 2014-03-15, title: Notes on Macau}
     - {published: 2014-03-17, image: 12790413124}
     - {published: 2014-03-24, image: 12874935104}
 - name: taiwan

@@ -29,7 +29,7 @@ def make_actual_request request
   # begin
     JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
   # rescue
-  #   fake_reponse
+    # fake_reponse
   # end
 end
 
