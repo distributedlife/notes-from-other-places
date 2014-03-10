@@ -3,7 +3,11 @@
   %article
     %p.leader
       future posts
+      - prior_date = nil
       - posts.each do | post |
+        - unless prior_date.nil?
+          - if (prior_date - 1.day) > post.published
+            %p.noisy missing dates before this one
         %p
           %span.copy= post.published.strftime("%A, %B %d")
           %span &rarr; &nbsp;
@@ -22,3 +26,4 @@
                 %img.nozoom{:src => thumb}
           - if post.type == "article"
             %span.subtle.copy= "approximately #{post.word_count} words"
+        - prior_date = post.published
