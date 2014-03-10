@@ -4,7 +4,7 @@ You'll walk past the Portuguese tart stands in Macau. This is not a difficult th
 
 At the front of the queue you ask for a single tart. $8 Honkanese or Macanese dollars later you'll be given a receipt. You take this receipt to the person at the front of the shop. You should be familiar with this person by now. You give them the receipt and in exchange –*and stay with me on this one as this exchange operates differently to currency which one might confuse it with*– and in exchange for this receipt you'll get a single Portuguese tart. This last part doesn't take very long because the person serving tarts doesn't do anything else and there is no queue here.
 
-### Notes on Macau
+### On Macau
 
 I like Macau. It's so very different to Hong Kong and yet it's almost the same place. The similarites are China and Chinese people. The differences are the same as the differences between Portugal and England. Macau, like Goa and Malacca was acquired by the Portuguese well before most other colonism ventures in the region. Macau is different again because it was rented to Portugal because they helped the Chinese deal with some particularily pernicious pirates. The Portuguese held Macau right up until 1999 when they handed it over –no doubt dancing to Prince. The Portguese tried to hand it over in the seventies when the Carnation Revolution removed their dictator but China didn't want it.
 
