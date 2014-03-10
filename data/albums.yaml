@@ -31,6 +31,7 @@
     - {published: 2014-01-09, image: 11776341323}
     - {published: 2014-02-04, image: 12069630264}
     - {published: 2014-02-25, image: 12339413794, hover: 12339186563, title: "Hiroshima before and after"}
+    - {published: 2014-04-03, image: 13054532023}
 - name: united states
   image: 10375181843
   posts:
@@ -65,10 +66,8 @@
     - {published: 2014-03-06, content: on-tea-plantations.md, date: 2014-03-06, title: On Tea Plantations}
     - {published: 2014-03-11, image: 12698003845}
     - {published: 2014-03-20, image: 12828126643}
-    # - {published: 2014-march, set: this used to be a good photo spot}
-    # - {published: 2014-april, set: ipoh-graffiti}
-    # - {published: 2014-may, set: boh-tea-plantation-b&w}
-    # - {published: 2014-june, set: kuching legistlative assembly}
+    - {published: 2014-03-23, set: 72157642137678223}
+    - {published: 2014-03-30, set: 72157642139460184}
 - name: peru
   image: 10374871503
   posts:
@@ -113,6 +112,7 @@
     - {published: 2014-01-27, image: 12062800986}
     - {published: 2014-02-02, set: 72157639685667035}
     - {published: 2014-02-10, image: 12061864335}
+    - {published: 2014-04-06, set: 72157642135159135}
 - name: brunei
   image: 12063003896
   posts:
@@ -150,15 +150,18 @@
     - {published: 2014-03-10, content: notes-on-hong-kong.md, date: 2014-03-10, title: Notes on Hong Kong}
     - {published: 2014-03-08, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
+    - {published: 2014-04-01, image: 13054675394}
 - name: macao
   image: 13037655605
   posts:
     - {published: 2014-03-15, content: notes-on-macau.md, date: 2014-03-15, title: Notes on Macau}
     - {published: 2014-03-17, image: 12790413124}
     - {published: 2014-03-24, image: 12874935104}
+    - {published: 2014-03-31, image: 13054473073}
 - name: taiwan
   image: 12922150175
   posts: 
     # - {published: 2014-03-22, content: notes-on-taiwan.md, date: 2014-03-22, title: Notes on Taiwan}
     - {published: 2014-03-18, image: 12773287113}
     - {published: 2014-03-28, image: 12990821685}
+    - {published: 2014-04-03, image: 13054428215}
