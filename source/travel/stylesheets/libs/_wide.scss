@@ -29,7 +29,7 @@
 }
 
 .subscribe {
-	position: absolute;
+	position: fixed;
 	right: 5px;
 	a {
 		color: darkorange;
@@ -60,12 +60,10 @@
 }
 
 .index {
-	@extend .clearfix;
 	margin: 0 auto;
-	width: 100%;
 
 	h1 {
-		text-align: right;
+		text-align: left;
 	}
 	a {
 		text-decoration: none;
@@ -75,8 +73,9 @@
 	}
 
 	img {
-		width: 100%;
-		height: auto;
+		height: 80%;
+		max-height: 80%;
+		margin-right: 5px;
 	}
 
 	.toc {
@@ -102,22 +101,23 @@
 	}
 }
 
-img {
-	max-width: 100%;
-}
-
 .copy {
 	font-variant: small-caps;
 }
 
 footer {
-	border-top: 1px lighten($primary, 50%) solid;
 	margin: 0 5px;
 	p {
 		float: right;
 		display: inline-block;
 		text-align: right;
 	}
+}
+
+#whome {
+	position: fixed;
+	right: 5px;
+	bottom: -10px;
 }
 
 .pull-left {
@@ -141,26 +141,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-.future {
-	width: 100%;
-
-	img {
-		height: 150px;
-		width: auto;
-	}
-}
-
-.recent {
-	width: 100%;
-	max-height: 150px;
-	overflow-x:hidden;
-
-	img {
-		height: 150px;
-		width: auto;
-	}
-}
-
 .anchor {
 	margin: 0 5px;
 	font-size: 1.5em;
@@ -176,7 +156,7 @@ a:hover {
 }
 
 .publication-date {
-	float: right;
+	float: left;
 	text-transform: lowercase;
 	text-align: right;
 }
@@ -275,27 +255,6 @@ img {
 	z-index: 1 !important;
 }
 
-.portrait-photo {
-	img {
-		height: auto;
-		width: auto;
-	}
-	p {
-		margin: 0;
-		padding: 0;
-	}
-}
-
-.cover {
-	margin: 5px;
-
-	h1 {
-		margin: 0 0 0 -5px;
-		font-size: 4em;
-		text-transform: capitalize;
-	}
-}
-
 .subtle {
 	color: grey;
 	font-size: 0.8em;
@@ -320,11 +279,7 @@ img {
 		margin: 0;
 	}
 }
-
-article img {
-    width: 100%;
-}
-
+	
 .paginate{
 	opacity: 1;
 	@include animation(all, 500ms, ease);

@@ -24,7 +24,9 @@ albums.each do |album|
   album.posts.each do |post|
     content = File.open("data/articles/#{post.content}").read unless post.content.nil?
     
-    proxy post.url, "/templates/#{post.template}.html", :locals => {
+    post['style'] ||= "layout"
+
+    proxy post.url, "/templates/#{post.template}.html", :layout => post['style'], :locals => {
       :title => post.title,
       :post => post,
       :album => album,

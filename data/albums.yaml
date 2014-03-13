@@ -18,7 +18,7 @@
     - {published: 2014-01-08, image: 11776134563}
     - {published: 2014-01-31, image: 12069783306}
     - {published: 2014-02-14, image: 12069806034}
-    - {published: 2014-03-05, image: 12580577673}
+    - {published: 2014-03-05, image: 12580577673, style: "wide"}
     # - {published: 2014-03-29, content: notes-on-china.md, date: 2014-03-29, title: Notes on China}
 - name: france
   image:
@@ -38,7 +38,7 @@
     - {published: 2013-12-14, content: The-strange-man-at-the-airport.md, date: 2011-11-14, title: The strange man at the airport}
     - {published: 2013-12-15, image: 9811632995}
     - {published: 2013-12-23, image: 11251763733}
-    - {published: 2014-01-03, image: 11710117576}
+    - {published: 2014-01-03, image: 11710117576, style: "wide"}
     - {published: 2014-01-17, image: 11903156456}
     - {published: 2014-02-20, image: 12302261074}
     - {published: 2014-03-04, image: 10375186443}
@@ -51,7 +51,7 @@
     - {published: 2014-01-14, image: 11902165113}
     - {published: 2014-01-19, image: 11902449384}
     - {published: 2014-01-20, image: 11902999096}
-    - {published: 2014-01-21, image: 11902137303}
+    - {published: 2014-01-21, image: 11902137303, style: "wide"}
     - {published: 2014-01-22, content: buses.md, date: 2014-01-22, title: Buses}
     - {published: 2014-01-25, content: the-jungle-line.md, date: 2012-12-01, title: The Jungle Line}
     - {published: 2014-01-26, set: 72157639964946296}
@@ -97,7 +97,7 @@
 - name: new zealand
   image: 11251180566
   posts:
-    - {published: 2013-12-20, image: 11251242193}
+    - {published: 2013-12-20, image: 11251242193, style: "wide"}
     - {published: 2013-12-29, set: 72157638652741396}
     - {published: 2014-01-10, image: 11817077783}
 - name: singapore
@@ -109,7 +109,7 @@
     - {published: 2014-01-06, image: 11776589056}
     - {published: 2014-01-13, content: notes-on-singapore.md, date: 2014-01-13, title: Notes on Singapore}
     - {published: 2014-01-23, image: 12061994165}
-    - {published: 2014-01-27, image: 12062800986}
+    - {published: 2014-01-27, image: 12062800986, style: "wide"}
     - {published: 2014-02-02, set: 72157639685667035}
     - {published: 2014-02-10, image: 12061864335}
     - {published: 2014-04-06, set: 72157642135159135}
@@ -165,3 +165,7 @@
     - {published: 2014-03-18, image: 12773287113}
     - {published: 2014-03-28, image: 12990821685}
     - {published: 2014-04-03, image: 13054428215}
+- name: mongolia
+  image:
+  posts:
+    # - {published: 2014-05-01, image: b&w-mountains, style: wide}

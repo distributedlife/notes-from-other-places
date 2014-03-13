@@ -14,23 +14,20 @@ def fake_reponse
     },
     "sizes" => {
       "size" => [
-        {"label" => "Small 320", "source" => "fake_thumb.jpg"},
-        {"label" => "Large", "source" => "fake_large.jpg"},
-        {"label" => "Large 2048", "source" => "fake_large2048.jpg"}
+        {"label" => "Small 320", "source" => "/travel/fake_thumb.jpg"},
+        {"label" => "Large", "source" => "/travel/DSCF6856.jpg"},
+        {"label" => "Large 2048", "source" => "/travel/DSCF6856.jpg"}
       ]
     },
     "photoset" => {
       "title" => "Fake Set Title",
-      "photo" => ["id" => "1"]
+      "photo" => [{"id" => "1"}, {"id" => "2"}]
     }
   }
 end
 def make_actual_request request
-  # begin
-    JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
-  # rescue
-    # fake_reponse
-  # end
+  JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+  # fake_reponse
 end
 
 def flickr request
