@@ -151,7 +151,7 @@
     - {published: 2014-03-08, set: 72157641454657183}
     - {published: 2014-03-14, image: 12675993664}
     - {published: 2014-04-01, image: 13054675394}
-- name: macao
+- name: macau
   image: 13037655605
   posts:
     - {published: 2014-03-15, content: notes-on-macau.md, date: 2014-03-15, title: Notes on Macau}
