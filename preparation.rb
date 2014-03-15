@@ -32,7 +32,11 @@ def prepare_albums albums
         post['date'] ||= get_date_taken(post.image)
         post['thumb'] = get_thumb(post.image)
         post['large'] = get_large(post.image)
-        post['retina'] = get_retina(post.image)
+        if post.style == "wide"
+          post['retina'] = get_original(post.image)
+        else
+          post['retina'] = get_retina(post.image)
+        end
         if post.hover?
           post['hover_thumb'] = get_thumb(post.hover)
           post['hover_large'] = get_large(post.hover)

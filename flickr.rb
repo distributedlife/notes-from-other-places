@@ -88,3 +88,14 @@ def get_retina photo
 
   retina.first['source']
 end
+
+def get_original photo
+  return "" if photo.nil?
+
+  original = get_size_info("Original", photo)
+  if original.empty?
+    return get_retina(photo)
+  end
+
+  original.first['source']
+end
