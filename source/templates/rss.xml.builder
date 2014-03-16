@@ -13,18 +13,18 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   posts.each do |article|
     xml.entry do
       xml.title article.title
-      xml.link "rel" => "alternate", "href" => URI.join(site_url, article.url)
+      xml.link "rel" => "alternate", "href" => URI.join(site_url, URI.encode(article.url))
       xml.id URI.join(site_url, article.url)
       xml.published article.published.to_time.iso8601
       xml.updated article.published.to_time.iso8601
       xml.author { xml.name "Ryan Boucher" }
 
-      content = "<h1><a href='#{URI.join(site_url, article.url)}'>#{article.title}</a></h1>"
+      content = "<h1><a href='#{URI.join(site_url, URI.encode(article.url))}'>#{article.title}</a></h1>"
       if article.type == 'photo'
-        content += "<a href='#{URI.join(site_url, article.url)}'><img src='#{article.thumb}' alt='#{article.title}'/></a>"
+        content += "<a href='#{URI.join(site_url, URI.encode(article.url))}'><img src='#{article.thumb}' alt='#{article.title}'/></a>"
       end
       if article.type == 'photos'
-        content += "<a href='#{URI.join(site_url, article.url)}'>"
+        content += "<a href='#{URI.join(site_url, URI.encode(article.url))}'>"
         article.thumbs.each do |thumb|
           content += "<img src='#{thumb}'/>"
         end
