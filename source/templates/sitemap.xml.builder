@@ -30,7 +30,7 @@ xml.urlset 'xmlns' => "http://www.sitemaps.org/schemas/sitemap/0.9" do
 
   posts.each do |article|
     xml.url do
-      xml.loc URI.join(site_url, article.url)
+      xml.loc URI.join(site_url, URI.encode(article.url))
       xml.lastmod article.published.to_time.iso8601
       xml.changefreq "monthly"
       xml.priority "0.7"
