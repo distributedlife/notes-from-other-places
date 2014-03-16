@@ -162,7 +162,7 @@
 - name: taiwan
   image: 12922150175
   posts: 
-    # - {published: 2014-03-22, content: notes-on-taiwan.md, date: 2014-03-22, title: Notes on Taiwan}
+    - {published: 2014-03-22, content: notes-on-taiwan.md, date: 2014-03-22, title: Notes on Taiwan}
     - {published: 2014-03-18, image: 12773287113}
     - {published: 2014-03-28, image: 12990821685}
     - {published: 2014-04-03, image: 13054428215}
