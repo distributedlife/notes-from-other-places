@@ -19,6 +19,7 @@
     - {published: 2014-01-31, image: 12069783306}
     - {published: 2014-02-14, image: 12069806034}
     - {published: 2014-03-05, image: 12580577673, style: "wide"}
+    - {published: 2014-03-19, content: chess-in-the-hutong.md, date: 2014-03-19, title: Chess in the Hutong}
     # - {published: 2014-03-29, content: notes-on-china.md, date: 2014-03-29, title: Notes on China}
 - name: france
   image:
