@@ -37,4 +37,3 @@ I see a few police officers standing around so I walked over to them. I showed t
 He connected me to the internet. The free WIFI in China tends to require a mobile phone number that a verification code is sent to. I eventually found the address online. The problem was the confirmation email said it was 97-3 National Road. But it's really Minzu avenue. Minzu means National in Chinese but no map I had access to had 'National' road on it. 
 
 I thank him profusely and walk out. He walked to. He just walks out of his restaurant and sees me down the street for a few hundred metres and around the corner until we find the hostel. Then he explains to them where I was and they translate some stuff into English for him. He wants to give me a big welcome to China. His name is Yang and I have his business card now. He's a young lad probably early twenties. What a beautiful man.
-
