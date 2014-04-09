@@ -181,5 +181,6 @@
   posts:
     - {published: 2014-04-02, content: games-of-mongolia.md, date: 2014-04-02, title: Games of Mongolia}
     - {published: 2014-04-09, content: notes-on-mongolia.md, date: 2014-04-09, title: Notes on Mongolia}
+    - {published: 2014-04-10, image: 13744156334}
     - {published: 2014-04-20, set: 72157643168878975}
     # - {published: 2014-05-01, image: b&w-mountains, style: wide}
