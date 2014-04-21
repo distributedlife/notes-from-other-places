@@ -82,10 +82,10 @@
     - {published: 2014-01-29, content: rubber.md, date: 2011-12-11, title: Rubber}
     - {published: 2014-02-13, image: 12069610403}
     - {published: 2014-02-27, image: 12377745584}
-    # - {published: 2014-02-13, set: red and blue monestary}
-    # - {published: 2014-02-13, article: the man and his back}
-    # - {published: 2014-02-13, article: pepi}
-    # - {published: 2014-02-13, article: why the statue of poseidon/neptune}
+    # - {published: 2014-xx-xx, set: red and blue monestary}
+    # - {published: 2014-xx-xx, article: the man and his back}
+    # - {published: 2014-xx-xx, article: pepi}
+    # - {published: 2014-xx-xx, article: why the statue of poseidon/neptune}
 - name: philippines
   image: 11249733344
   posts:
@@ -188,3 +188,11 @@
     - {published: 2014-04-19, image: 13895708182}
     - {published: 2014-04-20, set: 72157643168878975}
     - {published: 2014-05-04, set: 72157644185907323}
+- name: russia
+  image:
+  posts:
+    - {published: 2014-06-08, set: 72157644157430412}
+- name: anywhere
+  image: 13969800973
+  posts:
+    - {published: 2014-04-22, image: 13969800973}
