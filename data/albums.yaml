@@ -187,10 +187,23 @@
     - {published: 2014-04-12, image: 13743922195}
     - {published: 2014-04-19, image: 13895708182}
     - {published: 2014-04-20, set: 72157643168878975}
-    - {published: 2014-05-04, set: 72157644185907323}
+    - {published: 2014-04-24, image: 13956002782, style: "wide"}
+    - {published: 2014-04-25, image: 13936108456}
+    - {published: 2014-04-29, image: 13956051261}
+    - {published: 2014-05-02, image: 13936176466}
+    - {published: 2014-05-06, image: 13956131881, style: "wide"}
+    - {published: 2014-05-08, image: 13959329975}
+    - {published: 2014-04-27, set: 72157644185907323}
+    - {published: 2014-05-04, set: 72157644183148351}
 - name: russia
-  image:
+  image: 13955659002
   posts:
+    - {published: 2014-04-23, content: games-of-russia.md, date: 2014-04-23, title: Games of Russia}
+    # - {published: 2014-04-26, content: music-in-russia.md, date: 2014-04-26, title: Music in Russia}
+    - {published: 2014-04-28, image: 13956256301}
+    - {published: 2014-05-01, image: 13956285481}
+    - {published: 2014-05-05, image: 13956336351}
+    - {published: 2014-05-09, image: 13936447486}
     - {published: 2014-06-08, set: 72157644157430412}
 - name: anywhere
   image: 13969800973
