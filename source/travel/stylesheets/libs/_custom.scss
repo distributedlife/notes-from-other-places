@@ -631,3 +631,26 @@ article img {
 	font-variant: small-caps;
 	font-weight: bold;
 }
+
+
+
+// MUSIC
+li.song {
+	display: block;
+	padding: 0.5ex 0.5em;
+	border: thin solid #D0D0D0;
+	cursor: pointer;
+}
+li.song:hover { background-color: #F0F0F0; }
+li.playing { background-color: #E5E5E5; }
+li.playing span.position {
+	color: #32CD32;
+}
+
+li.paused span.position {
+	color: gray;
+}
+a.title {
+	color: black;
+	text-decoration: none;
+}
