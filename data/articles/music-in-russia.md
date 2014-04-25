@@ -4,7 +4,7 @@ The first train journey I took on русская (Russian) soil involved a happy
 
 I came to realise though, the electronic music in Россия hasn’t moved on since I stopped keenly following such music, or has only just caught up? There were lots of well known anthems by Sash, ATB, Ferry Corsten and Tiësto. It was on the drive down to Большое Голоустное (Bolshoe Goloustnoe) that I heard a song I had not heard since 1996. I am shocked and maybe a little appalled. I’m old now as was released almost 20 years ago and I was a teenager when it was released.
 
-<li class="song" id="track_0"><a href="https://s3.amazonaws.com/distributedlife.com/travel/music/00.mp3" class="title">Robert Miles - Children (Dreams remix). First released in 1995.</a></li>
+<li class="song sm2_link" id="track_0"><a href="https://s3.amazonaws.com/distributedlife.com/travel/music/00.mp3" class="title">Robert Miles - Children (Dreams remix). First released in 1995.</a></li>
 
 I’ll move on from old electronica and onto old русская rock. I’d not heard of Кино́ (Kino) before. One a day out in Москва with two friends some buskers were playing a song. We stopped because my friend Влад (Vlad) was a big fan of the original band and used to practice Кино́ songs when he used to play guitar. The lead singer Виктор Цой (Viktor Tsoi) died in 1990 in a motorbike accident. There is a Цой Wall in Москва where people leave messages for the deceased musician. In an underpass in Ekaterinburg was some street art of him. I took a photo not realising who it was.
 
