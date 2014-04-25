@@ -199,7 +199,8 @@
   image: 13955659002
   posts:
     - {published: 2014-04-23, content: games-of-russia.md, date: 2014-04-23, title: Games of Russia}
-    # - {published: 2014-04-26, content: music-in-russia.md, date: 2014-04-26, title: Music in Russia}
+    - {published: 2014-04-26, content: sick-in-russia.md, date: 2014-04-26, title: Sick in Russia}
+    # - {published: 2014-04-30, content: music-in-russia.md, date: 2014-04-30, title: Music in Russia}
     - {published: 2014-04-28, image: 13956256301}
     - {published: 2014-05-01, image: 13956285481}
     - {published: 2014-05-05, image: 13956336351}
