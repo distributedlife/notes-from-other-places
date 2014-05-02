@@ -115,7 +115,7 @@ Both of these places are parks where modern русские go and hang out. The 
 
 They voice their disdain for the policies of Putin and what's going on in Crimea. But not every русские shares their view.
 
-The exchange of views I had on expansionism was entirely one way. A hostel employee decided that I needed to know his feelings on Crimea. He felt that Crimea, Sevastopol and Odessa were русские and need to belong to Россия again. It was a mistake to give them to Ukraine at the fall of the USSR. I pondered that if the earliest русские states was the 'Kievan Rus', would that mean that it should belong to Ukraine. 
+The exchange of views I had on expansionism was entirely one way. A hostel employee decided that I needed to know his feelings on Crimea. He felt that Crimea, Sevastopol and Odessa were русские and need to belong to Россия again. It was a mistake to give them to Ukraine at the fall of the USSR.
 
 He lets me know that he doesn't like the US, NATO or the UN and they should back off otherwise Россия will retaliate. He also thinks that there will be an economic war between Europe and Россия much like the Cold War between the US and Россия. He didn't think that such a war would turn out well for Россия as it's just history repeating. I've been listening to 'The Guns of August' and it seems that nations that think their entitled to foreign territory, to expansionism can be a source of trouble.
 
