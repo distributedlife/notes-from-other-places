@@ -1,6 +1,6 @@
 If you ever wonder what happened to all the sour cream and dill. It’s in Россия (Russia). It makes for a refreshing change from the carrot and meat of Монгол улс (Mongolia) and the non-cream anything of 中国 (China).
 
-Also, side-cars. I realised, as we crossed the border into Россия, that I’d not seen a side-car since I was about six or seven. We’d gone to Symmons Plains in Tasmania to watch some racing. I think they had sidecars. My brother and rode our bikes around the track. I was too little and couldn’t make it all the way around, so I took a short cut. So anyway; side cars are big in Eastern Россия.
+Also, side-cars. I realised, as we crossed the border into Россия, that I’d not seen a side-car since I was about six or seven. We’d gone to Symmons Plains in Tasmania to watch some racing. I think they had sidecars. My brother and I rode our bikes around the track. I was too little and couldn’t make it all the way around, so I took a short cut. So anyway; side cars are big in Eastern Россия.
 
 ![Side Cars](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF7208.jpg)
 
@@ -97,9 +97,9 @@ Enough of ART. Let's get back to CHURCHES!
 Санкт-Петербург is meant to be the favourite city of Россия. I has something for everyone, churches, ART, a couple of Sphinx for those unable to duck over to Egypt. But it didn't grab me the way that I thought it would.
 
 ###On Москва (Moscow)
-Contrary to Санкт-Петербург, I had told numerous times that Москва is a noisy ugly hectic city with a rush-hour that lasts for hours. If I had to split time between here and Санкт-Петербург; to give as much time as I could to the latter. I ended up doing that, not by choice but because I was waiting for my Belorussian visa. I liked Москва more than Санкт-Петербург.
+Contrary to Санкт-Петербург, I had been told numerous times that Москва is a noisy ugly hectic city with a rush-hour that lasts for hours. If I had to split time between here and Санкт-Петербург; to give as much time as I could to the latter. I ended up doing that, not by choice but because I was waiting for my Belorussian visa. I liked Москва more than Санкт-Петербург.
 
-What did I do in Москва? I hear you ask. We'll of course I engaged the locals in an exchange of views on expansionism in comp temporary Россия. This was as well as a contrasting exploration into Old Россия, Soviet Россия and New Россия.
+What did I do in Москва? I hear you ask. We'll of course I engaged the locals in an exchange of views on expansionism in contemporary Россия. This was as well as a contrasting exploration into Old Россия, Soviet Россия and New Россия.
 
 Nah, who am I kidding. I visited churches and museums. 
 
@@ -107,7 +107,7 @@ Actually I did both. The Old, New and Soviet Россия triptych was experienc
 
 ![Catherine II's palace](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8055.jpg)
 
-Soviet Россия could be seen at ВДНХ (VDNKh) and exhibition site built to show off Soviet accomplishment. Each of the pavilions are excessive in their construction and the boulevard runs for a kilometre, spaced by gilded statues and waterfalls. There is a space-rocket too and the place was bustling as it's the anniversary of  Ю́рий Гага́рин (Yuri Gagarin) first manned space-flight.
+Soviet Россия could be seen at ВДНХ (VDNKh) an exhibition site built to show off Soviet accomplishment. Each of the pavilions are excessive in their construction and the boulevard runs for a kilometre, spaced by gilded statues and waterfalls. There is a space-rocket too and the place was bustling as it's the anniversary of Ю́рий Гага́рин (Yuri Gagarin) first manned space-flight.
 
 Both of these places are parks where modern русские go and hang out. The past is buildings and battlefields. The future and now are people. So New Россия are my friends Влад and Настя. Generous and kind they distance themselves from Soviet Россия. 
 
@@ -117,7 +117,7 @@ They voice their disdain for the policies of Putin and what's going on in Crimea
 
 The exchange of views I had on expansionism was entirely one way. A hostel employee decided that I needed to know his feelings on Crimea. He felt that Crimea, Sevastopol and Odessa were русские and need to belong to Россия again. It was a mistake to give them to Ukraine at the fall of the USSR.
 
-He lets me know that he doesn't like the US, NATO or the UN and they should back off otherwise Россия will retaliate. He also thinks that there will be an economic war between Europe and Россия much like the Cold War between the US and Россия. He didn't think that such a war would turn out well for Россия as it's just history repeating. I've been listening to 'The Guns of August' and it seems that nations that think their entitled to foreign territory, to expansionism can be a source of trouble.
+He lets me know that he doesn't like the US, NATO or the UN and they should back off otherwise Россия will retaliate. He also thinks that there will be an economic war between Europe and Россия much like the Cold War between the US and Россия. He didn't think that such a war would turn out well for Россия as it's just history repeating. I've been listening to 'The Guns of August' and it seems that nations that think they're entitled to foreign territory, to expansionism can be a source of trouble.
 
 Anyway, back to the CHURCHES and ART.
 
