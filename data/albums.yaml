@@ -207,6 +207,10 @@
     - {published: 2014-05-05, image: 13956336351}
     - {published: 2014-05-09, image: 13936447486}
     - {published: 2014-06-08, set: 72157644157430412}
+- name: belarus
+  image: 14125406895
+  posts:
+    - {published: 2014-05-08, content: notes-on-belarus.md, date: 2014-05-08, title: Notes on Belarus}
 - name: anywhere
   image: 13969800973
   posts:
