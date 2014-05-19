@@ -216,14 +216,29 @@
     - {published: 2014-05-17, image: 13966464210}
     - {published: 2014-05-18, set: 72157644766543103}
     - {published: 2014-05-19, image: 13966507608}
+    - {published: 2014-05-20, image: 14216231834}
+    - {published: 2014-05-22, image: 14193275516}
+    - {published: 2014-05-23, image: 14029780579}
+    - {published: 2014-05-25, set: 72157644320448970}
+    - {published: 2014-05-26, image: 14216279284}
+    - {published: 2014-05-27, image: 14213105621}
+    - {published: 2014-05-29, image: 14213187541}
 - name: belarus
   image: 14125406895
   posts:
     - {published: 2014-05-08, content: notes-on-belarus.md, date: 2014-05-08, title: Notes on Belarus}
 - name: poland
-  image: 
+  image: 14213221011
   posts:
-    # - {published: 2014-05-10, content: notes-on-poland.md, date: 2014-05-10, title: Notes on Poland}
+    # - {published: 2014-05-24, content: notes-on-poland.md, date: 2014-05-24, title: Notes on Poland}
+- name: slovakia
+  image: 14029916390
+  posts:
+    - {published: 2014-05-21, content: hamburgers.md, date: 2014-05-21, title: Hamburgers}
+- name: hungary
+  image: 14029885608
+  posts:
+    # - {published: 2014-05-21, content: notes-on-hungary.md, date: 2014-05-21, title: Notes on Hungary}
 - name: anywhere
   image: 13969800973
   posts:
