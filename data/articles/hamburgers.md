@@ -32,7 +32,7 @@ And he talks some more.
 
 Yes?
 
-No! 
+¡Por que no! 
 
 And then he talks so more. I manage to use up most of the time of the bus trip back. Only the last couple of minutes are awkward.  The only other useful fact I get from him is that he is 86. We get off the bus and now I understand what all the mentions of Beire and Pivo were. He wants me to have a beer with him. Or two. Or six. I decline. He isn’t happy. Perhaps the sweet was part of the deal. I decline my way out of it and then sneak off. 
 
