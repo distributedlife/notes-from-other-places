@@ -38,7 +38,7 @@ And then he talks so more. I manage to use up most of the time of the bus trip b
 
 HAM.BURGERS!
 
-I kind of get what he meant. I ordered a ‘hamburger’ and she asked if I wanted chips or salad. I said chips. I had ordered a cheese hamburger which was a slab of fried cheese. I got that, the fries and no salad. Or bread. It seems the bread part of the HAM.BURGER is part of the salad.
+I kind of get what he meant. I ordered a "hamburger" and she asked if I wanted chips *or* salad. I said chips. I had ordered a cheese hamburger which was a slab of fried cheese. I got that, the fries and no salad. Or bread. It seems the bread part of the HAM.BURGER is part of the salad.
 
 Bah!
 
