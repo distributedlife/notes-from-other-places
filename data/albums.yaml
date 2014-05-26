@@ -222,15 +222,21 @@
     - {published: 2014-05-24, set: 72157644320448970}
     - {published: 2014-05-25, image: 14216279284}
     - {published: 2014-05-26, image: 14213105621}
-    - {published: 2014-05-28, image: 14213187541}
+    - {published: 2014-05-27, image: 14213187541}
+    - {published: 2014-05-31, set: 72157644853298934}
+    - {published: 2014-06-01, set: 72157644894059703}
 - name: belarus
   image: 14125406895
   posts:
     - {published: 2014-05-08, content: notes-on-belarus.md, date: 2014-05-08, title: Notes on Belarus}
+    - {published: 2014-05-30, image: 14270703472}
+    - {published: 2014-06-02, image: 14086186360}
 - name: poland
   image: 14213221011
   posts:
-    # - {published: 2014-05-30, content: notes-on-poland.md, date: 2014-05-30, title: Notes on Poland}
+    - {published: 2014-05-28, content: notes-on-poland.md, date: 2014-05-28, title: Notes on Poland}
+    - {published: 2014-06-03, image: 14269498861}
+    - {published: 2014-06-05, image: 14269516411}
 - name: slovakia
   image: 14029916390
   posts:
