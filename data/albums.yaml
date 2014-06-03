@@ -242,6 +242,7 @@
   image: 14029916390
   posts:
     - {published: 2014-05-21, content: hamburgers.md, date: 2014-05-21, title: Hamburgers}
+    - {published: 2014-06-04, image: 14335523434}
 - name: hungary
   image: 14029885608
   posts:
