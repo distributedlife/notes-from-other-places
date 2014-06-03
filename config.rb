@@ -73,7 +73,7 @@ proxy "/travel/sitemap.xml", "/templates/sitemap.xml", :locals => {
 
 helpers do
   def site_url
-    "http://distributedlife.com/"
+    "http://s3.amazonaws.com/distributedlife.com/"
   end
 end
 
