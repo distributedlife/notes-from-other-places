@@ -225,6 +225,8 @@
     - {published: 2014-05-27, image: 14213187541}
     - {published: 2014-05-31, set: 72157644853298934}
     - {published: 2014-06-01, set: 72157644894059703}
+    - {published: 2014-06-08, set: 72157645016776264}
+    - {published: 2014-06-15, set: 72157644604250498}
 - name: belarus
   image: 14125406895
   posts:
@@ -243,10 +245,40 @@
   posts:
     - {published: 2014-05-21, content: hamburgers.md, date: 2014-05-21, title: Hamburgers}
     - {published: 2014-06-04, image: 14335523434}
+    - {published: 2014-06-06, image: 14160407280}
+    - {published: 2014-06-07, content: notes-on-slovakia.md, date: 2014-05-21, title: Notes on Slovakia}
+    - {published: 2014-06-09, image: 14323876786}
+    - {published: 2014-06-10, image: 14345416232}
+    - {published: 2014-06-12, image: 14160366478}
+    - {published: 2014-06-22, set: 72157644602728337}
 - name: hungary
   image: 14029885608
   posts:
-    # - {published: 2014-05-21, content: notes-on-hungary.md, date: 2014-05-21, title: Notes on Hungary}
+    - {published: 2014-06-11, content: notes-on-hungary.md, date: 2014-05-21, title: Notes on Hungary}
+    - {published: 2014-06-13, image: 14346717214}
+    - {published: 2014-06-14, content: history-of-hungary.md, date: 2014-05-21, title: A History of Hungary}
+    - {published: 2014-06-16, image: 14161064687}
+    - {published: 2014-06-17, image: 14345965542}
+    - {published: 2014-06-19, image: 14344235131}
+    - {published: 2014-06-20, image: 14344241391}
+    - {published: 2014-06-23, image: 14160997510}
+    - {published: 2014-06-24, image: 14367787813}
+    - {published: 2014-06-26, image: 14346779024}
+    - {published: 2014-06-27, image: 14347626115}
+    - {published: 2014-06-30, image: 14161133937}
+    - {published: 2014-07-01, image: 14324506106}
+- name: romania
+  image:
+  posts:
+- name: bulgaria
+  image:
+  posts:
+- name: turkey
+  image:
+  posts:
+- name: cyprus
+  image:
+  posts:
 - name: anywhere
   image: 13969800973
   posts:
