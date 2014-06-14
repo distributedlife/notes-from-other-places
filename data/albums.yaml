@@ -246,7 +246,7 @@
     - {published: 2014-05-21, content: hamburgers.md, date: 2014-05-21, title: Hamburgers}
     - {published: 2014-06-04, image: 14335523434}
     - {published: 2014-06-06, image: 14160407280}
-    - {published: 2014-06-07, content: notes-on-slovakia.md, date: 2014-05-21, title: Notes on Slovakia}
+    - {published: 2014-06-07, content: notes-on-slovakia.md, date: 2014-06-07, title: Notes on Slovakia}
     - {published: 2014-06-09, image: 14323876786}
     - {published: 2014-06-10, image: 14345416232}
     - {published: 2014-06-12, image: 14160366478}
@@ -254,9 +254,9 @@
 - name: hungary
   image: 14029885608
   posts:
-    - {published: 2014-06-11, content: notes-on-hungary.md, date: 2014-05-21, title: Notes on Hungary}
+    - {published: 2014-06-11, content: notes-on-hungary.md, date: 2014-06-11, title: Notes on Hungary}
     - {published: 2014-06-13, image: 14346717214}
-    - {published: 2014-06-14, content: history-of-hungary.md, date: 2014-05-21, title: A History of Hungary}
+    - {published: 2014-06-14, content: history-of-hungary.md, date: 2014-06-14, title: A History of Hungary}
     - {published: 2014-06-16, image: 14161064687}
     - {published: 2014-06-17, image: 14345965542}
     - {published: 2014-06-19, image: 14344235131}
@@ -267,18 +267,30 @@
     - {published: 2014-06-27, image: 14347626115}
     - {published: 2014-06-30, image: 14161133937}
     - {published: 2014-07-01, image: 14324506106}
+- name: europe
+  image: 14397827676
+  posts:
+    - {published: 2014-06-18, content: on-importing-royalty.md, date: 2014-06-21, title: On Importing Royalty}
+    - {published: 2014-06-21, content: a-lion-in-europe.md, date: 2014-06-21, title: A Lion in Europe}
+    - {published: 2014-06-25, content: on-coffee-in-eastern-europe.md, date: 2014-06-21, title: On coffee in Eastern Europe}
 - name: romania
   image:
   posts:
+    # - {published: 2014-06-28, content: notes-on-romania.md, date: 2014-06-28, title: Notes on Romania}
 - name: bulgaria
   image:
   posts:
+    # - {published: 2014-07-02, content: notes-on-romania.md, date: 2014-07-02, title: Notes on Bulgaria}
 - name: turkey
   image:
   posts:
+    # - {published: 2014-07-05, content: coffee-in-turkey.md, date: 2014-07-05, title: Coffee in Turkey}
+    # - {published: 2014-07-12, content: games-of-turkey.md, date: 2014-07-12, title: Games of Turkey}
+    # - {published: 2014-07-16, content: notes-on-turkey.md, date: 2014-07-16, title: Notes on Turkey}
 - name: cyprus
   image:
   posts:
+    # - {published: 2014-07-09, content: notes-on-cyprus.md, date: 2014-07-09, title: Notes on Cyprus}
 - name: anywhere
   image: 13969800973
   posts:
