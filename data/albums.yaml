@@ -265,7 +265,7 @@
     - {published: 2014-06-24, image: 14367787813}
     - {published: 2014-06-26, image: 14346779024}
     - {published: 2014-06-27, image: 14347626115}
-    - {published: 2014-06-30, image: 14161133937}
+    - {published: 2014-06-28, image: 14161133937}
     - {published: 2014-07-01, image: 14324506106}
 - name: europe
   image: 14397827676
@@ -276,7 +276,7 @@
 - name: romania
   image: 14490089445
   posts:
-    # - {published: 2014-06-28, content: notes-on-romania.md, date: 2014-06-28, title: Notes on Romania}
+    # - {published: 2014-06-30, content: notes-on-romania.md, date: 2014-06-28, title: Notes on Romania}
     # - {published: 2014-06-29, set: }
     - {published: 2014-07-03, image: 14509937293}
     - {published: 2014-07-04, image: 14509832663}
