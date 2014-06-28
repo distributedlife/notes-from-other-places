@@ -18,7 +18,7 @@ I did my best to speak Românian and everyone was very patient with me. Most Rom
 
 Hearing the way people spoke amongst the European architecture this didn’t feel how I though Eastern Europe would feel. It felt Western European. I mean there is the same love of coffee here as there is in the West the problem is that it’s from street side vending machines. There are thousands of these machines in every city.
 
-![Vend me some filth]()
+![Vend me some filth](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8697.jpg)
 
 ###On București
 
