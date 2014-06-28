@@ -276,46 +276,60 @@
 - name: romania
   image: 14490089445
   posts:
-    # - {published: 2014-06-30, content: notes-on-romania.md, date: 2014-06-28, title: Notes on Romania}
-    # - {published: 2014-06-29, set: }
+    - {published: 2014-06-29, content: on-horezu-and-pottery.md, date: 2014-06-29, title: On Horezu and Pottery}
+    # - {published: 2014-06-30, set: angled rooves of romania}
+    - {published: 2014-07-02, content: on-food-weights.md, date: 2014-07-02, title: On Food Weights}
     - {published: 2014-07-03, image: 14509937293}
     - {published: 2014-07-04, image: 14509832663}
-    # - {published: 2014-07-06, set: }
+    - {published: 2014-07-05, content: notes-on-romania.md, date: 2014-07-05, title: Notes on Romania}
+    # - {published: 2014-07-06, set: Junii festival}
     - {published: 2014-07-07, image: 14303106560}
     - {published: 2014-07-08, image: 14488547822}
 
     - {published: 2014-07-10, image: 14303253480}
     - {published: 2014-07-11, image: 14303461037}
+
     - {published: 2014-07-13, set: 72157645313424301}
     - {published: 2014-07-14, image: 14510060883}
     - {published: 2014-07-15, image: 14466582516}
 
     - {published: 2014-07-17, image: 14303541507}
     - {published: 2014-07-18, image: 14303433409}
+
     - {published: 2014-07-20, set: 72157644913080960}
     - {published: 2014-07-21, image: 14510221543}
     - {published: 2014-07-22, image: 14467044716}
 
     - {published: 2014-07-24, image: 14303588829}
     - {published: 2014-07-25, image: 14488977514}
+
     - {published: 2014-07-27, set: 72157644912992147}
     - {published: 2014-07-28, image: 14490282855}
     - {published: 2014-07-29, image: 14489067284}
-
 - name: bulgaria
   image:
   posts:
-    # - {published: 2014-07-02, content: notes-on-romania.md, date: 2014-07-02, title: Notes on Bulgaria}
+    # - {published: 2014-07-09, content: notes-on-bulgaria.md, date: 2014-07-09, title: Notes on Bulgaria}
 - name: turkey
   image:
   posts:
-    # - {published: 2014-07-05, content: coffee-in-turkey.md, date: 2014-07-05, title: Coffee in Turkey}
-    # - {published: 2014-07-12, content: games-of-turkey.md, date: 2014-07-12, title: Games of Turkey}
-    # - {published: 2014-07-16, content: notes-on-turkey.md, date: 2014-07-16, title: Notes on Turkey}
+    # - {published: 2014-07-12, content: coffee-in-turkey.md, date: 2014-07-12, title: Coffee in Turkey}
+    # - {published: 2014-07-16, content: games-of-turkey.md, date: 2014-07-16, title: Games of Turkey}
+    # - {published: 2014-07-19, content: notes-on-turkey.md, date: 2014-07-19, title: Notes on Turkey}
+    # - {published: 2014-08-03, set: doors of turkey}
 - name: cyprus
   image:
   posts:
-    # - {published: 2014-07-09, content: notes-on-cyprus.md, date: 2014-07-09, title: Notes on Cyprus}
+    # - {published: 2014-07-23, content: notes-on-cyprus.md, date: 2014-07-23, title: Notes on Cyprus}
+- name: uganda
+  image:
+  posts:
+    # - {published: 2014-07-26, content: notes-on-uganda.md, date: 2014-07-26, title: Notes on Uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
+    # - {published: 2014-08-xx, set: chimpanzees}
+    # - {published: 2014-08-xx, set: gorillas}
+    # - {published: 2014-08-xx, set: chameleans}
+    # - {published: 2014-08-xx, set: other wildlife of uganda}
 - name: anywhere
   image: 13969800973
   posts:
