@@ -277,10 +277,10 @@
   image: 14490089445
   posts:
     - {published: 2014-06-29, content: on-food-weights.md, date: 2014-07-02, title: On Food Weights}
-    # - {published: 2014-06-30, content: on-horezu-and-pottery.md, date: 2014-06-29, title: On Horezu and Pottery}
-    # - {published: 2014-06-30, set: angled rooves of romania}
-    - {published: 2014-07-03, image: 14509937293}
-    - {published: 2014-07-04, image: 14509832663}
+    - {published: 2014-06-30, image: 14509937293}
+    - {published: 2014-06-31, image: 14509832663}
+    # - {published: 2014-07-02, content: on-horezu-and-pottery.md, date: 2014-06-29, title: On Horezu and Pottery}
+    # - {published: 2014-07-03, set: angled rooves of romania}
     # - {published: 2014-07-05, content: notes-on-romania.md, date: 2014-07-05, title: Notes on Romania}
     # - {published: 2014-07-06, set: Junii festival}
     - {published: 2014-07-07, image: 14303106560}
