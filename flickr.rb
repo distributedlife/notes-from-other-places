@@ -26,7 +26,19 @@ def fake_reponse
   }
 end
 def make_actual_request request
-  JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
+  uri = URI.parse("https://api.flickr.com/#{request}")
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true
+  http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+  request = Net::HTTP::Get.new(uri.request_uri)
+
+  response = http.request(request)
+  # response.body
+
+  JSON.parse(response.body)
+
+  # JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
   # fake_reponse
 end
 
