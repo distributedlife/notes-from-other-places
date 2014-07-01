@@ -4,15 +4,15 @@ We went here for a day trip, when Jess had a chest infection, to see the Horezu 
 
 The Byzantine empire was demolished by the Ottoman empire. What is now România fell under the Ottoman influence. What was Byzantine architecture morphed into Ottoman architecture. This part of România called Wallachia was less affected and because of that Byzantine style went a different way.
 
-![A monastery]()
+![A monastery](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8638.jpg)
 
 We were underwhelmed. Still, nice photo.
 
 So we went for a walk to see a few more monasteries that were all kind of the same thing. One of the behaviours of note is that the locals; whether they be driving or walking, always sign the cross whenever they pass a church.
 
-Another thing of note was this strange painting on the outside of a church. It appears two men and a bear. A pilot of a Russian show that doesn’t feature Charlie Sheen.
+Another thing of note was this strange painting on the outside of a church. It appears in Two Men and a Bear. A pilot of a Russian show that doesn’t feature Charlie Sheen and didn't make it.
 
-![Two men and a bear]()
+![Two men and a bear](https://s3.amazonaws.com/distributedlife.com/travel/images/DSC_0386.jpg)
 
 We kept walking and came across a nearby pottery town and admired the many different but roughly similar patterns. Lots of intricate designs involving spirals and concentric circles. Jess felt guilty for the grumpy guy who opened up his shop for us and bought two small trinkets that cost barely anything and will probably make it home in one piece. The grumpy guy offers us to see the workshop. Maybe he’s not grumpy at us but life itself.
 
@@ -80,7 +80,7 @@ We concede and sit down. It takes five or six minutes. Each passing minute is we
 
 The monastery is a much more impressive complex than the church we visited earlier. This place has gardens, a huge white wall surrounding the main complex and the church itself is impressive. The artwork inside doesn’t appear to be any different to the other frescos I’ve seen across Romania. The place is, however, very detailed. Every surface inside the main church is painted.
 
-![The actual monastery]()
+![The actual monastery](https://s3.amazonaws.com/distributedlife.com/travel/images/DSC_0397.jpg)
 
 After ten minutes look around we have to leave. We have no plan for getting back to Horezu other than to walk and hope for a lift. No lift comes and we walk all the way back into town. We set a cracking pace of 6km an hour and cover the distance in half an hour. 
 

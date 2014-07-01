@@ -1,8 +1,8 @@
 Images conjured up when the word România is mentioned: traditional farming, gypsies, children suckling a mother dog. 
 
-![Children suckling a dog]()
+![Children suckling a dog](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8537.jpg)
 
-We saw this statue in no fewer than three different cities. 
+We saw this statue in no fewer than three cities. 
 
 Welcome to România. 
 
@@ -24,7 +24,7 @@ Hearing the way people spoke amongst the European architecture this didn’t fee
 
 Those that are from București have a curious habit of checking out your shoes when you walk past. According to a woman not from București claimed it’s done to determine what class you are. So as you walk along people come the other way will look at you, then your shoes and then back at you. When you stop at a pedestrian crossing then they can afford a much slower appraisal of you.
 
-![Western Europe Romania]()
+![Western Europe Romania](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8495.jpg)
 
 So București feels and sounds like Western Europe. The certainly smoked like Europeans. It was intolerable. Jess had a chest infection and people sitting in restaurants smoking constantly made it incredibly difficult for her. The inclement weather also meant that we couldn’t take a table outside either. We had to go deep into the hazy stench and soak up the flavours with every bite of our food.
 
@@ -41,9 +41,9 @@ Finally, we visited the bear sanctuary. While we were there a British man can be
 
 ###On Sibiu
 
-Brașov but smaller. It was here that we discovered our favourite Românian food: the gogosi. A dinner plate-sized pastry folded in half and filled with chocolate. There are other flavours like cheese or mushrooms. But seriously, chocolate filled pastry defeats them every time.
+Brașov but smaller. It was here that we discovered our favourite Românian food: the gogoși. A dinner plate-sized pastry folded in half and filled with chocolate. There are other flavours like cheese or mushrooms. But seriously, chocolate filled pastry defeats them every time.
 
-![Chocolate Greatness]()
+![Chocolate Greatness](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8674.jpg)
 
 ###On Sighisoara
 
@@ -65,4 +65,4 @@ Suceava is where some of the painted monasteries are. We arrived in this town la
 
 We wanted to do a tour of the painted monasteries but it was a Sunday in the off season of a quiet year. The town was devoid of people. The hotel found someone willing to come out and drive us around for an generous fee. We managed to see three of the monasteries before jumping on our train back to București and then onto Bulgaria. The woman who drove us around said that the reason tourism is so quiet in the country is the because of the European economic downturn.
 
-![Painted Monastery]()
+![Painted Monastery](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF8750.jpg)

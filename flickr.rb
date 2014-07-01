@@ -34,11 +34,8 @@ def make_actual_request request
   request = Net::HTTP::Get.new(uri.request_uri)
 
   response = http.request(request)
-  # response.body
 
   JSON.parse(response.body)
-
-  # JSON.parse(Net::HTTP.get_response("api.flickr.com", request).body)
   # fake_reponse
 end
 
