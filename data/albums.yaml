@@ -285,46 +285,66 @@
     - {published: 2014-07-06, set: 72157645453230941}
     - {published: 2014-07-07, image: 14303106560}
     - {published: 2014-07-08, image: 14488547822}
-
-    - {published: 2014-07-10, image: 14303253480}
-    - {published: 2014-07-11, image: 14303461037}
-
-    - {published: 2014-07-13, set: 72157645313424301}
-    - {published: 2014-07-14, image: 14510060883}
-    - {published: 2014-07-15, image: 14466582516}
-
-    - {published: 2014-07-17, image: 14303541507}
-    - {published: 2014-07-18, image: 14303433409}
-
-    - {published: 2014-07-20, set: 72157644913080960}
-    - {published: 2014-07-21, image: 14510221543}
-    - {published: 2014-07-22, image: 14467044716}
-
-    - {published: 2014-07-24, image: 14303588829}
-    - {published: 2014-07-25, image: 14488977514}
-
-    - {published: 2014-07-27, set: 72157644912992147}
-    - {published: 2014-07-28, image: 14490282855}
-    - {published: 2014-07-29, image: 14489067284}
+    - {published: 2014-07-09, image: 14303253480}
+    - {published: 2014-07-10, image: 14303461037}
+    - {published: 2014-07-11, set: 72157645313424301}
+    - {published: 2014-07-12, image: 14510060883}
+    - {published: 2014-07-13, image: 14466582516}
+    - {published: 2014-07-14, image: 14303541507}
+    - {published: 2014-07-15, image: 14303433409}
+    - {published: 2014-07-16, set: 72157644913080960}
+    - {published: 2014-07-17, image: 14510221543}
+    - {published: 2014-07-18, image: 14467044716}
+    - {published: 2014-07-19, image: 14303588829}
+    - {published: 2014-07-20, image: 14488977514}
+    - {published: 2014-07-21, set: 72157644912992147}
+    - {published: 2014-07-22, image: 14490282855}
+    - {published: 2014-07-23, image: 14489067284}
 - name: bulgaria
-  image:
+  image: 14589869596
   posts:
-    # - {published: 2014-07-09, content: notes-on-bulgaria.md, date: 2014-07-09, title: Notes on Bulgaria}
+    - {published: 2014-07-24, content: notes-on-bulgaria.md, date: 2014-07-24, title: Notes on Bulgaria}
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, set: graffiti of bulgaria}
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, set: delicious sweets bulgaria}
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, set: decoupage church interior}
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-25, content: notes-on-budhudza.md, date: 2014-07-25, title: Notes on Budhudza}
+    # - {published: 2014-07-xx, set: budhudza mosaics}
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, image: }
+    # - {published: 2014-07-xx, set: flora of bulgaria}
+    # - {published: 2014-07-xx, set: birds of bulgaria}
+    # - {published: 2014-07-xx, set: creatures of bulgaria}
 - name: turkey
   image:
   posts:
-    # - {published: 2014-07-12, content: coffee-in-turkey.md, date: 2014-07-12, title: Coffee in Turkey}
-    # - {published: 2014-07-16, content: games-of-turkey.md, date: 2014-07-16, title: Games of Turkey}
-    # - {published: 2014-07-19, content: notes-on-turkey.md, date: 2014-07-19, title: Notes on Turkey}
+    # - {published: 2014-07-16, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
+    # - {published: 2014-07-19, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
+    # - {published: 2014-07-23, content: notes-on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
     # - {published: 2014-08-03, set: doors of turkey}
 - name: cyprus
   image:
   posts:
-    # - {published: 2014-07-23, content: notes-on-cyprus.md, date: 2014-07-23, title: Notes on Cyprus}
+    # - {published: 2014-07-26, content: notes-on-cyprus.md, date: 2014-07-26, title: Notes on Cyprus}
 - name: uganda
   image:
   posts:
-    # - {published: 2014-07-26, content: notes-on-uganda.md, date: 2014-07-26, title: Notes on Uganda}
+    # - {published: 2014-07-30, content: notes-on-uganda.md, date: 2014-07-30, title: Notes on Uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
+    # - {published: 2014-08-xx, set: birds of uganda}
     # - {published: 2014-08-xx, set: birds of uganda}
     # - {published: 2014-08-xx, set: chimpanzees}
     # - {published: 2014-08-xx, set: gorillas}
