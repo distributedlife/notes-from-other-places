@@ -322,14 +322,16 @@
     - {published: 2014-08-09, set: 72157645811926471}
     - {published: 2014-08-10, image: 14521752170}
     - {published: 2014-08-11, image: 14708164162}
-    - {published: 2014-08-14, set: 72157645823659334}
+    - {published: 2014-08-12, set: 72157645823659334}
 - name: turkey
   image: 14524496290
   posts:
-    - {published: 2014-08-15, image: 14708195671}
-    - {published: 2014-08-16, image: 14731265373}
-    - {published: 2014-08-17, image: 14709032654}
-    - {published: 2014-08-18, image: 14688452696}
+    - {published: 2014-08-13, image: 14708195671}
+    - {published: 2014-08-14, image: 14731265373}
+    - {published: 2014-08-15, image: 14709032654}
+    - {published: 2014-08-16, image: 14688452696}
+    - {published: 2014-08-17, image: 14573827199}
+    - {published: 2014-08-18, image: 14758269814}
     # - {published: 2014-08-19, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
     # - {published: 2014-08-20, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
     # - {published: 2014-08-21, content: notes-on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
