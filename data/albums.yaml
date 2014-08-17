@@ -332,10 +332,18 @@
     - {published: 2014-08-16, image: 14688452696}
     - {published: 2014-08-17, image: 14573827199}
     - {published: 2014-08-18, image: 14758269814}
+    - {published: 2014-08-19, image: 14947919231}
+    # - {published: 2014-08-20, image: }
+    # - {published: 2014-08-21, image: }
+    # - {published: 2014-08-22, image: }
+    # - {published: 2014-08-23, image: }
+    # - {published: 2014-08-24, image: }
     # - {published: 2014-08-19, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
+    # - {published: 2014-08-22, set: deliciousness of turkey}
     # - {published: 2014-08-20, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
     # - {published: 2014-08-21, content: notes-on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
     # - {published: 2014-08-22, set: doors of turkey}
+    # - {published: 2014-08-22, set: mosaics of turkey}
 - name: cyprus
   image:
   posts:
