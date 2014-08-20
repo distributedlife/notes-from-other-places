@@ -348,20 +348,45 @@
     - {published: 2014-09-01, image: 14954984672}
     - {published: 2014-09-02, image: 14955035362}
     - {published: 2014-09-03, image: 14932640256}
-    # - {published: 2014-09-24, image: }
-    # - {published: 2014-09-24, image: }
-    # - {published: 2014-09-24, image: }
-    # - {published: 2014-09-24, image: }
-    # - {published: 2014-09-19, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
-    # - {published: 2014-09-22, set: deliciousness of turkey}
-    # - {published: 2014-09-20, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
-    # - {published: 2014-09-21, content: notes-on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
-    # - {published: 2014-09-22, set: doors of turkey}
-    # - {published: 2014-09-22, set: mosaics of turkey}
+    - {published: 2014-09-04, image: 14938512366}
+    - {published: 2014-09-05, image: 14774841750}
+    - {published: 2014-09-06, image: 14938671456}
+    - {published: 2014-09-07, image: 14958517751}
+    - {published: 2014-09-08, image: 14775104738}
+    - {published: 2014-09-09, image: 14775224147}
+    - {published: 2014-09-10, image: 14961822445}
+    - {published: 2014-09-11, image: 14958774101}
+    - {published: 2014-09-12, image: 14961670602}
+    - {published: 2014-09-13, image: 14780636730}
+    - {published: 2014-09-14, image: 14780674890}
+    - {published: 2014-09-15, image: 14780844769}
+    - {published: 2014-09-16, image: 14964572231, style: "wide"}
+    - {published: 2014-09-17, image: 14964733761}
+    - {published: 2014-09-18, image: 14781208400}
+    - {published: 2014-09-19, image: 14968036345}
+    - {published: 2014-09-20, image: 14781571329}
+    - {published: 2014-09-21, image: 14955683386}
+    - {published: 2014-09-22, image: 14792134577}
+    - {published: 2014-09-23, image: 14978699205}
+    - {published: 2014-09-24, image: 14792033499}
+    - {published: 2014-09-25, image: 14978385902}
+    - {published: 2014-09-26, image: 14792190007}
+    # - {published: 2014-09-27, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
+    # - {published: 2014-09-28, set: deliciousness of turkey}
+    # - {published: 2014-09-29, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
+    # - {published: 2014-09-30, content: notes-on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
+    # - {published: 2014-10-01, set: doors of turkey}
+    # - {published: 2014-10-02, set: mosaics of turkey}
 - name: cyprus
-  image:
+  image: 14794135538
   posts:
-    # - {published: 2014-xx-xx, content: notes-on-cyprus.md, date: 2014-07-26, title: Notes on Cyprus}
+    - {published: 2014-10-03, image: 14792205267, style: "wide"}
+    - {published: 2014-10-04, image: 14792160068, style: "wide"}
+    - {published: 2014-10-05, image: 14792168748}
+    - {published: 2014-10-06, image: 14792227277}
+    - {published: 2014-10-07, image: 14955806206}
+    - {published: 2014-10-08, image: 14978447122}
+    # - {published: 2014-10-09, content: notes-on-cyprus.md, date: 2014-07-26, title: Notes on Cyprus}
 - name: uganda
   image:
   posts:
