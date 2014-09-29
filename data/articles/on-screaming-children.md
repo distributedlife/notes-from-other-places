@@ -1,0 +1,1 @@
+Turkey: land of the screaming child. For some reason there were more screaming kids on buses, planes and in the street than any other country I’ve visited thus far. I have no theory on why. I’m just here to report the facts.

@@ -365,44 +365,45 @@
     - {published: 2014-09-18, image: 14781208400}
     - {published: 2014-09-19, set: 72157646761669679}
     - {published: 2014-09-20, image: 14968036345}
-    - {published: 2014-09-21, content: coffee-in-turkey.md, date: 2014-07-16, title: Coffee in Turkey}
+    - {published: 2014-09-21, content: coffee-in-turkey.md, date: 2014-09-21, title: Coffee in Turkey}
     - {published: 2014-09-22, image: 14781571329}
     - {published: 2014-09-23, image: 14955683386}
-    - {published: 2014-09-24, content: on-eating-out.md, date: 2014-07-23, title: On Eating Out}
+    - {published: 2014-09-24, content: on-eating-out.md, date: 2014-09-24, title: On Eating Out}
     - {published: 2014-09-25, image: 14792134577}
     - {published: 2014-09-26, set: 72157646772355358}
     - {published: 2014-09-27, image: 14978699205}
-    - {published: 2014-09-28, content: games-of-turkey.md, date: 2014-07-19, title: Games of Turkey}
+    - {published: 2014-09-28, content: games-of-turkey.md, date: 2014-09-28, title: Games of Turkey}
     - {published: 2014-09-29, image: 14792033499}
     - {published: 2014-09-30, image: 14978385902}
-    - {published: 2014-10-01, content: on-istanbul.md, date: 2014-07-23, title: On Istanbul}
+    - {published: 2014-10-01, content: on-istanbul.md, date: 2014-10-01, title: On Istanbul}
     - {published: 2014-10-02, image: 14792190007}
-    - {published: 2014-10-03, set: 72157647121849346}
-    # - {published: 2014-10-04, content: on-turkey.md, date: 2014-07-23, title: Notes on Turkey}
+    - {published: 2014-10-03, content: on-screaming-children.md, date: 2014-10-03, title: On Screaming Children}
+    - {published: 2014-10-04, set: 72157647121849346}
+    - {published: 2014-10-05, content: on-eastern-turkey.md, date: 2014-10-05, title: On Eastern Turkey}
 - name: cyprus
   image: 14794135538
   posts:
-    - {published: 2014-10-03, image: 14792205267, style: "wide"}
-    - {published: 2014-10-04, image: 14792160068, style: "wide"}
-    - {published: 2014-10-05, image: 14792168748}
-    - {published: 2014-10-06, image: 14792227277}
-    - {published: 2014-10-07, image: 14955806206}
-    - {published: 2014-10-08, image: 14978447122}
-    # - {published: 2014-10-09, content: notes-on-cyprus.md, date: 2014-07-26, title: Notes on Cyprus}
+    - {published: 2014-10-07, content: on-head-shaping.md, date: 2014-10-06, title: Head Shaping}
+    - {published: 2014-10-06, image: 14792205267, style: "wide"}
+    - {published: 2014-10-08, image: 14792168748}
+    - {published: 2014-10-09, content: on-the-cypriots.md, date: 2014-10-06, title: On the Cypriots}
+    - {published: 2014-10-10, image: 14792227277}
+    - {published: 2014-10-11, set: 72157647748273099}
+    - {published: 2014-10-12, image: 14955806206}
+    - {published: 2014-10-13, content: notes-on-cyprus.md, date: 2014-10-12, title: Notes on Cyprus}
+    - {published: 2014-10-14, image: 14978447122}
+    - {published: 2014-10-15, image: 14792160068, style: "wide"}
+    - {published: 2014-10-16, content: on-leaving-cyprus.md, date: 2014-10-12, title: Leaving Cyprus}
 - name: uganda
   image:
   posts:
-    # - {published: 2014-xx-xx, content: notes-on-uganda.md, date: 2014-07-30, title: Notes on Uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: birds of uganda}
-    # - {published: 2014-0x-xx, set: chimpanzees}
-    # - {published: 2014-0x-xx, set: gorillas}
-    # - {published: 2014-0x-xx, set: chameleans}
-    # - {published: 2014-0x-xx, set: other wildlife of uganda}
+    # - {published: 2014-10-17, image: }
+    # - {published: 2014-10-18, content: you-are-most-welcome.md, date: 2014-07-30, title: You Are Most Welcome}
+    # - {published: 2014-10-xx, set: birds of uganda}
+    # - {published: 2014-10-xx, set: chimpanzees}
+    # - {published: 2014-10-xx, set: gorillas}
+    # - {published: 2014-10-xx, set: chameleans}
+    # - {published: 2014-10-xx, set: other wildlife of uganda}
 - name: rwanda
   image:
   posts:
@@ -413,6 +414,21 @@
   image:
   posts:
 - name: zambia
+  image:
+  posts:
+- name: botswana
+  image:
+  posts:
+- name: namibia
+  image:
+  posts:
+- name: south africa
+  image:
+  posts:
+- name: lesotho
+  image:
+  posts:
+- name: south korea
   image:
   posts:
 - name: anywhere
