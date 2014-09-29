@@ -52,4 +52,4 @@ The spice market is better because locals do go shopping for spices here. They j
 
 Istanbul has been romanticised and suffers from exoticism. It’s the Middle East where the locals consume alcohol. I’m sure there is more than a bit of *I wish all muslims were like this* going on. The reality is that Istanbul is trashy tourism. It’s touts and bazaars selling the same four products with slightly different patterns. A mass-produced vision of 1001 Nights.
 
-Say what you want about Istanbul. The bottom line is that something always gets written about Istanbul. 
+Say what you want about Istanbul. The bottom line is that something always gets said about Istanbul. 
