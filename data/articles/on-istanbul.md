@@ -40,9 +40,9 @@ If you follow the road long enough you’ll get to the Golden Horn, an estuary, 
 
 The boats on the south side feel more like emplacements. I also find that the fish has bones and is not that nice. On the Galata side, at one particular vendor the fish is perfect and the extra ingredients make for an incredible lunch.
 
-Two men work each grill. The first is frying fish, the other is lightly cooking onion, and blah blah. 
+Two men work each grill. The first is frying fish, the other is lightly cooking onion and dusting it with sumac. The sandwich hot grilled fish is added to the sandwich with the onion. The bed is lettuce and tomato and the top is sprayed with lemon juice and sprinkled with salt, pepper and chilli. 
 
-![Fish burgers](https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF9368.jpg)
+!(Fish burgers)[https://s3.amazonaws.com/distributedlife.com/travel/images/DSCF9368.jpg]
 
 The draw cards of Istanbul is the blue mosque (beautiful), the Hagia Sophia (humungous) and the hustle and bustle of the bazaars (not that hectic). The Grand Bazaar was a disappointment. It has history and interesting architecture. It also has hundreds of the same shop selling the same touristy rubbish. Ornate lamps, scarves and sets of six tea cups that they want at least a 150 lira for. The tea cups that are used in cafés, if you go to a supermarket outside of Istanbul, you can buy for 3 lira. That’s half a lira per tea cup.
 
