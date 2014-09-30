@@ -2,7 +2,7 @@ I open the door and stand out on the terrace to our apartment. Below me on the c
 
 Around the corner is a coffee shop or a tea house. It’s called the former but Turkish men drink tea all day and rarely coffee. The walls of the tea house are bare. In the corner is a big screen TV that’s switched off. The door lists the times of upcoming football matches. No one is sitting inside. Unless the football is on you don’t sit inside. Outside is an assortment of men, chatting, all with their cups of sweetened tea and their tiny stools.
 
-When you walk down the narrow streets you realise that the road is not cobbled at all. It’s printed concrete. The same stones repeat and then you see someones footprints forever baked into the cobblestone road. Down the street is a pastry shop. One that sells borek. A cheesy, oily pastry that oozes as you crunch into it. We buy a half dozen of them and head down to Taksim Square.
+When you walk down the narrow streets you realise that the road is not cobbled at all. It’s printed concrete. The same stones repeat and then you see someones footprints forever baked into the cobblestone road. Down the street is a pastry shop. One that sells börek. A cheesy, oily pastry that oozes as you crunch into it. We buy a half dozen of them and head down to Taksim Square.
 
 Later this evening there will be a protest. The police are here now setting up their water cannon and providing a presence. Tonight the cannon will be used against protesters and we’ll be required to run down an alley and hide in a restaurant where they’ll lock the door until it’s safe for us to go outside again.
 
