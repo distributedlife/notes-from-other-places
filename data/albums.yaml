@@ -398,29 +398,46 @@
   image: 15222591409
   posts:
     - {published: 2014-10-17, image: 15221829059}
-    - {published: 2014-10-18, content: you-are-most-welcome.md, date: 2014-07-30, title: You Are Most Welcome}
+    - {published: 2014-10-18, content: you-are-most-welcome.md, date: 2014-10-18, title: You Are Most Welcome}
     - {published: 2014-10-19, image: 15408253002}
-    # - {published: 2014-10-20, set: wildlife}
+    - {published: 2014-10-20, set: 72157648043434758}
     - {published: 2014-10-21, image: 15221986978}
     - {published: 2014-10-22, image: 15408586445}
-    - {published: 2014-10-23, content: eucalyptus.md, date: 2014-07-30, title: Eucalyptus}
+    - {published: 2014-10-23, content: eucalyptus.md, date: 2014-10-23, title: Eucalyptus}
     - {published: 2014-10-25, image: 15221927660}
     - {published: 2014-10-24, image: 15221832499}
-    # - {published: 2014-10-26, content: bananas.md, date: 2014-07-30, title: Bananas}
+    # - {published: 2014-10-26, content: bananas.md, date: 2014-10-26, title: Bananas}
     - {published: 2014-10-27, image: 15221994388}
     - {published: 2014-10-28, image: 15405413751}
-    # - {published: 2014-10-29, content: national-parks.md, date: 2014-07-30, title: National Parks}
+    # - {published: 2014-10-29, content: national-parks.md, date: 2014-10-29, title: National Parks}
     - {published: 2014-10-30, image: 15221992328}
     - {published: 2014-10-31, image: 15408250362}
-    # - {published: 2014-11-01, set: birds}
-    - {published: 2014-11-02, image: 15221922560}
-    # - {published: 2014-11-03, content: notes-on-uganda.md, date: 2014-07-30, title: Notes on Uganda}
+    - {published: 2014-11-01, image: 15221922560}
+    # - {published: 2014-11-02, content: notes-on-uganda.md, date: 2014-11-02, title: Notes on Uganda}
 - name: rwanda
   image: 15386303736
   posts:
+    # - {published: 2014-11-03, content: genocide.md, date: 2014-11-03, title: Genocide}
+    # - {published: 2014-11-04, content: twa.md, date: 2014-11-04, title: The Twa}
 - name: tanzania
   image: 15386305456
   posts:
+    # - {published: 2014-11-05, content: the-big-five.md, date: 2014-11-03, title: The Big 5}
+    - {published: 2014-11-06, image: 15386305456}
+    - {published: 2014-11-07, image: 15282224170}
+    - {published: 2014-11-08, image: 15465796541}
+    - {published: 2014-11-09, image: 15465803911}
+    - {published: 2014-11-10, image: 15445861946}
+    # - {published: 2014-11-11, content: masai.md, date: 2014-11-03, title: The Big 5}
+    - {published: 2014-11-12, image: 15282404867}
+    - {published: 2014-11-13, image: 15445874446}
+    - {published: 2014-11-14, image: 15282367368}
+    - {published: 2014-11-15, image: 15445908546}
+    - {published: 2014-11-16, image: 15465869941}
+    # - {published: 2014-11-17, content: zanzibar.md, date: 2014-11-03, title: The Big 5}
+    - {published: 2014-11-18, image: 15282395128, style: "wide"}
+    - {published: 2014-11-19, image: 15445935476}
+    - {published: 2014-11-20, image: 15282479477}
 - name: malawi
   image: 15409342845
   posts:
