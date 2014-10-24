@@ -406,7 +406,7 @@
     - {published: 2014-10-23, content: eucalyptus.md, date: 2014-10-23, title: Eucalyptus}
     - {published: 2014-10-25, image: 15221927660}
     - {published: 2014-10-24, image: 15221832499}
-    # - {published: 2014-10-26, content: bananas.md, date: 2014-10-26, title: Bananas}
+    - {published: 2014-10-26, content: on-bananas.md, date: 2014-10-26, title: On Bananas}
     - {published: 2014-10-27, image: 15221994388}
     - {published: 2014-10-28, image: 15405413751}
     # - {published: 2014-10-29, content: national-parks.md, date: 2014-10-29, title: National Parks}
@@ -440,6 +440,7 @@
     - {published: 2014-11-20, image: 15282479477}
     - {published: 2014-11-21, image: 15282699600}
     - {published: 2014-11-22, image: 15282705090, style: "wide"}
+    # - {published: 2014-11-17, content: muzungu.md, date: 2014-11-03, title: Muzungu}
     - {published: 2014-11-23, image: 15282712870}
     - {published: 2014-11-24, image: 15469110792}
     - {published: 2014-11-25, image: 15282955457}
