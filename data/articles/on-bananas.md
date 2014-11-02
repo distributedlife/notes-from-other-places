@@ -10,7 +10,7 @@ Then she walked off.
 
 Uganda consumes more bananas than any other country. You could say that they go bananas for them. But they don’t. It’s quite orderly and mundane their consumption of bananas.
 
-Researchers in Uganda have used matooke to create a flour: matooke flour. The hope to export it as an alternative to wheat flour. There is no gluten in it and because it’s currently obscure it’s very hipster-friendly. I’d say that the hipsters would go bananas for such a flour.
+Researchers in Uganda have used matooke to create a flour: matooke flour. The hope is to export it as an alternative to wheat flour. There is no gluten in it and because it’s currently obscure it’s very hipster-friendly. I’d say that the hipsters would go bananas for such a flour.
 
 This wasn’t the shocking truth that I learnt about bananas.
 
