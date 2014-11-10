@@ -413,7 +413,7 @@
     - {published: 2014-10-30, image: 15221992328}
     - {published: 2014-10-31, image: 15408250362}
     - {published: 2014-11-01, image: 15221922560}
-    # - {published: 2014-11-12, content: notes-on-uganda.md, date: 2014-11-02, title: Notes on Uganda}
+    - {published: 2014-11-12, content: notes-on-uganda.md, date: 2014-11-02, title: Notes on Uganda}
 - name: rwanda
   image: 15386303736
   posts:
@@ -432,14 +432,14 @@
     - {published: 2014-11-09, image: 15282367368}
     - {published: 2014-11-10, image: 15445908546}
     - {published: 2014-11-11, image: 15465869941}
-    # - {published: 2014-11-19, content: the-big-five.md, date: 2014-11-03, title: The Big 5}
+    - {published: 2014-11-13, image: 15282395128, style: "wide"}
+    - {published: 2014-11-14, image: 15445935476}
+    - {published: 2014-11-15, content: on-the-big-five.md, date: 2014-11-03, title: The Big 5}
+    - {published: 2014-11-16, image: 15282479477}
+    - {published: 2014-11-17, image: 15282699600}
+    - {published: 2014-11-18, image: 15282705090, style: "wide"}
     # - {published: 2014-11-11, content: masai.md, date: 2014-11-03, title: The Big 5}
-    # - {published: 2014-11-17, content: zanzibar.md, date: 2014-11-03, title: The Big 5}
-    - {published: 2014-11-18, image: 15282395128, style: "wide"}
-    - {published: 2014-11-19, image: 15445935476}
-    - {published: 2014-11-20, image: 15282479477}
-    - {published: 2014-11-21, image: 15282699600}
-    - {published: 2014-11-22, image: 15282705090, style: "wide"}
+    # - {published: 2014-11-17, content: zanzibar.md, date: 2014-11-03, title: Medical Tourism}
     # - {published: 2014-11-17, content: muzungu.md, date: 2014-11-03, title: Muzungu}
     - {published: 2014-11-23, image: 15282712870}
     - {published: 2014-11-24, image: 15469110792}
