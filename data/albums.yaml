@@ -139,17 +139,17 @@
 - name: vietnam
   image: 12279879354
   posts:
-    - {published: 2014-02-21, image: 12320957225}   
+    - {published: 2014-02-21, image: 12320957225}
     - {published: 2014-03-01, content: notes-on-vietnam.md, date: 2014-03-01, title: Notes on Vietnam}
     - {published: 2014-03-02, set: 72157641590624714}
-    - {published: 2014-03-03, image: 12405093744}   
-    - {published: 2014-03-07, image: 12458788633}   
-    - {published: 2014-03-09, image: 12490905303}   
+    - {published: 2014-03-03, image: 12405093744}
+    - {published: 2014-03-07, image: 12458788633}
+    - {published: 2014-03-09, image: 12490905303}
     - {published: 2014-03-12, content: games-of-vietnam.md, date: 2014-03-12, title: Games of Vietnam}
     - {published: 2014-03-16, set: 72157642052558843}
-    - {published: 2014-03-21, image: 12846872693}   
-    - {published: 2014-03-25, image: 12896540464}   
-    - {published: 2014-03-27, image: 13001291785}   
+    - {published: 2014-03-21, image: 12846872693}
+    - {published: 2014-03-25, image: 12896540464}
+    - {published: 2014-03-27, image: 13001291785}
 - name: hong kong
   image: 12675409973
   posts:
@@ -168,7 +168,7 @@
     - {published: 2014-04-04, image: 13517361715}
 - name: taiwan
   image: 12922150175
-  posts: 
+  posts:
     - {published: 2014-03-22, content: notes-on-taiwan.md, date: 2014-03-22, title: Notes on Taiwan}
     - {published: 2014-03-18, image: 12773287113}
     - {published: 2014-03-28, image: 12990821685}
