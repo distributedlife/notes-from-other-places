@@ -438,12 +438,12 @@
     - {published: 2014-11-16, image: 15282479477}
     - {published: 2014-11-17, image: 15282699600}
     - {published: 2014-11-18, image: 15282705090, style: "wide"}
+    # - {published: 2014-11-19, content: zanzibar.md, date: 2014-11-03, title: Medical Tourism}
+    - {published: 2014-11-20, image: 15282712870}
     # - {published: 2014-11-11, content: masai.md, date: 2014-11-03, title: The Big 5}
-    # - {published: 2014-11-17, content: zanzibar.md, date: 2014-11-03, title: Medical Tourism}
+    - {published: 2014-11-21, image: 15469110792}
     # - {published: 2014-11-17, content: muzungu.md, date: 2014-11-03, title: Muzungu}
-    - {published: 2014-11-23, image: 15282712870}
-    - {published: 2014-11-24, image: 15469110792}
-    - {published: 2014-11-25, image: 15282955457}
+    - {published: 2014-11-22, image: 15282955457}
 - name: malawi
   image: 15409342845
   posts:
