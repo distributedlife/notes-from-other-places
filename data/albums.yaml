@@ -448,9 +448,9 @@
   image: 15409342845
   posts:
     - {published: 2014-11-25, image: 15409342845}
-    # - {published: 2014-11-26, content: gin-and-tonic.md, date: 2014-11-26, title: "Gin & Tonic"}
+    - {published: 2014-11-26, content: on-the-gnt.md, date: 2014-11-26, title: "Gin & Tonic"}
     - {published: 2014-11-27, image: 15854356841}
-    # - {published: 2014-11-28, content: bill-harzia.md, date: 2014-11-28, title: Bill Harzia"}
+    - {published: 2014-11-28, content: on-bill.md, date: 2014-11-28, title: On Bill}
 - name: zambia
   image: 15222679740
   posts:
@@ -495,6 +495,7 @@
 - name: south africa
   image: 15409023722
   posts:
+    - {published: 2015-01-xx, image: 15409023722}
 - name: lesotho
   image:
   posts:
