@@ -495,7 +495,7 @@
 - name: south africa
   image: 15409023722
   posts:
-    - {published: 2015-01-xx, image: 15409023722}
+    # - {published: 2015-01-xx, image: 15409023722}
 - name: lesotho
   image:
   posts:
