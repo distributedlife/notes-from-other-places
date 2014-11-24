@@ -4,7 +4,7 @@ But we’re not in India, We’re in Malawi and as we head further south the G&T
 
 The Gin & Tonic only exists because of Malaria. Quinine, which is in the tonic, is rather effective against Malaria. Just read this wikipedia quote.
 
-> Quinine also played a significant role in the colonization of Africa by Europeans. It has been said that quinine was the prime reason that Africa ceased to be known as the "white man's grave". A historian has stated that "it was quinine's efficacy that gave colonists fresh opportunities to swarm into the Gold Coast, Nigeria and other parts of west Africa".
+    *Quinine also played a significant role in the colonization of Africa by Europeans. It has been said that quinine was the prime reason that Africa ceased to be known as the "white man's grave". A historian has stated that "it was quinine's efficacy that gave colonists fresh opportunities to swarm into the Gold Coast, Nigeria and other parts of west Africa".*
 
 Now it’s just a black man’s grave.
 
@@ -30,7 +30,7 @@ The can of tonic I can find around here only contain 67mg of quinine. This means
 
 But don’t take my word for it.
 
-> As of 2006, quinine is no longer recommended by the WHO (World Health Organization), as first-line treatment for malaria
+    *As of 2006, quinine is no longer recommended by the WHO (World Health Organization), as first-line treatment for malaria*
 
 Take Wikipedia’s.
 
