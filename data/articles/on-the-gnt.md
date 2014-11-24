@@ -33,3 +33,5 @@ But don’t take my word for it.
 > As of 2006, quinine is no longer recommended by the WHO (World Health Organization), as first-line treatment for malaria
 
 Take Wikipedia’s.
+
+Now we can all stop drinking G&T's because they're not that great.
