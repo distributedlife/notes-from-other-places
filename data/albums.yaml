@@ -455,11 +455,11 @@
   image: 15222679740
   posts:
     - {published: 2014-11-29, image: 15222679740}
-    # - {published: 2014-11-30, content: on-hunting.md, date: 2014-11-30, title: On Hunting}
+    - {published: 2014-11-30, content: tia.md, date: 2014-11-30, title: TIA}
     - {published: 2014-12-01, image: 15669008420}
     - {published: 2014-12-02, image: 15236714673}
     - {published: 2014-12-03, image: 15670008448}
-    # - {published: 2014-12-04, content: tia.md, date: 2014-02-04, title: TIA}
+    # - {published: 2014-12-04, content: on-hunting.md, date: 2014-12-04, title: On Hunting}
     - {published: 2014-12-05, image: 15856516525}
     - {published: 2014-12-06, image: 15830764046}
 - name: botswana
