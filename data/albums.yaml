@@ -465,7 +465,7 @@
 - name: botswana
   image: 15386310206
   posts:
-    # - {published: 2014-12-07, content: games-of-botswana.md, date: 2014-12-07, title: Games of Botswana}
+    - {published: 2014-12-07, content: games-of-botswana.md, date: 2014-12-07, title: Games of Botswana}
     - {published: 2014-12-08, image: 15854389351}
     - {published: 2014-12-09, image: 15668866928}
     - {published: 2014-12-10, image: 15234682054}
