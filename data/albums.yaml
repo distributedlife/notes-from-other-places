@@ -469,8 +469,8 @@
     - {published: 2014-12-08, image: 15854389351}
     - {published: 2014-12-09, image: 15668866928}
     - {published: 2014-12-10, image: 15234682054}
-    # - {published: 2014-12-11, content: on-cultural-shows.md, date: 2014-12-11, title: On Cultural Shows}
-    - {published: 2014-12-12, image: 15855001581}
+    - {published: 2014-12-11, image: 15855001581}
+    # - {published: 2014-12-12, content: on-cultural-shows.md, date: 2014-12-11, title: On Cultural Shows}
     - {published: 2014-12-13, image: 15671228587}
 - name: namibia
   image: 15222828607
