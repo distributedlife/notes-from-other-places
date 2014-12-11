@@ -470,12 +470,12 @@
     - {published: 2014-12-09, image: 15668866928}
     - {published: 2014-12-10, image: 15234682054}
     - {published: 2014-12-11, image: 15855001581}
-    # - {published: 2014-12-12, content: on-cultural-shows.md, date: 2014-12-11, title: On Cultural Shows}
+    - {published: 2014-12-14, content: on-cultural-shows.md, date: 2014-12-14, title: On Cultural Shows}
     - {published: 2014-12-13, image: 15671228587}
 - name: namibia
   image: 15222828607
   posts:
-    # - {published: 2014-12-14, content: the-klipspringer.md, date: 2014-12-14, title: The Klipspringer}
+    - {published: 2014-12-12, content: the-klipspringer.md, date: 2014-12-12, title: The Klipspringer}
     - {published: 2014-12-15, image: 15236877943}
     - {published: 2014-12-16, image: 15669168860}
     - {published: 2014-12-17, image: 15669376730, style: "wide"}
@@ -484,7 +484,7 @@
     - {published: 2014-12-21, image: 15856944065, style: "wide"}
     - {published: 2014-12-22, image: 15670922737}
     - {published: 2014-12-23, image: 15670764229}
-    # - {published: 2014-12-24, content: on-private-zoos.md, date: 2014-12-24, title: On Private Zoos}
+    - {published: 2014-12-24, content: on-private-zoos.md, date: 2014-12-24, title: On Private Zoos}
     - {published: 2014-12-26, image: 15830956876}
     - {published: 2014-12-27, image: 15830942776}
     - {published: 2014-12-28, image: 15671168677, style: "wide"}
