@@ -10,8 +10,8 @@ The animal had frozen as though it had seen something. Something that was tucked
 
 I was in luck. It remained frozen and I zoomed in as far as I could, lined it up and snapped a shot. I was about hundred metres from it and high above it.
 
-![I got it.]()
+![I got it.](https://s3.amazonaws.com/distributedlife.com/travel/images/DSC_5546.jpg)
 
 Shortly after the first shot, it ducked in behind the rocks it had been looking towards. I checked the shot and confirmed the it was a klipspringer. Then I noticed something in the shot. Off towards the left where the klipspringer had fled was another grey shape that looked a bit like an animal. I zoomed in. What did I see? Another klipspringer staring straight back at me. They had seen me, well before I had seen them.
 
-![They got me.]()
+![They got me.](https://s3.amazonaws.com/distributedlife.com/travel/images/DSC_5548.jpg)

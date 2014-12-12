@@ -12,15 +12,15 @@ Why would a group of people making $500 US (5,000 Botswana Pula) a night need to
 
 It’s probably because they don’t get the money. The money goes to the vultures who run the campground, who interpret on their behalf and who drive them around.
 
-<p style=“text-align:centre;”>⁂</p>
+<p style="text-align:centre;">⁂</p>
 
 At the end of the show we milled about before walking away. One of the San came over and asked for a cigarette. In English!
 
-This seemed to be an outrage to some people. “I cannot believe they want a cigarette” and “I can't believe they spoke English”.
+This seemed to be an outrage to some people. "I cannot believe they want a cigarette" and "I can't believe they spoke English".
 
 I too have a fundamental distrust for anyone that is bilingual.
 
-<p style=“text-align:centre;”>⁂</p>
+<p style="text-align:centre;">⁂</p>
 
 Do you want to know about the San?
 
