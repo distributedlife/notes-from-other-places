@@ -498,7 +498,7 @@
     - {published: 2015-01-01, image: 15409023722}
     - {published: 2015-01-02, image: 15571522773}
     - {published: 2015-01-03, image: 16190550062}
-    - {published: 2015-01-04, image: 16191341685, :style: "wide"}
+    - {published: 2015-01-04, image: 16191341685, style: "wide"}
     - {published: 2015-01-05, image: 16165512666}
     - {published: 2015-01-06, image: 16165514086}
     - {published: 2015-01-07, image: 16165516486}
