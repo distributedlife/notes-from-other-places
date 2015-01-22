@@ -43,7 +43,7 @@ def flickr request
   @flickr_call ||= {}
   @flickr_call[request] ||= make_actual_request(request)
 
-  @flickr_call[request]    
+  @flickr_call[request]
 end
 
 def get_info photo
@@ -52,7 +52,7 @@ def get_info photo
 end
 
 def get_size_info name, photo
-  json = flickr "/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"    
+  json = flickr "/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{photo}&format=json&nojsoncallback=1"
   json['sizes']['size'].select {|size| size['label'] == name}
 end
 
@@ -78,7 +78,7 @@ def get_set_images set
 end
 
 def get_thumb photo
-  return "" if photo.nil? 
+  return "" if photo.nil?
   get_size_info("Small 320", photo).first['source']
 end
 

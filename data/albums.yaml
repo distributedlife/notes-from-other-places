@@ -504,7 +504,7 @@
     - {published: 2015-01-07, image: 16165516486}
     - {published: 2015-01-08, image: 16191348515}
     - {published: 2015-01-09, image: 16005562897}
-    - {published: 2015-01-23, content: is-it.md, date: 2015-01-23, title: Is it?}
+    - {published: 2015-01-23, content: is-it.md, date: 2015-01-23, title: "Is it?"}
 - name: lesotho
   image:
   posts:

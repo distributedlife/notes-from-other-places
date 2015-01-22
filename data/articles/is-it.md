@@ -2,7 +2,7 @@
 
 "Is it?"
 
-Ah yes. That initially confusing and occasionally infuriating habit of South African people to exclaim using a question. Before I caught on, I couldn't quite tell if the people I was talking to believed me at all.
+Ah yes. That initially confusing and occasionally infuriating habit of South African people using a question to respond when they really want to exclaim. Before I caught on, I couldn't quite tell if the people I was talking to believed me at all.
 
 "Then we had to dig our way out using our eyelashes."
 
