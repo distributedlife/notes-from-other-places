@@ -13,7 +13,7 @@
 
     - if not defined? post
       - if not defined? album
-        %meta{:property => "og:image", :content => "#{get_large(data['albums'].first['posts'].first['image'])}"}
+        %meta{:property => "og:image", :content => "https://farm8.staticflickr.com/7001/13517460004_e6a69f2190_b.jpg"}
         %meta{:property => "og:title", :content => "notes from other places"}
       - else
         %meta{:property => "og:image", :content => "#{get_large(album.image)}"}
