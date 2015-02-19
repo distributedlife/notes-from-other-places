@@ -31,13 +31,13 @@
         - if post.image.nil?
           %meta{:property => "og:image", :content => "#{get_large(album.image)}"}
 
-      - if post.type == "image"
+      - if post.type == "photo"
         %meta{:property => "og:image", :content => "#{post.large}"}
         %meta{:property => "og:image:url", :content => "#{post.large}"}
         %meta{:property => "og:image:type", :content => "image/jpeg"}
 
-      - if post.type == "images"
-        - post.image.each do |image|
+      - if post.type == "photos"
+        - post.image.each_with_index do |image, index|
           %meta{:property => "og:image", :content => "#{post.large_images[index]}"}
           %meta{:property => "og:image:url", :content => "#{post.large_images[index]}"}
           %meta{:property => "og:image:type", :content => "image/jpeg"}
