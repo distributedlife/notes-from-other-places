@@ -189,6 +189,6 @@ One off brands:
  - Café au lait
  - Black
 
-The best I've found is the *Kirin fire great beans* can. It's a small can though and so the *sapporo pokka Realdrip maroon* is a better investment.
+The best I've found is the *Kirin fire great beans* can. It's a small can though and so the *Sapporo pokka Realdrip maroon* is a better investment.
 
-![Weird elf creature]()
+![Weird elf creature](https://s3.amazonaws.com/distributedlife.com/travel/images/20140918_150841.jpg)
