@@ -84,9 +84,9 @@
 		-moz-column-count: 1;
 		column-count: 1;
 
-		-webkit-column-gap: 5px; 
-		-moz-column-gap: 5px;  
-		column-gap: 5px; 
+		-webkit-column-gap: 5px;
+		-moz-column-gap: 5px;
+		column-gap: 5px;
 
 		-webkit-column-rule: 0px dotted black;
 		-moz-column-rule: 0px dotted black;
@@ -186,9 +186,9 @@ a:hover {
 	-moz-column-count: 2;
 	column-count: 2;
 
-	-webkit-column-gap: 5px; 
-	-moz-column-gap: 5px;  
-	column-gap: 5px; 
+	-webkit-column-gap: 5px;
+	-moz-column-gap: 5px;
+	column-gap: 5px;
 
 	-webkit-column-rule: 0px dotted black;
 	-moz-column-rule: 0px dotted black;
@@ -304,7 +304,7 @@ img {
 .cover-title {
 	margin-top: -5px;
 	text-transform: uppercase;
-	@include adjust-font-size-to(18px); 
+	@include adjust-font-size-to(18px);
 }
 
 .toc {
@@ -374,30 +374,30 @@ article img {
 // Eg for 480px
 
 @media screen and (max-width: em-font(767px)) {
-  	h1 { 
-		@include adjust-font-size-to(22px); 
+  	h1 {
+		@include adjust-font-size-to(22px);
 		margin: rhythm(2, 24px) 0 0 0;
 	}
-	h2 { 
-		@include adjust-font-size-to(20px); 
+	h2 {
+		@include adjust-font-size-to(20px);
 		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;
 	}
-	h3 { 
-		@include adjust-font-size-to(18px); 
+	h3 {
+		@include adjust-font-size-to(18px);
 		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;
-	} 
-	h4 { 
-		@include adjust-font-size-to(16px); 
+	}
+	h4 {
+		@include adjust-font-size-to(16px);
 		margin: 0 0 rhythm(1, 20px) 0;
-	} 
-	h5 { 
-		@include adjust-font-size-to(14px); 
+	}
+	h5 {
+		@include adjust-font-size-to(14px);
 		margin: 0 0 rhythm(1, 18px) 0;
-	} 
-	h6 { 
-		@include adjust-font-size-to(12px); 
+	}
+	h6 {
+		@include adjust-font-size-to(12px);
 		margin: 0 0 rhythm(1, 16px) 0;
-	} 	
+	}
 }
 
 @media screen and (min-width: em-font(0px)) {
@@ -443,9 +443,9 @@ article img {
 			-moz-column-count: 2;
 			column-count: 2;
 
-			-webkit-column-gap: 5px; 
-			-moz-column-gap: 5px;  
-			column-gap: 5px; 
+			-webkit-column-gap: 5px;
+			-moz-column-gap: 5px;
+			column-gap: 5px;
 
 			-webkit-column-rule: 0px dotted black;
 			-moz-column-rule: 0px dotted black;
@@ -469,30 +469,30 @@ article img {
 	.index {
 		min-width: em-font(700px);
 	}
-	h1 { 
-		@include adjust-font-size-to(38px); 
+	h1 {
+		@include adjust-font-size-to(38px);
 		margin: rhythm(2, 38px) 0 0 0;
-	} 			
-	h2 { 
-		@include adjust-font-size-to(30px); 
+	}
+	h2 {
+		@include adjust-font-size-to(30px);
 		margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0;
 	}
-	h3 { 
-		@include adjust-font-size-to(22px); 
+	h3 {
+		@include adjust-font-size-to(22px);
 		margin: rhythm(2, 22px) 0 rhythm(2, 22px) 0;
-	} 
-	h4 { 
-		@include adjust-font-size-to(20px); 
+	}
+	h4 {
+		@include adjust-font-size-to(20px);
 		margin: 0 0 rhythm(1, 20px) 0;
-	} 
-	h5 { 
-		@include adjust-font-size-to(18px); 
+	}
+	h5 {
+		@include adjust-font-size-to(18px);
 		margin: 0 0 rhythm(1, 18px) 0;
-	} 
-	h6 { 
-		@include adjust-font-size-to(16px); 
+	}
+	h6 {
+		@include adjust-font-size-to(16px);
 		margin: 0 0 rhythm(1, 16px) 0;
-	} 	
+	}
 }
 
 @media screen and (min-width: em-font(1024px)) {
@@ -564,7 +564,7 @@ article img {
 		}
 	}
   	.paginate {
-	    a { 
+	    a {
 			position: absolute;
 			top: 40px;
 			line-height: 36px;
@@ -605,7 +605,7 @@ article img {
 				font-size: 18px;
 				line-height: 36px;
 				width: 36px;
-				
+
 				&.prev {
 					float: left;
 				}
@@ -617,7 +617,18 @@ article img {
   	}
 }
 
-// IOS specifics 
+.asterism:before {
+  content: "⁂";
+}
+.asterism {
+  text-align: center;
+  font-size: 2em;
+  width: 20%;
+  margin: 0 auto;
+  padding-bottom: 0.6em;
+}
+
+// IOS specifics
 @media screen and (max-width: 769px) {  // Absolute measure here, as we're talking about devices, not screen size
 	-webkit-text-size-adjust:none; 		// Stop iPhone/iPad from scaling text
 }
@@ -650,3 +661,4 @@ a.title {
 	color: black;
 	text-decoration: none;
 }
+

@@ -30,8 +30,6 @@ It's now time for us to climb the wall. I don't mean just Jess and I, I mean eve
 
 Along the way at speakers blaring a distorted traditional tune. Other walkers bring their own portable speakers and share their opinion of the best Great Wall tracks. I'm sure it's a common drinking topic. Our equivalent of three albums to take to a desert island.
 
-![The Great Crowd]()
-
 When you're done with the Great Wall, you can take the toboggan down. It costs twice the price of admission and takes you nearish the exit. Some how the absurdity of a toboggan fits into the ethos of the whole place.
 
 The trip back involves a more frantic crowd trying to crush their way to the front of the queue. A little old lady turns her back and tries to use Jess as an armoured car.
