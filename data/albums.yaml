@@ -516,6 +516,7 @@
 - name: south korea
   image:
   posts:
+    - {published: 2015-06-06, content: religion.md, date: 2015-06-06, title: "Religion"}
 - name: anywhere
   image: 13969800973
   posts:
